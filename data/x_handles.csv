@@ -1,0 +1,714 @@
+member_id,name,party,x_handle,note
+H-0001,逢沢 一郎,自民,ichiroaisawa,Wikidata P2002候補 Q467453。要公式確認
+H-0002,青木 ひとみ,参政,aoki_sanseito,Wikidata P2002候補 Q138123242。要公式確認
+H-0003,青柳 仁士,維新,aoyagi_h,Wikidata P2002候補 Q41770689。要公式確認
+H-0004,青山 繁晴,自民,aoyamashigeharu,Wikidata P2002候補 Q11661317。要公式確認
+H-0005,青山 周平,自民,ao_shu_office,Wikidata P2002候補 Q11661236。要公式確認
+H-0006,赤澤 亮正,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0007,赤羽 一嘉,中道,AKBhyogo2ku,Wikidata P2002候補 Q6381788。要公式確認
+H-0008,あかま 二郎,自民,jiroakama0327,Xプロフィール/検索結果から自動登録。要公式確認
+H-0009,秋葉 賢也,自民,akibakenya,Wikidata P2002候補 Q49996。要公式確認
+H-0010,浅田 眞澄美,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0011,浅野 哲,国民,Asano__Satoshi,Wikidata P2002候補 Q41770642。要公式確認
+H-0012,東 国幹,自民,azuma0217,Wikidata P2002候補 Q109342279。要公式確認
+H-0013,東 徹,維新,toru_azuma,公式サイトSNSページとXプロフィールで確認
+H-0014,畦元 将吾,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0015,麻生 太郎,自民,taro_aso_,Wikidata P2002候補 Q132596。要公式確認
+H-0016,阿部 圭史,維新,abe_keishi,Wikidata P2002候補 Q130746313。要公式確認
+H-0017,阿部 司,維新,abe2kasa,Wikidata P2002候補 Q108777328。要公式確認
+H-0018,あべ 俊子,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0019,阿部 弘樹,自民,HirokiAbe1961,Wikidata P2002候補 Q109598988。要公式確認
+H-0020,有田 芳生,中道,arita_office,Xプロフィール/検索結果から自動登録。要公式確認
+H-0021,安藤 たかお,自民,andotakao1959,Xプロフィール/検索結果から自動登録。要公式確認
+H-0022,飯泉 嘉門,国民,iizumi_comeon,Wikidata P2002候補 Q1670854。要公式確認
+H-0023,五十嵐 清,自民,igakiyo1969,Wikidata P2002候補 Q109362574。要公式確認
+H-0024,池下 卓,維新,iketaku_0410,Wikidata P2002候補 Q109349388。要公式確認
+H-0025,池畑 浩太朗,維新,VGZ20ydBf5ouj4c,Wikidata P2002候補 Q41770920。要公式確認
+H-0026,伊佐 進一,中道,isashinichi,Wikidata P2002候補 Q11378895。要公式確認
+H-0027,石井 啓一,無,keiichi_ishii_,Xプロフィール/検索結果から自動登録。要公式確認
+H-0028,石井 拓,自民,takuishii,Wikidata P2002候補 Q109378463。要公式確認
+H-0029,石川 昭政,自民,iakimasa1,Wikidata P2002候補 Q11585840。要公式確認
+H-0030,石川 勝,参政,ishikawamasaru,Wikidata P2002候補 Q138357535。要公式確認
+H-0031,石坂 太,自民,ishimasa1223,Wikidata P2002候補 Q138145234。要公式確認
+H-0032,石田 真敏,自民,ishidamasatoshi,Wikidata P2002候補 Q6782738。要公式確認
+H-0033,石破 茂,自民,shigeruishiba,Wikidata P2002候補 Q1335527。要公式確認
+H-0034,石橋 林太郎,自民,ishibashi_rintaro,Wikidata P2002候補 Q109598962。要公式確認
+H-0035,石原 宏高,自民,ishiharahirotak,Wikidata P2002候補 Q506730。要公式確認
+H-0036,石原 正敬,自民,fu_un17,Xプロフィールで確認
+H-0037,泉 健太,中道,izmkenta,Wikidata P2002候補 Q6391984。要公式確認
+H-0038,一谷 勇一郎,維新,y_ichitani,Wikidata P2002候補 Q109598975。要公式確認
+H-0039,市村 浩一郎,維新,ichimura_staff,Xプロフィール/検索結果から自動登録。要公式確認
+H-0040,井出 庸生,自民,yousei_ide,Wikidata P2002候補 Q11373350。要公式確認
+H-0041,井戸 まさえ,国民,idomasae,Xプロフィール/検索結果から自動登録。要公式確認
+H-0042,伊藤 恵介,参政,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0043,伊藤 聡,自民,itosatoshi,Wikidata P2002候補 Q138304276。要公式確認
+H-0044,伊藤 信太郎,自民,ShintaroIto1121,公式サイト/自民党ページとXプロフィールで確認
+H-0045,伊藤 忠彦,自民,tadahiko_itoh,Wikidata P2002候補 Q7674280。要公式確認
+H-0046,伊藤 達也,自民,tatsuyaito0501,Xプロフィール/検索結果から自動登録。要公式確認
+H-0047,伊東 信久,維新,nobuhisaito11,Wikidata P2002候補 Q11379447。要公式確認
+H-0048,伊東 良孝,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0049,稲田 朋美,自民,dento_to_souzo,Wikidata P2002候補 Q1654408。要公式確認
+H-0050,稲葉 大輔,自民,inaba_daisuke,Wikidata P2002候補 Q138140455。要公式確認
+H-0051,犬飼 明佳,中道,inukaiwan,Wikidata P2002候補 Q138337370。要公式確認
+H-0052,井野 俊郎,自民,OlHtpHMOe6pxi7i,Wikidata P2002候補 Q11373778。要公式確認
+H-0053,井上 信治,自民,shinrai_seiji,Wikidata P2002候補 Q7497583。要公式確認
+H-0054,井上 貴博,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0055,井上 英孝,維新,hidetaka_i,Wikidata P2002候補 Q11373203。要公式確認
+H-0056,井林 辰憲,自民,T_Ibayashi,Wikidata P2002候補 Q11373633。要公式確認
+H-0057,井原 巧,自民,takumi_ihara,Wikidata P2002候補 Q16264294。要公式確認
+H-0058,井原 隆,自民,iharayutaka1983,Wikidata P2002候補 Q138170361。要公式確認
+H-0059,今枝 宗一郎,自民,imaeda_soichiro,Wikidata P2002候補 Q11377132。要公式確認
+H-0060,今岡 植,自民,ImaokaUeki,Wikidata P2002候補 Q138048446。要公式確認
+H-0061,岩崎 比菜,自民,iwasaki_hina_,Wikidata P2002候補 Q138297668。要公式確認
+H-0062,岩田 和親,自民,Kazuchika_Iwata,Wikidata P2002候補 Q11475456。要公式確認
+H-0063,岩谷 良平,維新,Iwatani_Ryohei,Wikidata P2002候補 Q109349708。要公式確認
+H-0064,岩屋 毅,自民,takeshi108,Wikidata P2002候補 Q1654639。要公式確認
+H-0065,上杉 謙太郎,自民,uesugi_jimusyo,Wikidata P2002候補 Q41770625。要公式確認
+H-0066,上田 英俊,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0067,上野 賢一郎,自民,Ueno_Kenichiro,Wikidata P2002候補 Q6389276。要公式確認
+H-0068,上野 宏史,自民,ueno_hiroshi,Wikidata P2002候補 Q11360320。要公式確認
+H-0069,上原 正裕,自民,masahiro0130,Wikidata P2002候補 Q138298592。要公式確認
+H-0070,浮島 智子,中道,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0071,宇佐美 登,みらい,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0072,臼木 秀剛,国民,hide_usuki,Wikidata P2002候補 Q130726954。要公式確認
+H-0073,内山 こう,自民,kou_uchiyama,Xプロフィール/検索結果から自動登録。要公式確認
+H-0074,梅村 聡,維新,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0075,浦野 靖人,維新,uranoyasuto,Wikidata P2002候補 Q11558377。要公式確認
+H-0076,うるま 譲司,維新,urumageorge,Xプロフィール/検索結果から自動登録。要公式確認
+H-0077,江渡 聡徳,自民,ETO_Akinori,Wikidata P2002候補 Q49999。要公式確認
+H-0078,江藤 拓,自民,etoh_taku,Wikidata P2002候補 Q7678527。要公式確認
+H-0079,衛藤 博昭,自民,etohiroaki,Wikidata P2002候補 Q138089893。要公式確認
+H-0080,英利アルフィヤ,自民,eri_arfiya,Wikidata P2002候補 Q116272189。要公式確認
+H-0081,遠藤 敬,維新,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0082,遠藤 寛明,自民,endohiroaki1121,Wikidata P2002候補 Q138122126。要公式確認
+H-0083,大岡 敏孝,自民,OookaToshitaka,Wikidata P2002候補 Q11434738。要公式確認
+H-0084,大串 正樹,自民,Ogushi_Masaki,Wikidata P2002候補 Q11431868。要公式確認
+H-0085,大島 敦,中道,oshima_jimusho,Xプロフィール/検索結果から自動登録。要公式確認
+H-0086,大空 幸星,自民,ozorakoki,Wikidata P2002候補 Q108776690。要公式確認
+H-0087,大塚 拓,自民,otsukataku,Wikidata P2002候補 Q7678536。要公式確認
+H-0088,大西 洋平,自民,0024youhei,Xプロフィール/検索結果から自動登録。要公式確認
+H-0089,大野 敬太郎,自民,keitaro_ohno,Wikidata P2002候補 Q11439619。要公式確認
+H-0090,大森 江里子,中道,eriko_omori,Wikidata P2002候補 Q130828253。要公式確認
+H-0091,緒方 林太郎,無,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0092,岡野 純子,国民,junko_okano,Wikidata P2002候補 Q41805222。要公式確認
+H-0093,岡本 三成,中道,OkamotoOffice,Wikidata P2002候補 Q16264927。要公式確認
+H-0094,岡本 康宏,自民,2RwNwJzVAefWcc1,Wikidata P2002候補 Q138315364。要公式確認
+H-0095,小川 淳也,中道,junyaog,Wikidata P2002候補 Q6314413。要公式確認
+H-0096,奥下 剛光,維新,okutake10,Wikidata P2002候補 Q41770908。要公式確認
+H-0097,尾崎 正直,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0098,長田 紘一郎,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0099,小里 泰弘,自民,ozato_yasuhiro,Wikidata P2002候補 Q8049988。要公式確認
+H-0100,小竹 凱,国民,odake_kokumin,Wikidata P2002候補 Q130732955。要公式確認
+H-0101,小田原 潔,自民,odawarakiyoshi,Wikidata P2002候補 Q11462993。要公式確認
+H-0102,落合 貴之,中道,ochiaitakayuki,公式サイトとXプロフィールで確認
+H-0103,鬼木 誠,自民,onikidon,Xプロフィール/検索結果から自動登録。要公式確認
+H-0104,小野寺 五典,自民,itsunori510,Wikidata P2002候補 Q49969。要公式確認
+H-0105,尾花 瑛仁,自民,obana_akihito,Wikidata P2002候補 Q138047041。要公式確認
+H-0106,小渕 優子,自民,obuchiyukostaff,Xプロフィール/検索結果から自動登録。要公式確認
+H-0107,尾身 朝子,自民,asako_omi,Xプロフィール/検索結果から自動登録。要公式確認
+H-0108,河西 宏一,中道,kasai_koichi,Wikidata P2002候補 Q109376555。要公式確認
+H-0109,鹿嶋 祐介,自民,kashimayusuke_,Wikidata P2002候補 Q138303382。要公式確認
+H-0110,梶山 弘志,自民,kajiyamahiroshi,Wikidata P2002候補 Q5770884。要公式確認
+H-0111,柏倉 祐司,維新,Kashiwakura_Y,Wikidata P2002候補 Q11533657。要公式確認
+H-0112,勝俣 孝明,自民,takaaki_katsu,Wikidata P2002候補 Q11400147。要公式確認
+H-0113,勝目 康,自民,KatsumeYasushi,Wikidata P2002候補 Q109349061。要公式確認
+H-0114,門 寛子,自民,hirokokado,Wikidata P2002候補 Q128850526。要公式確認
+H-0115,加藤 鮎子,自民,katoayuko_and_s,Wikidata P2002候補 Q18701018。要公式確認
+H-0116,加藤 勝信,自民,katsunobukato,Wikidata P2002候補 Q6378155。要公式確認
+H-0117,加藤 貴弘,自民,kato_t19,Wikidata P2002候補 Q138047028。要公式確認
+H-0118,加藤 大博,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0119,加藤 竜祥,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0120,門山 宏哲,自民,kado_support,Wikidata P2002候補 Q16769971。要公式確認
+H-0121,金澤 結衣,自民,kanazawa_yui,Wikidata P2002候補 Q138266720。要公式確認
+H-0122,金子 恵美,中道,Emi_Kaneko_,Xプロフィールで現職表記を確認
+H-0123,金子 恭之,自民,nekotanchan,Wikidata P2002候補 Q8050092。要公式確認
+H-0124,金子 容三,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0125,金村 龍那,維新,kanemura_you,Wikidata P2002候補 Q109376020。要公式確認
+H-0126,上川 陽子,自民,Kamikawa_Yoko,Wikidata P2002候補 Q276275。要公式確認
+H-0127,神谷 裕,中道,kamiyahokkaido,Wikidata P2002候補 Q41618899。要公式確認
+H-0128,川 裕一郎,参政,y16kawa,Wikidata P2002候補 Q128840737。要公式確認
+H-0129,河井 昭成,国民,kawai_akinari,Wikidata P2002候補 Q138357409。要公式確認
+H-0130,河合 道雄,みらい,michio_mirai,Wikidata P2002候補 Q138135685。要公式確認
+H-0131,川崎 ひでと,自民,kawasaki_hideto,Xプロフィール/検索結果から自動登録。要公式確認
+H-0132,河野 正美,自民,mkawano2416,Wikidata P2002候補 Q11554229。要公式確認
+H-0133,河野 義博,中道,yoshihirokawano,Wikidata P2002候補 Q20041481。要公式確認
+H-0134,川松 真一朗,自民,kawamatsushin16,Wikidata P2002候補 Q11478849。要公式確認
+H-0135,河村 たかし,無,kawamura758,Wikidata P2002候補 Q440000。要公式確認
+H-0136,菅家 一郎,自民,kanke_ichirou,Wikidata P2002候補 Q11619261。要公式確認
+H-0137,神田 潤一,自民,Jun1CanDo,Wikidata P2002候補 Q109288222。要公式確認
+H-0138,城内 実,自民,minoru_kiuchi,Wikidata P2002候補 Q11425985。要公式確認
+H-0139,黄川田 仁志,自民,kikawadahitoshi,Wikidata P2002候補 Q11677736。要公式確認
+H-0140,菊田 真紀子,中道,kikuta_official,Wikidata P2002候補 Q6739516。要公式確認
+H-0141,岸 信千世,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0142,岸田 文雄,自民,kishida230,Wikidata P2002候補 Q359480。要公式確認
+H-0143,喜多 義典,維新,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0144,北神 圭朗,自民,kitagamikeiro,Wikidata P2002候補 Q6383814。要公式確認
+H-0145,木下 敏之,参政,toshiyuki_kino,Xプロフィール/検索結果から自動登録。要公式確認
+H-0146,木原 誠二,自民,kihara_seiji,Wikidata P2002候補 Q11518222。要公式確認
+H-0147,木原 稔,自民,kihara_minoru,Wikidata P2002候補 Q11518220。要公式確認
+H-0148,木村 次郎,自民,jiro_k_tsugaru,Wikidata P2002候補 Q41770594。要公式確認
+H-0149,金城 泰邦,中道,yashkunikinjou,Wikidata P2002候補 Q109598961。要公式確認
+H-0150,草間 剛,自民,kusamatsuyoshi,Wikidata P2002候補 Q130741560。要公式確認
+H-0151,工藤 彰三,自民,kudoshozo_aichi,Xプロフィールで確認
+H-0152,工藤 聖子,参政,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0153,国定 勇人,自民,kunisadaisato,Wikidata P2002候補 Q11420709。要公式確認
+H-0154,國重 徹,中道,ToruKunishige,Wikidata P2002候補 Q11422753。要公式確認
+H-0155,国光 あやの,自民,ayano_kunimitsu,Xプロフィール/検索結果から自動登録。要公式確認
+H-0156,熊田 裕通,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0157,栗原 渉,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0158,黒崎 祐一,自民,kuro1_jp,Wikidata P2002候補 Q131417512。要公式確認
+H-0159,黒田 征樹,維新,ishinkuroda,Wikidata P2002候補 Q130726950。要公式確認
+H-0160,小池 正昭,自民,koikemasaaki,Wikidata P2002候補 Q130741350。要公式確認
+H-0161,小泉 進次郎,自民,shinjirokoiz,Wikidata P2002候補 Q661410。要公式確認
+H-0162,小泉 龍司,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0163,河野 太郎,自民,konotarogomame,Wikidata P2002候補 Q1161024。要公式確認
+H-0164,高村 正大,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0165,こうらい啓一郎,自民,kouraikei,Xプロフィール/検索結果から自動登録。要公式確認
+H-0166,古賀 篤,自民,kogaatsushi,Wikidata P2002候補 Q11411691。要公式確認
+H-0167,國場 幸之助,自民,kokubkonosuke,Wikidata P2002候補 Q11422694。要公式確認
+H-0168,輿水 恵一,中道,koshimizu_k1,Wikidata P2002候補 Q11637774。要公式確認
+H-0169,小寺 裕雄,自民,koteranran,Wikidata P2002候補 Q41770869。要公式確認
+H-0170,後藤 茂之,自民,Goto_Shigeyuki,Wikidata P2002候補 Q7496422。要公式確認
+H-0171,後藤 祐一,中道,yuichi510510,Wikidata P2002候補 Q11488572。要公式確認
+H-0172,許斐 亮太郎,国民,KonomiRyotaro,Wikidata P2002候補 Q130742373。要公式確認
+H-0173,小林 茂樹,自民,ShigekiNara,Wikidata P2002候補 Q11461866。要公式確認
+H-0174,小林 修平,みらい,syuhei_mirai,Wikidata P2002候補 Q138049668。要公式確認
+H-0175,小林 鷹之,自民,kobahawk,Wikidata P2002候補 Q11461955。要公式確認
+H-0176,小林 史明,自民,kb2474,Wikidata P2002候補 Q11461458。要公式確認
+H-0177,小森 卓郎,自民,takuokomori_1,Wikidata P2002候補 Q109347399。要公式確認
+H-0178,今 洋佑,自民,KONYosuke0118,Wikidata P2002候補 Q138315455。要公式確認
+H-0179,近藤 和也,中道,kondokazuya,Wikidata P2002候補 Q11638747。要公式確認
+H-0180,近藤 雅彦,国民,kondo_masahiko6,Wikidata P2002候補 Q138173957。要公式確認
+H-0181,斉木 武志,自民,saiki_takeshi,Wikidata P2002候補 Q11500159。要公式確認
+H-0182,西條 昌良,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0183,斎藤アレックス,維新,AlexSaito2019,Wikidata P2002候補 Q109598958。要公式確認
+H-0184,齋藤 健,自民,saitou_ken,Wikidata P2002候補 Q11679075。要公式確認
+H-0185,斉藤 鉄夫,中道,saitotetsuo,Wikidata P2002候補 Q926287。要公式確認
+H-0186,斎藤 洋明,自民,saito_hiroaki_,Wikidata P2002候補 Q17158549。要公式確認
+H-0187,斉藤 りえ,自民,riesaito2019,Xプロフィール/検索結果から自動登録。要公式確認
+H-0188,坂井 学,自民,sakai_manabu,Wikidata P2002候補 Q6746574。要公式確認
+H-0189,坂本 哲志,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0190,坂本 竜太郎,自民,ryuchan_support,Wikidata P2002候補 Q130710772。要公式確認
+H-0191,笹川 博義,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0192,佐々木 紀,自民,hajime24331,Wikidata P2002候補 Q17158871。要公式確認
+H-0193,佐々木 真琴,国民,ma_____1122,Wikidata P2002候補 Q138132506。要公式確認
+H-0194,佐藤 英道,中道,hidemichisato,Wikidata P2002候補 Q11384409。要公式確認
+H-0195,佐藤 主迪,自民,satoumasashi310,Wikidata P2002候補 Q138299098。要公式確認
+H-0196,塩川 鉄也,共産,ShiokawaTetsuya,Wikidata P2002候補 Q7706956。要公式確認
+H-0197,塩崎 彰久,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0198,重徳 和彦,中道,shigetoku2,Wikidata P2002候補 Q11644760。要公式確認
+H-0199,繁本 護,自民,shigeport,Wikidata P2002候補 Q41794101。要公式確認
+H-0200,階 猛,中道,shinatakeshi,Wikidata P2002候補 Q49875。要公式確認
+H-0201,柴山 昌彦,自民,shiba_masa,Wikidata P2002候補 Q6782350。要公式確認
+H-0202,島尻 安伊子,自民,shimajiriaiko,Wikidata P2002候補 Q4696975。要公式確認
+H-0203,島田 智明,自民,TomoakiShimada,Wikidata P2002候補 Q52717578。要公式確認
+H-0204,島村 かおる,参政,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0205,下村 博文,自民,hakubun_s,Wikidata P2002候補 Q1655220。要公式確認
+H-0206,庄子 賢一,中道,shoji_kenichi,Wikidata P2002候補 Q109362242。要公式確認
+H-0207,白坂 亜紀,自民,shirasaka_aki,Wikidata P2002候補 Q115529373。要公式確認
+H-0208,新谷 正義,自民,Shintani_dr,Wikidata P2002候補 Q15220933。要公式確認
+H-0209,新藤 義孝,自民,shindo_y,Wikidata P2002候補 Q529792。要公式確認
+H-0210,菅原 一秀,自民,sugawaraisshu,Wikidata P2002候補 Q11619136。要公式確認
+H-0211,鈴木 英敬,自民,eikeisuzuki,Wikidata P2002候補 Q1303796。要公式確認
+H-0212,鈴木 馨祐,自民,SuzukiKeisukeMP,Wikidata P2002候補 Q6383909。要公式確認
+H-0213,鈴木 俊一,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0214,鈴木 淳司,自民,jyunji_suzuki,Wikidata P2002候補 Q11649031。要公式確認
+H-0215,鈴木 貴子,自民,_SuzukiTakako_,Wikidata P2002候補 Q17160031。要公式確認
+H-0216,鈴木 拓海,自民,SuzukiTakumi_ib,Wikidata P2002候補 Q138126586。要公式確認
+H-0217,鈴木 憲和,自民,norikazu_suzuki,Wikidata P2002候補 Q11648868。要公式確認
+H-0218,鈴木 隼人,自民,HYT4ALL,Wikidata P2002候補 Q20040828。要公式確認
+H-0219,鈴木 美香,参政,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0220,鈴木 義弘,国民,yosshisuzuki,Wikidata P2002候補 Q11649189。要公式確認
+H-0221,須田 英太郎,みらい,Btaros,Wikidata P2002候補 Q136693520。要公式確認
+H-0222,住吉 寛紀,維新,sumiyoshi0124,Wikidata P2002候補 Q109602495。要公式確認
+H-0223,関 健一郎,維新,sekikenichiro,Wikidata P2002候補 Q41770844。要公式確認
+H-0224,関 芳弘,自民,sekiyoshihiro,Wikidata P2002候補 Q8056061。要公式確認
+H-0225,世古 万美子,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0226,世耕 弘成,自民,SekoHiroshige,Wikidata P2002候補 Q5771167。要公式確認
+H-0227,瀬戸 隆一,自民,setotakakazu,Wikidata P2002候補 Q11566681。要公式確認
+H-0228,園崎 弘道,自民,sonosaki_kyoto,Wikidata P2002候補 Q124656026。要公式確認
+H-0229,平 将明,自民,TAIRAMASAAKI,Wikidata P2002候補 Q6782264。要公式確認
+H-0230,高市 早苗,自民,takaichi_sanae,Wikidata P2002候補 Q1705028。要公式確認
+H-0231,高階 恵美子,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0232,高木 啓,自民,takagikei310,Wikidata P2002候補 Q41805239。要公式確認
+H-0233,高木 宏壽,自民,takagi_hirohisa,Wikidata P2002候補 Q11670038。要公式確認
+H-0234,高沢 一基,国民,takazawa1,Wikidata P2002候補 Q138296768。要公式確認
+H-0235,高鳥 修一,自民,takatorishuichi,Wikidata P2002候補 Q7504756。要公式確認
+H-0236,高橋 祐介,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0237,高見 康裕,自民,TAKAMI_yasuhiro,Wikidata P2002候補 Q109350078。要公式確認
+H-0238,高見 亮,維新,roromomon,Wikidata P2002候補 Q138340006。要公式確認
+H-0239,高山 聡史,みらい,satoshi_2125,Wikidata P2002候補 Q136693508。要公式確認
+H-0240,武井 俊輔,自民,syunsuke_takei,Wikidata P2002候補 Q11545768。要公式確認
+H-0241,武田 良太,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0242,武部 新,自民,takebearata,Wikidata P2002候補 Q11546586。要公式確認
+H-0243,武村 展英,自民,nobu_takemura,Wikidata P2002候補 Q11546026。要公式確認
+H-0244,田嶋 要,中道,kanametajima,Wikidata P2002候補 Q6360573。要公式確認
+H-0245,橘 慶一郎,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0246,辰巳 孝太郎,共産,kotarotatsumi,Wikidata P2002候補 Q17160794。要公式確認
+H-0247,田所 嘉徳,自民,tadokoro_yoshi,Wikidata P2002候補 Q11576787。要公式確認
+H-0248,田中 和徳,自民,t_kazunori,Wikidata P2002候補 Q6381615。要公式確認
+H-0249,田中 健,国民,tanaka_shizuoka,Wikidata P2002候補 Q42290522。要公式確認
+H-0250,田中 昌史,自民,tanaka_masashi_,Wikidata P2002候補 Q116936626。要公式確認
+H-0251,田中 良生,自民,Tanaka_Ryosei,Wikidata P2002候補 Q7385322。要公式確認
+H-0252,棚橋 泰文,自民,y_tanahashi,Wikidata P2002候補 Q1340817。要公式確認
+H-0253,谷 公一,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0254,谷 浩一郎,参政,sanseitou_tani,Xプロフィール/検索結果から自動登録。要公式確認
+H-0255,谷川 とむ,自民,Tom_Tanigawa,Wikidata P2002候補 Q20041303。要公式確認
+H-0256,田野瀬 太道,自民,,未解決: 検索結果にX候補なし
+H-0257,田畑 裕明,自民,Tabata_Hiroaki,Wikidata P2002候補 Q11577205。要公式確認
+H-0258,玉木 雄一郎,国民,tamakiyuichiro,Wikidata P2002候補 Q11572647。要公式確認
+H-0259,田宮 寿人,自民,hisato_tamiya,Wikidata P2002候補 Q138304208。要公式確認
+H-0260,田村 智子,共産,tamutomojcp,Wikidata P2002候補 Q11576938。要公式確認
+H-0261,田村 憲久,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0262,俵田 祐児,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0263,丹野 みどり,国民,tannomidori,Wikidata P2002候補 Q11368688。要公式確認
+H-0264,辻 清人,自民,tujikiyoto,Wikidata P2002候補 Q11638274。要公式確認
+H-0265,辻 秀樹,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0266,辻 由布子,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0267,津島 淳,自民,tsushimajun,Wikidata P2002候補 Q11556075。要公式確認
+H-0268,土田 慎,自民,tsuchidashin,Wikidata P2002候補 Q109345880。要公式確認
+H-0269,土屋 品子,自民,shinako_jimusho,Wikidata P2002候補 Q11423241。要公式確認
+H-0270,角田 秀穂,中道,tsunodahideo,Xプロフィール/検索結果から自動登録。要公式確認
+H-0271,寺田 稔,自民,terada124,Wikidata P2002候補 Q6869306。要公式確認
+H-0272,土井 亨,自民,doitooru812,Wikidata P2002候補 Q7862709。要公式確認
+H-0273,渡海 紀三朗,自民,tokaikisaburo,Wikidata P2002候補 Q1133136。要公式確認
+H-0274,冨樫 博之,自民,hiroyukitogash,Wikidata P2002候補 Q11395120。要公式確認
+H-0275,とかしきなおみ,自民,naomi_tokashiki,Xプロフィール/検索結果から自動登録。要公式確認
+H-0276,土橋 章宏,みらい,a_dobashi,Wikidata P2002候補 Q18817852。要公式確認
+H-0277,豊田 真由子,参政,toyota_mayuko,Wikidata P2002候補 Q11634137。要公式確認
+H-0278,永岡 桂子,自民,keiko_nagaoka,Wikidata P2002候補 Q6383690。要公式確認
+H-0279,中川こういち,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0280,中川 貴元,自民,nkgwtkmt,Wikidata P2002候補 Q109378513。要公式確認
+H-0281,中川 宏昌,中道,N_hiromasa,Wikidata P2002候補 Q109378223。要公式確認
+H-0282,中川 康洋,中道,nakagawa_komei,Wikidata P2002候補 Q20041786。要公式確認
+H-0283,長坂 康正,自民,nagasakajimusho,Wikidata P2002候補 Q11651619。要公式確認
+H-0284,長澤 興祐,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0285,長島 昭久,自民,nagashima21,Wikidata P2002候補 Q4700952。要公式確認
+H-0286,中曽根 康隆,自民,yasutaka_nksn,Wikidata P2002候補 Q41770661。要公式確認
+H-0287,中田 宏,自民,NAKADAHiroshi,Wikidata P2002候補 Q1457689。要公式確認
+H-0288,永田 磨梨奈,自民,nagamari0219,Wikidata P2002候補 Q138128608。要公式確認
+H-0289,中谷 元,自民,gen_nakatani,Wikidata P2002候補 Q5530859。要公式確認
+H-0290,中谷 真一,自民,nakatani80,Wikidata P2002候補 Q7477634。要公式確認
+H-0291,中司 宏,維新,nakatsuka_h,Wikidata P2002候補 Q11363234。要公式確認
+H-0292,長妻 昭,中道,nagatsumaakira,Wikidata P2002候補 Q263777。要公式確認
+H-0293,長友 慎治,国民,nagatomoshinji,Wikidata P2002候補 Q109598994。要公式確認
+H-0294,中西 健治,自民,Kenji_Nakanishi,Wikidata P2002候補 Q11367021。要公式確認
+H-0295,中根 一幸,自民,Nakane_Kazuyuki,Wikidata P2002候補 Q6381814。要公式確認
+H-0296,中野 英幸,自民,HideNakano,Wikidata P2002候補 Q109344844。要公式確認
+H-0297,中野 洋昌,中道,Hiro_NAKANO_,Wikidata P2002候補 Q11367646。要公式確認
+H-0298,長野 春信,自民,nagano_harunobu,Wikidata P2002候補 Q138297636。要公式確認
+H-0299,中村 はやと,無,hayato_ibaraki,Xプロフィール/検索結果から自動登録。要公式確認
+H-0300,中村 裕之,自民,nakamurahiro3,Xプロフィール/検索結果から自動登録。要公式確認
+H-0301,なかや めぐ,参政,MegmieN32701,Xプロフィール/検索結果から自動登録。要公式確認
+H-0302,中山 展宏,自民,norihiron,Wikidata P2002候補 Q11364144。要公式確認
+H-0303,中山 泰秀,自民,iloveyatchan,Wikidata P2002候補 Q8049965。要公式確認
+H-0304,鍋島 勢理,国民,Serinabeshima69,Wikidata P2002候補 Q138238733。要公式確認
+H-0305,仁木 博文,自民,NikiSupporters,Wikidata P2002候補 Q11376392。要公式確認
+H-0306,西岡 秀子,国民,kokumin_ngsk,Xプロフィール/検索結果から自動登録。要公式確認
+H-0307,西岡 義高,国民,osunishiokades,Wikidata P2002候補 Q130760769。要公式確認
+H-0308,西園 勝秀,中道,nishizono_katsu,Wikidata P2002候補 Q130831088。要公式確認
+H-0309,西田 薫,維新,nishidakaoru,Wikidata P2002候補 Q130730409。要公式確認
+H-0310,西田 昭二,自民,hatibe47,Wikidata P2002候補 Q41770784。要公式確認
+H-0311,西野 太亮,自民,nishino_daisuke,Wikidata P2002候補 Q41771037。要公式確認
+H-0312,西村 明宏,自民,a_nishimura_716,Wikidata P2002候補 Q4700938。要公式確認
+H-0313,西村 智奈美,中道,chinami_niigata,Wikidata P2002候補 Q5100105。要公式確認
+H-0314,西村 康稔,自民,nishy03,Wikidata P2002候補 Q8050121。要公式確認
+H-0315,西銘 恒三郎,自民,NishimeKosaburo,Wikidata P2002候補 Q11629931。要公式確認
+H-0316,西山 尚利,自民,nishiyama_n_226,Wikidata P2002候補 Q138129992。要公式確認
+H-0317,新田 章文,自民,nitta_shobun,Wikidata P2002候補 Q123405850。要公式確認
+H-0318,丹羽 秀樹,自民,niwahideki,Wikidata P2002候補 Q5752415。要公式確認
+H-0319,額賀 福志郎,自民,2946nukaga,Wikidata P2002候補 Q1207174。要公式確認
+H-0320,沼崎 満子,中道,mnumazaki0224,Wikidata P2002候補 Q130827109。要公式確認
+H-0321,根本 拓,自民,taku_nemoto_,Wikidata P2002候補 Q130726958。要公式確認
+H-0322,根本 幸典,自民,nemotoyukinori,Wikidata P2002候補 Q11536382。要公式確認
+H-0323,野田 聖子,自民,noda_seiko93,Wikidata P2002候補 Q459698。要公式確認
+H-0324,野田 佳彦,中道,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0325,野中 厚,自民,nonakajimusho,Wikidata P2002候補 Q11645002。要公式確認
+H-0326,野間 健,中道,iT2id4lCBHRq1l5,Wikidata P2002候補 Q11646177。要公式確認
+H-0327,野村 美穂,国民,nomuramiho3434,Wikidata P2002候補 Q138357289。要公式確認
+H-0328,萩生田 光一,自民,hagiuda_ko1,Wikidata P2002候補 Q6426211。要公式確認
+H-0329,萩原 佳,維新,hagihara_kei,Wikidata P2002候補 Q130726953。要公式確認
+H-0330,橋本 岳,自民,ga9_h,Wikidata P2002候補 Q5517695。要公式確認
+H-0331,橋本 幹彦,国民,Hashimoto_Mkhk,Wikidata P2002候補 Q130741284。要公式確認
+H-0332,長谷川 淳二,自民,HasegawaJunji,Wikidata P2002候補 Q109359179。要公式確認
+H-0333,畑野 君枝,共産,hatanokimie,Wikidata P2002候補 Q11578505。要公式確認
+H-0334,鳩山 二郎,自民,hatoyamajiro,Wikidata P2002候補 Q17219387。要公式確認
+H-0335,葉梨 康弘,自民,874ibaraki,Wikidata P2002候補 Q8049977。要公式確認
+H-0336,馬場 伸幸,維新,baba_ishin,Wikidata P2002候補 Q11667848。要公式確認
+H-0337,浜田 靖一,自民,yasukazuhamada,Xプロフィール/検索結果から自動登録。要公式確認
+H-0338,浜地 雅一,中道,hamachi_m,Xプロフィール/検索結果から自動登録。要公式確認
+H-0339,林 拓海,みらい,TakumiHayashi,Wikidata P2002候補 Q138115623。要公式確認
+H-0340,林 芳正,自民,office_yosimasa,Xプロフィール/検索結果から自動登録。要公式確認
+H-0341,原田 直樹,中道,NaokiHarada1122,Wikidata P2002候補 Q138332880。要公式確認
+H-0342,原山 大亮,維新,harayama_ishin,Wikidata P2002候補 Q138340238。要公式確認
+H-0343,東田 淳平,自民,higashida_jp,Wikidata P2002候補 Q138351543。要公式確認
+H-0344,日野 紗里亜,国民,saria_hino,Wikidata P2002候補 Q130719714。要公式確認
+H-0345,平井 卓也,自民,hiratakuchan,Wikidata P2002候補 Q7678622。要公式確認
+H-0346,平口 洋,自民,hiraguchi0801,Wikidata P2002候補 Q5770815。要公式確認
+H-0347,平沢 勝栄,自民,katsueihirasawa,Wikidata P2002候補 Q6378065。要公式確認
+H-0348,平沼 正二郎,自民,HiranumaOkayama,Wikidata P2002候補 Q41805276。要公式確認
+H-0349,平林 晃,中道,hb_hirabayashi,Wikidata P2002候補 Q109598959。要公式確認
+H-0350,広瀬 建,自民,hiroseken_oita,Wikidata P2002候補 Q130710525。要公式確認
+H-0351,深作 ヘスス,国民,fukasakukj,Wikidata P2002候補 Q130719882。要公式確認
+H-0352,深澤 陽一,自民,fukazawayoichi,Wikidata P2002候補 Q92672402。要公式確認
+H-0353,福重 隆浩,中道,komeifukushige,Wikidata P2002候補 Q109363078。要公式確認
+H-0354,福田 徹,国民,Toru_Fukuta,Wikidata P2002候補 Q130726956。要公式確認
+H-0355,福田 かおる,自民,kaoru_gohan,Wikidata P2002候補 Q130726947。要公式確認
+H-0356,福田 達夫,自民,TatsuoFukuda,Wikidata P2002候補 Q2506910。要公式確認
+H-0357,福原 淳嗣,自民,fukuharajunji,Wikidata P2002候補 Q21701643。要公式確認
+H-0358,藤井 比早之,自民,FujiiHisayuki,Wikidata P2002候補 Q11622818。要公式確認
+H-0359,藤沢 忠盛,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0360,藤田 ひかる,自民,Fujita__Hikaru,Wikidata P2002候補 Q138094326。要公式確認
+H-0361,藤田 文武,維新,fumi_fuji,Wikidata P2002候補 Q41770882。要公式確認
+H-0362,藤田 誠,自民,shigotonin,Wikidata P2002候補 Q138304246。要公式確認
+H-0363,藤田 洋司,自民,yoji_fujita_22,Wikidata P2002候補 Q138339362。要公式確認
+H-0364,藤丸 敏,自民,fujimarusatoshi,Wikidata P2002候補 Q11622647。要公式確認
+H-0365,藤原 崇,自民,iwate_fujiwara,Wikidata P2002候補 Q11623218。要公式確認
+H-0366,文月 涼,自民,FuzukiRyo,Wikidata P2002候補 Q138306018。要公式確認
+H-0367,船田 元,自民,funadahajime,Wikidata P2002候補 Q5639959。要公式確認
+H-0368,古井 康介,自民,KOSUKEFURUI,Wikidata P2002候補 Q110403236。要公式確認
+H-0369,古川 あおい,みらい,AoiFurukawa,Wikidata P2002候補 Q138129349。要公式確認
+H-0370,古川 直季,自民,FurukawaNaoki,Wikidata P2002候補 Q109346697。要公式確認
+H-0371,古川 元久,国民,Fullgen,Wikidata P2002候補 Q1949760。要公式確認
+H-0372,古川 康,自民,furukawa_yasu,Wikidata P2002候補 Q2576940。要公式確認
+H-0373,古川 禎久,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0374,古屋 圭司,自民,Furuya_keiji,Wikidata P2002候補 Q1704969。要公式確認
+H-0375,穂坂 泰,自民,Hosaka_saitama4,Wikidata P2002候補 Q41770690。要公式確認
+H-0376,星野 剛士,自民,hossys,Wikidata P2002候補 Q11513088。要公式確認
+H-0377,細田 健一,自民,hosoda_kenichi,Wikidata P2002候補 Q11606064。要公式確認
+H-0378,細野 豪志,自民,hosono_54,Wikidata P2002候補 Q1135729。要公式確認
+H-0379,堀内 詔子,自民,genkihoriuchi,Wikidata P2002候補 Q11427301。要公式確認
+H-0380,本田 太郎,自民,kyoto_honda,Wikidata P2002候補 Q41770873。要公式確認
+H-0381,前川 恵,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0382,前原 誠司,維新,Maehara2016,Wikidata P2002候補 Q132280。要公式確認
+H-0383,牧島 かれん,自民,makishimakaren,Wikidata P2002候補 Q11570409。要公式確認
+H-0384,牧野 俊一,参政,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0385,松下 英樹,自民,matsushita_uq,Wikidata P2002候補 Q138118497。要公式確認
+H-0386,松島 みどり,自民,matusimamidori,Wikidata P2002候補 Q6842917。要公式確認
+H-0387,松野 博一,自民,MatsunoHirokazu,Wikidata P2002候補 Q5770251。要公式確認
+H-0388,松本 泉,自民,izumi_kashiwa,Wikidata P2002候補 Q138304111。要公式確認
+H-0389,松本 尚,自民,hmatsu63,Wikidata P2002候補 Q11531011。要公式確認
+H-0390,松本 洋平,自民,matsumoto_yohei,Wikidata P2002候補 Q5680924。要公式確認
+H-0391,丸尾 なつ子,自民,maruonatsuko,Xプロフィール/検索結果から自動登録。要公式確認
+H-0392,丸川 珠代,自民,marukawatamayo,Wikidata P2002候補 Q7680979。要公式確認
+H-0393,丸田 康一郎,自民,koichiro_maruta,Wikidata P2002候補 Q138298988。要公式確認
+H-0394,三木 圭恵,維新,keemiki,Wikidata P2002候補 Q11355593。要公式確認
+H-0395,水野よしひこ,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0396,三反園 訓,自民,satoshimitazono,Wikidata P2002候補 Q11354596。要公式確認
+H-0397,三谷 英弘,自民,mitani_h,Wikidata P2002候補 Q11357294。要公式確認
+H-0398,三ッ林 裕巳,自民,hiromitsubayasi,Wikidata P2002候補 Q11353993。要公式確認
+H-0399,峰島 侑也,みらい,mineshima_mirai,Wikidata P2002候補 Q138049851。要公式確認
+H-0400,美延 映夫,維新,minobeteruo,Wikidata P2002候補 Q41770900。要公式確認
+H-0401,御法川 信英,自民,minorikawa_nobu,Wikidata P2002候補 Q49988。要公式確認
+H-0402,三原 朝利,自民,mihara_asato,Wikidata P2002候補 Q138296955。要公式確認
+H-0403,宮内 秀樹,自民,MiyauchiHideki,Wikidata P2002候補 Q11453336。要公式確認
+H-0404,宮崎 政久,自民,Miyazaki_kirin,Wikidata P2002候補 Q11454333。要公式確認
+H-0405,宮路 拓馬,自民,miyajitakuma,公式サイトとXプロフィールで確認
+H-0406,宮下 一郎,自民,michirojim,Wikidata P2002候補 Q5986289。要公式確認
+H-0407,向山 淳,自民,MukoyamaJun,Wikidata P2002候補 Q130726946。要公式確認
+H-0408,向山 好一,国民,mukoyama_kobe,Wikidata P2002候補 Q11415936。要公式確認
+H-0409,武藤 かず子,みらい,moo_mirai,Wikidata P2002候補 Q138075791。要公式確認
+H-0410,武藤 容治,自民,mutouyouji,Wikidata P2002候補 Q8054534。要公式確認
+H-0411,宗清 皇一,自民,MunekiyoOffice,Wikidata P2002候補 Q18818207。要公式確認
+H-0412,村井 英樹,自民,muraihideki,Wikidata P2002候補 Q11523004。要公式確認
+H-0413,村岡 敏英,国民,Muraoka_Toshi,Wikidata P2002候補 Q11523193。要公式確認
+H-0414,村上 誠一郎,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0415,村上 智信,維新,cv3cnoamlgwcuy0,Wikidata P2002候補 Q130739594。要公式確認
+H-0416,村木 汀,自民,Muraki_Nagisa,Wikidata P2002候補 Q138133305。要公式確認
+H-0417,茂木 敏充,自民,moteging,Wikidata P2002候補 Q1655453。要公式確認
+H-0418,森 英介,無,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0419,森 ようすけ,国民,mori_yosuke_,Xプロフィール/検索結果から自動登録。要公式確認
+H-0420,森下 千里,自民,ChiiChiiiii,Wikidata P2002候補 Q3547905。要公式確認
+H-0421,森原 紀代子,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0422,森山 裕,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0423,盛山 正仁,自民,moriyama_kobe,Wikidata P2002候補 Q6782391。要公式確認
+H-0424,保岡 宏武,自民,yasuokahirotake,Wikidata P2002候補 Q41805182。要公式確認
+H-0425,簗 和生,自民,Yana_Kazuo,Xプロフィール/検索結果から自動登録。要公式確認
+H-0426,山岡 達丸,中道,tatumaru1979,Wikidata P2002候補 Q11467842。要公式確認
+H-0427,山際 大志郎,自民,yamagiwa001,Wikidata P2002候補 Q5209617。要公式確認
+H-0428,山口 俊一,自民,yamashun0228,Wikidata P2002候補 Q7505080。要公式確認
+H-0429,山口 晋,自民,yamaguchisusumu,Wikidata P2002候補 Q109344952。要公式確認
+H-0430,山口 壯,自民,244yamaguchi,Wikidata P2002候補 Q704345。要公式確認
+H-0431,山崎 正恭,中道,masayasu211bob,Wikidata P2002候補 Q109598960。要公式確認
+H-0432,山下 史守朗,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0433,山下 貴司,自民,YAMASHITA_OK,Wikidata P2002候補 Q11466071。要公式確認
+H-0434,山田 瑛理,みらい,yamadaeri1982,Wikidata P2002候補 Q138135640。要公式確認
+H-0435,山田 賢司,自民,Ymd_Knj,Wikidata P2002候補 Q11470671。要公式確認
+H-0436,山田 美樹,自民,yamada_miki,Wikidata P2002候補 Q11470608。要公式確認
+H-0437,山田 基靖,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0438,山本 香苗,中道,Yamamotokanae,Wikidata P2002候補 Q6360206。要公式確認
+H-0439,山本 左近,自民,SakonYamamoto,Wikidata P2002候補 Q171394。要公式確認
+H-0440,山本ジョージ,無,yamamotogeorge0,Xプロフィール/検索結果から自動登録。要公式確認
+H-0441,山本 深,自民,yamamoto_shin84,Wikidata P2002候補 Q138136155。要公式確認
+H-0442,山本 大地,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0443,山本 裕三,自民,yzymmt,Wikidata P2002候補 Q138312776。要公式確認
+H-0444,横田 光弘,維新,YOKOTA_Ishin,Wikidata P2002候補 Q138088259。要公式確認
+H-0445,吉川 里奈,参政,rina_yoshikawa_,Wikidata P2002候補 Q130707085。要公式確認
+H-0446,吉田 真次,自民,yoshida706,Wikidata P2002候補 Q117834697。要公式確認
+H-0447,吉田 宣弘,中道,yoshida_komei,Wikidata P2002候補 Q21703015。要公式確認
+H-0448,吉田 有理,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0449,吉村 悠,自民,haruka_1023,Xプロフィール/検索結果から自動登録。要公式確認
+H-0450,米内 紘正,自民,yonai_hiromasa,Wikidata P2002候補 Q138045292。要公式確認
+H-0451,笠 浩史,中道,hirofumi_ryu,Wikidata P2002候補 Q5770152。要公式確認
+H-0452,若狹 清史,維新,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0453,若林 健太,自民,kenta_waka,Wikidata P2002候補 Q1739044。要公式確認
+H-0454,若宮 健嗣,自民,wakamiya7788,Wikidata P2002候補 Q6389383。要公式確認
+H-0455,若山 慎司,自民,wakayama_shinji,Wikidata P2002候補 Q130732952。要公式確認
+H-0456,鷲尾 英一郎,自民,washioeiichirou,Wikidata P2002候補 Q5349200。要公式確認
+H-0457,早稲田 ゆき,中道,waseda_yuki,Xプロフィール/検索結果から自動登録。要公式確認
+H-0458,和田 政宗,参政,wadamasamune,Wikidata P2002候補 Q11418015。要公式確認
+H-0459,和田 義明,自民,ywada_hokkaido5,Wikidata P2002候補 Q23907516。要公式確認
+H-0460,渡辺 藍理,参政,watanabe_airi_9,Wikidata P2002候補 Q138336965。要公式確認
+H-0461,渡辺 勝幸,自民,katsuyuki510,Wikidata P2002候補 Q138049410。要公式確認
+H-0462,渡辺 孝一,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0463,渡辺 真太朗,無,,未解決: 自動判定条件を満たさず。公式確認が必要
+H-0464,渡辺 創,中道,MWatasou,Wikidata P2002候補 Q109335900。要公式確認
+H-0465,渡辺 博道,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+S-0001,青木 愛,立憲,aoki12ku,Xプロフィール/検索結果から自動登録。要公式確認
+S-0002,青木 一彦,自民,kazuhiko__aoki,Wikidata P2002候補 Q1737543。要公式確認
+S-0003,青島 健太,維新,AoshimaKenta4,Xプロフィール/検索結果から自動登録。要公式確認
+S-0004,青山 繁晴,自民,aoyamashigeharu,Wikidata P2002候補 Q11661317。要公式確認
+S-0005,赤松 健,自民,KenAkamatsu,Wikidata P2002候補 Q311589。要公式確認
+S-0006,秋野 公造,公明,akinokozo,Wikidata P2002候補 Q11595863。要公式確認
+S-0007,浅尾 慶一郎,自民,asao_keiichiro,Wikidata P2002候補 Q1737907。要公式確認
+S-0008,浅田 均,維新,asalogue,Wikidata P2002候補 Q11557153。要公式確認
+S-0009,朝日 健太郎,自民,kentaroasahi,Wikidata P2002候補 Q6391997。要公式確認
+S-0010,阿達 雅志,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+S-0011,足立 康史,民主,,未解決: 自動判定条件を満たさず。公式確認が必要
+S-0012,安達 悠司,参政,adachi3kyoto,Wikidata P2002候補 Q135642035。要公式確認
+S-0013,有村 治子,自民,arimura_haruko,Wikidata P2002候補 Q11516489。要公式確認
+S-0014,安藤 裕,参政,andouhiroshi,Wikidata P2002候補 Q11451405。要公式確認
+S-0015,安野 貴博,無所属,,未解決: 自動判定条件を満たさず。公式確認が必要
+S-0016,生稲 晃子,自民,ikuinaakiko1917,Wikidata P2002候補 Q2829039。要公式確認
+S-0017,石井 準一,自民,Junichi141,Wikidata P2002候補 Q6313056。要公式確認
+S-0018,石井 浩郎,自民,hirooishii6,Wikidata P2002候補 Q1620262。要公式確認
+S-0019,石井 苗子,維新,ishii_ishin,Wikidata P2002候補 Q11585080。要公式確認
+S-0020,石井 めぐみ,維新,toridenomegumi,Xプロフィール/検索結果から自動登録。要公式確認
+S-0021,石垣 のりこ,立憲,norinotes,Wikidata P2002候補 Q23947229。要公式確認
+S-0022,石川 博崇,公明,Hiro_Ishikawa,Wikidata P2002候補 Q11585722。要公式確認
+S-0023,石田 昌宏,自民,masahiroishida,Wikidata P2002候補 Q16264050。要公式確認
+S-0024,石橋 通宏,立憲,,未解決: 自動判定条件を満たさず。公式確認が必要
+S-0025,泉 房穂,立憲,izumi_akashi,Xプロフィール/検索結果から自動登録。要公式確認
+S-0026,伊勢崎 賢治,れ新,isezakikenji,Wikidata P2002候補 Q11379014。要公式確認
+S-0027,礒崎 哲史,民主,,未解決: 自動判定条件を満たさず。公式確認が必要
+S-0028,磯崎 仁彦,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+S-0029,伊藤 孝江,公明,ito_takae,Wikidata P2002候補 Q26044244。要公式確認
+S-0030,伊藤 孝恵,民主,itotakae0630,Wikidata P2002候補 Q26044232。要公式確認
+S-0031,伊藤 辰夫,民主,itoh_tatsuo,Xプロフィール/検索結果から自動登録。要公式確認
+S-0032,井上 義行,自民,inoue_yoshiyuki,Wikidata P2002候補 Q11373187。要公式確認
+S-0033,猪口 邦子,自民,kunikoinoguchi,Xプロフィールで確認
+S-0034,猪瀬 直樹,維新,inosenaoki,Wikidata P2002候補 Q1280894。要公式確認
+S-0035,伊波 洋一,沖縄,ihayoichi,Wikidata P2002候補 Q11379661。要公式確認
+S-0036,今井 絵理子,自民,Eriko_imai,Wikidata P2002候補 Q3056615。要公式確認
+S-0037,岩渕 友,共産,buchitom,Wikidata P2002候補 Q26043966。要公式確認
+S-0038,岩本 剛人,自民,iwamoto_tsuyo,Wikidata P2002候補 Q65556787。要公式確認
+S-0039,岩本 麻奈,参政,mana_iwamoto,Wikidata P2002候補 Q21699132。要公式確認
+S-0040,いんどう 周作,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+S-0041,上田 勇,公明,IsamuUeda,Wikidata P2002候補 Q11359720。要公式確認
+S-0042,上田 清司,民主,FeFQFsgref5wS6U,Xプロフィール/検索結果から自動登録。要公式確認
+S-0043,上野 ほたる,維新,uenohotaru,Xプロフィール/検索結果から自動登録。要公式確認
+S-0044,上野 通子,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+S-0045,牛田 茉友,民主,ushidamayu__,Wikidata P2002候補 Q11570204。要公式確認
+S-0046,臼井 正一,自民,usuishoichi,Xプロフィール/検索結果から自動登録。要公式確認
+S-0047,打越 さく良,立憲,sakurauchikoshi,Wikidata P2002候補 Q65556997。要公式確認
+S-0048,梅村 みずほ,参政,mizuho_umemura,Wikidata P2002候補 Q11537690。要公式確認
+S-0049,江島 潔,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+S-0050,江原 くみ子,民主,ekumikoyo,Xプロフィール/検索結果から自動登録。要公式確認
+S-0051,大家 敏志,自民,satoshi_oie,Wikidata P2002候補 Q11434490。要公式確認
+S-0052,大島 九州男,れ新,oshima_kusuo,Wikidata P2002候補 Q11434840。要公式確認
+S-0053,大津 力,参政,PygkbVV1E2YvWm3,Wikidata P2002候補 Q135642336。要公式確認
+S-0054,岡崎 太,維新,okazakifutoshi,Wikidata P2002候補 Q135432303。要公式確認
+S-0055,岡田 直樹,自民,okada3769,Wikidata P2002候補 Q6964565。要公式確認
+S-0056,小川 克巳,自民,ogawa_katsu3,Wikidata P2002候補 Q27150792。要公式確認
+S-0057,奥田 ふみよ,れ新,fumiyo_fukuoka,Xプロフィール/検索結果から自動登録。要公式確認
+S-0058,奥村 祥大,民主,YOSHI_OKUMURA29,Wikidata P2002候補 Q135434616。要公式確認
+S-0059,小沢 雅仁,立憲,ozawamasahito,Wikidata P2002候補 Q66365165。要公式確認
+S-0060,越智 俊之,自民,toshiyuki_ochi,Wikidata P2002候補 Q113566603。要公式確認
+S-0061,尾辻 朋実,無所属,tomomi_otsuji,Wikidata P2002候補 Q135448465。要公式確認
+S-0062,鬼木 誠,立憲,onikidon,Xプロフィール/検索結果から自動登録。要公式確認
+S-0063,小野田 紀美,自民,onoda_kimi,Wikidata P2002候補 Q25939253。要公式確認
+S-0064,かごしま 彰宏,民主,kagoshimammoth,Xプロフィール/検索結果から自動登録。要公式確認
+S-0065,梶原 大介,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+S-0066,加田 裕之,自民,kadahiroyuki,Xプロフィール/検索結果から自動登録。要公式確認
+S-0067,嘉田 由紀子,維新,kadayukiko,Wikidata P2002候補 Q152728。要公式確認
+S-0068,片山 さつき,自民,satsukikatayama,Wikidata P2002候補 Q7426488。要公式確認
+S-0069,片山 大介,維新,d_katayama1006,Xプロフィール/検索結果から自動登録。要公式確認
+S-0070,勝部 賢志,立憲,katsubekenji,Wikidata P2002候補 Q65556913。要公式確認
+S-0071,加藤 明良,自民,katoakiyoshi,Wikidata P2002候補 Q113026122。要公式確認
+S-0072,金子 道仁,維新,kanekomichihito,Wikidata P2002候補 Q113566592。要公式確認
+S-0073,かまやち 敏,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+S-0074,神谷 宗幣,参政,jinkamiya,Wikidata P2002候補 Q11590855。要公式確認
+S-0075,神谷 政幸,自民,kamiyamasayuki_,Wikidata P2002候補 Q113566601。要公式確認
+S-0076,川合 孝典,民主,T_KAWAI_SANGIIN,Wikidata P2002候補 Q7677198。要公式確認
+S-0077,川村 雄大,公明,yudai_kawamura,Wikidata P2002候補 Q135434687。要公式確認
+S-0078,岸 真紀子,立憲,kishimakiko_j,Wikidata P2002候補 Q66365101。要公式確認
+S-0079,北村 経夫,自民,kitamuraoffice,Wikidata P2002候補 Q17129442。要公式確認
+S-0080,北村 晴男,保守,,未解決: 自動判定条件を満たさず。公式確認が必要
+S-0081,木戸口 英司,立憲,ekidoguchi,Wikidata P2002候補 Q26043933。要公式確認
+S-0082,木村 英子,れ新,eikokimura,Wikidata P2002候補 Q65730363。要公式確認
+S-0083,吉良 よし子,共産,kirajimusyo,Xプロフィール/検索結果から自動登録。要公式確認
+S-0084,串田 誠一,維新,KushidaOf,Wikidata P2002候補 Q41770750。要公式確認
+S-0085,窪田 哲也,公明,Kubota_Tetsuya1,Wikidata P2002候補 Q113566596。要公式確認
+S-0086,熊谷 裕人,立憲,KumagaiHiroto,Wikidata P2002候補 Q65556971。要公式確認
+S-0087,見坂 茂範,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+S-0088,小池 晃,共産,koike_akira,Wikidata P2002候補 Q418771。要公式確認
+S-0089,上月 良祐,自民,kozuki_ryosuke,Wikidata P2002候補 Q17130344。要公式確認
+S-0090,郡山 りょう,立憲,ryo_koriyama,Xプロフィール/検索結果から自動登録。要公式確認
+S-0091,古賀 千景,立憲,kogachikage,Wikidata P2002候補 Q113566587。要公式確認
+S-0092,古賀 友一郎,自民,KogaYuichiro_O,Wikidata P2002候補 Q17157982。要公式確認
+S-0093,古賀 之士,立憲,,未解決: 自動判定条件を満たさず。公式確認が必要
+S-0094,小島 とも子,立憲,,未解決: 自動判定条件を満たさず。公式確認が必要
+S-0095,古庄 玄知,自民,koshoharutomo,Wikidata P2002候補 Q65617562。要公式確認
+S-0096,後藤 翔太,参政,shotagotoh0107,Wikidata P2002候補 Q11488597。要公式確認
+S-0097,後藤 斎,民主,goto_hitoshi_,Wikidata P2002候補 Q5872336。要公式確認
+S-0098,小西 洋之,立憲,konishihiroyuki,Wikidata P2002候補 Q11463616。要公式確認
+S-0099,小林 一大,自民,KYRKR_Kobayashi,Wikidata P2002候補 Q113566560。要公式確認
+S-0100,小林 孝一郎,自民,kobayashi_info,Wikidata P2002候補 Q135598212。要公式確認
+S-0101,小林 さやか,民主,sayaka_koba1983,Xプロフィール/検索結果から自動登録。要公式確認
+S-0102,こやり 隆史,自民,koyari_shiga,Xプロフィール/検索結果から自動登録。要公式確認
+S-0103,齊藤 健一郎,自民,aqua_saito,Wikidata P2002候補 Q111113981。要公式確認
+S-0104,斎藤 嘉隆,立憲,saito_yoshitaka,Wikidata P2002候補 Q11500523。要公式確認
+S-0105,酒井 庸行,自民,YasuyukiSakai,Wikidata P2002候補 Q17158633。要公式確認
+S-0106,櫻井 祥子,参政,shoko_sakurai_,Wikidata P2002候補 Q135642233。要公式確認
+S-0107,櫻井 充,自民,drsakurai,Xプロフィール/検索結果から自動登録。要公式確認
+S-0108,佐々木 雅文,公明,masafumi_sasaki,Wikidata P2002候補 Q135689825。要公式確認
+S-0109,佐々木 りえ,維新,sasaki_rie,Xプロフィール/検索結果から自動登録。要公式確認
+S-0110,佐藤 啓,自民,sato_kei_nara,Wikidata P2002候補 Q28682073。要公式確認
+S-0111,里見 隆治,公明,satomi_ryuji,Wikidata P2002候補 Q26045720。要公式確認
+S-0112,塩入 清香,参政,sayaohgi,Wikidata P2002候補 Q135422570。要公式確認
+S-0113,塩村 あやか,立憲,shiomuraoffice,Xプロフィール/検索結果から自動登録。要公式確認
+S-0114,柴 愼一,立憲,,未解決: 自動判定条件を満たさず。公式確認が必要
+S-0115,柴田 巧,維新,shibata_twi,Wikidata P2002候補 Q11534806。要公式確認
+S-0116,自見 はなこ,自民,jimihanako,Xプロフィール/検索結果から自動登録。要公式確認
+S-0117,清水 真人,自民,shimizu_0310,Wikidata P2002候補 Q65556962。要公式確認
+S-0118,下野 六太,公明,shimonorokuta,Wikidata P2002候補 Q65557053。要公式確認
+S-0119,白川 容子,共産,YoukoSirakawa,Wikidata P2002候補 Q41805225。要公式確認
+S-0120,進藤 金日子,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+S-0121,榛葉 賀津也,民主,SHIMBA_OFFICE,Wikidata P2002候補 Q6345808。要公式確認
+S-0122,末松 信介,自民,SSS_suematsu,Wikidata P2002候補 Q7497773。要公式確認
+S-0123,杉 久武,公明,hisatake_sugi,Wikidata P2002候補 Q17159888。要公式確認
+S-0124,杉尾 秀哉,立憲,TeamSugioHideya,Wikidata P2002候補 Q11521820。要公式確認
+S-0125,杉本 純子,参政,junko_aichi3,Wikidata P2002候補 Q135642289。要公式確認
+S-0126,鈴木 大地,自民,daichi55,Wikidata P2002候補 Q1157528。要公式確認
+S-0127,鈴木 宗男,自民,official_s_mune,Wikidata P2002候補 Q840609。要公式確認
+S-0128,石 平,維新,liyonyon,Xプロフィール/検索結果から自動登録。要公式確認
+S-0129,関口 昌一,無所属,sekiguchi0229,Wikidata P2002候補 Q6782441。要公式確認
+S-0130,大門 実紀史,共産,mikishi_daimon1,Wikidata P2002候補 Q6849902。要公式確認
+S-0131,高木 かおり,維新,takagi_kaori_,Xプロフィール/検索結果から自動登録。要公式確認
+S-0132,高木 真理,立憲,TakagiMari,Wikidata P2002候補 Q113566546。要公式確認
+S-0133,高橋 克法,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+S-0134,高橋 はるみ,自民,harumi_takahasi,Wikidata P2002候補 Q459145。要公式確認
+S-0135,高橋 光男,公明,takahashimitsu7,Wikidata P2002候補 Q65557029。要公式確認
+S-0136,高良 沙哉,沖縄,TakaraSachika,Wikidata P2002候補 Q135471809。要公式確認
+S-0137,滝波 宏文,自民,HiroTakinami,Wikidata P2002候補 Q17160669。要公式確認
+S-0138,竹内 真二,公明,takeuchishinji3,Wikidata P2002候補 Q43425331。要公式確認
+S-0139,竹詰 仁,民主,Takezume_H,Wikidata P2002候補 Q113566598。要公式確認
+S-0140,竹谷 とし子,公明,t_takeya,Wikidata P2002候補 Q32968。要公式確認
+S-0141,田島 麻衣子,立憲,maiko_tajima,Wikidata P2002候補 Q65557014。要公式確認
+S-0142,田名部 匡代,立憲,masayo_office,Xプロフィール/検索結果から自動登録。要公式確認
+S-0143,谷合 正明,公明,masaaki_taniai,Wikidata P2002候補 Q6782266。要公式確認
+S-0144,田村 まみ,民主,mamitamuratw,Xプロフィール/検索結果から自動登録。要公式確認
+S-0145,司 隆史,公明,tsukasa_takashi,Wikidata P2002候補 Q135689845。要公式確認
+S-0146,辻元 清美,立憲,tsujimotokiyomi,Wikidata P2002候補 Q405533。要公式確認
+S-0147,鶴保 庸介,自民,TsuruhoYosuke,Wikidata P2002候補 Q8062688。要公式確認
+S-0148,出川 桃子,自民,degawamomoko,Wikidata P2002候補 Q135499635。要公式確認
+S-0149,寺田 静,無所属,teratashizuka,Wikidata P2002候補 Q65556954。要公式確認
+S-0150,天畠 大輔,れ新,skyfarm1229,Wikidata P2002候補 Q88924356。要公式確認
+S-0151,堂込 麻紀子,民主,,未解決: 自動判定条件を満たさず。公式確認が必要
+S-0152,徳永 エリ,立憲,eri_line,Wikidata P2002候補 Q11490337。要公式確認
+S-0153,友納 理緒,自民,tomonoh_rio,Wikidata P2002候補 Q113565709。要公式確認
+S-0154,永井 学,自民,nagaimanabu,Wikidata P2002候補 Q113565697。要公式確認
+S-0155,ながえ 孝子,無所属,,未解決: 自動判定条件を満たさず。公式確認が必要
+S-0156,中条 きよし,維新,nakajyo0304,Wikidata P2002候補 Q11366133。要公式確認
+S-0157,中曽根 弘文,自民,nakasonehirofu3,Wikidata P2002候補 Q937682。要公式確認
+S-0158,中田 優子,参政,3yuko_nakada3,Wikidata P2002候補 Q135560583。要公式確認
+S-0159,中西 祐介,自民,nakanishiyusuke,Wikidata P2002候補 Q11367073。要公式確認
+S-0160,長浜 博行,立憲,nagahama1020,公式サイトSNS告知とXプロフィールで確認
+S-0161,新実 彰平,維新,niimishohei,Wikidata P2002候補 Q11501718。要公式確認
+S-0162,西田 昌司,自民,j_shoujinishida,Wikidata P2002候補 Q7500159。要公式確認
+S-0163,西田 英範,自民,nishita83h,Wikidata P2002候補 Q135689836。要公式確認
+S-0164,西田 実仁,公明,m_nishida,Wikidata P2002候補 Q6739963。要公式確認
+S-0165,仁比 聡平,共産,nihi_souhei,Wikidata P2002候補 Q7554691。要公式確認
+S-0166,庭田 幸恵,民主,1229yukie,Wikidata P2002候補 Q11539664。要公式確認
+S-0167,野上 浩太郎,自民,kotaronogami,Wikidata P2002候補 Q11644968。要公式確認
+S-0168,野村 哲郎,自民,nomura_koho,Wikidata P2002候補 Q7706917。要公式確認
+S-0169,芳賀 道也,民主,hagamichiya,Wikidata P2002候補 Q11615846。要公式確認
+S-0170,初鹿野 裕樹,参政,hajikano_hiroki,Wikidata P2002候補 Q135458411。要公式確認
+S-0171,橋本 聖子,自民,hashimoto_seiko,Wikidata P2002候補 Q263703。要公式確認
+S-0172,長谷川 岳,自民,gaku_hasegawa,Wikidata P2002候補 Q5517693。要公式確認
+S-0173,長谷川 英晴,自民,HasegawaSangiin,Wikidata P2002候補 Q113566581。要公式確認
+S-0174,羽田 次郎,立憲,,未解決: 自動判定条件を満たさず。公式確認が必要
+S-0175,馬場 成志,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+S-0176,浜口 誠,民主,HamaMako0518,Xプロフィール/検索結果から自動登録。要公式確認
+S-0177,浜野 喜史,民主,hamanoyoshifumi,Wikidata P2002候補 Q17220553。要公式確認
+S-0178,原田 大二郎,公明,HoL8vx,Wikidata P2002候補 Q135690081。要公式確認
+S-0179,原田 秀一,民主,HaradaHidekazu_,Wikidata P2002候補 Q135689813。要公式確認
+S-0180,東野 秀樹,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+S-0181,百田 尚樹,保守,,未解決: 自動判定条件を満たさず。公式確認が必要
+S-0182,平木 大作,公明,Hiraki_Daisaku,Wikidata P2002候補 Q17226328。要公式確認
+S-0183,平戸 航太,民主,KoutaHirado,Wikidata P2002候補 Q135689814。要公式確認
+S-0184,平山 佐知子,無所属,hirayamasachiko,Wikidata P2002候補 Q11482488。要公式確認
+S-0185,広田 一,立憲,hirota11,Wikidata P2002候補 Q5639964。要公式確認
+S-0186,福岡 資麿,自民,fukuokatakamaro,Wikidata P2002候補 Q7677127。要公式確認
+S-0187,福士 珠美,立憲,fukushi_masumi,Wikidata P2002候補 Q134507802。要公式確認
+S-0188,福島 みずほ,立憲,mizuhofukushima,Xプロフィール/検索結果から自動登録。要公式確認
+S-0189,福山 哲郎,無所属,fuku_tetsu,Wikidata P2002候補 Q507405。要公式確認
+S-0190,福山 守,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+S-0191,藤井 一博,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+S-0192,藤川 政人,自民,fujikawasangiin,Wikidata P2002候補 Q11624019。要公式確認
+S-0193,藤木 眞也,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+S-0194,船橋 利実,自民,t_funahashi,Wikidata P2002候補 Q11614128。要公式確認
+S-0195,舟山 康江,民主,yasue_funayama0,Wikidata P2002候補 Q8049955。要公式確認
+S-0196,古川 俊治,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+S-0197,星 北斗,自民,hoshihokuto_web,Wikidata P2002候補 Q113004581。要公式確認
+S-0198,堀井 巌,自民,iwaonarajp,Wikidata P2002候補 Q17219667。要公式確認
+S-0199,本田 顕子,自民,89314honda,Wikidata P2002候補 Q66365089。要公式確認
+S-0200,舞立 昇治,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+S-0201,牧野 たかお,自民,makinotakao,Xプロフィール/検索結果から自動登録。要公式確認
+S-0202,牧山 ひろえ,立憲,,未解決: 自動判定条件を満たさず。公式確認が必要
+S-0203,松川 るい,自民,Matsukawa_Rui,Wikidata P2002候補 Q26044243。要公式確認
+S-0204,松沢 成文,維新,matsuzawaoffice,Wikidata P2002候補 Q1725744。要公式確認
+S-0205,松下 新平,自民,shinpeim,Wikidata P2002候補 Q7497735。要公式確認
+S-0206,松田 学,参政,matsudamanabu,Wikidata P2002候補 Q11532042。要公式確認
+S-0207,松野 明美,維新,akemi1212333,Xプロフィール/検索結果から自動登録。要公式確認
+S-0208,松村 祥史,自民,matumurayosi,Xプロフィール/検索結果から自動登録。要公式確認
+S-0209,松山 政司,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+S-0210,三浦 信祐,公明,miura_nobuhiro,Wikidata P2002候補 Q26045561。要公式確認
+S-0211,三上 えり,立憲,erimikami0611,Xプロフィール/検索結果から自動登録。要公式確認
+S-0212,水岡 俊一,立憲,s_mizuoka,Xプロフィール/検索結果から自動登録。要公式確認
+S-0213,水野 孝一,民主,mizuno_koichi,Wikidata P2002候補 Q105704284。要公式確認
+S-0214,三原 じゅん子,自民,miharajunco,Wikidata P2002候補 Q3545132。要公式確認
+S-0215,宮崎 勝,公明,miyazaki318masa,Wikidata P2002候補 Q28682170。要公式確認
+S-0216,宮沢 洋一,自民,miyazawa_yoichi,Xプロフィール/検索結果から自動登録。要公式確認
+S-0217,宮出 千慧,参政,chisato_miyade,Wikidata P2002候補 Q135438346。要公式確認
+S-0218,宮本 和宏,自民,miya_kazuhiro,Wikidata P2002候補 Q21702379。要公式確認
+S-0219,宮本 周司,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+S-0220,村田 享子,立憲,murata_kyonkyon,Wikidata P2002候補 Q113012539。要公式確認
+S-0221,望月 良男,無所属,mochizuki440,Wikidata P2002候補 Q28687837。要公式確認
+S-0222,森 まさこ,自民,morimasakosangi,Xプロフィール/検索結果から自動登録。要公式確認
+S-0223,森 ゆうこ,立憲,moriyukogarden,Xプロフィール/検索結果から自動登録。要公式確認
+S-0224,森本 真治,立憲,,未解決: 自動判定条件を満たさず。公式確認が必要
+S-0225,山内 佳菜子,立憲,yamakana2021,Wikidata P2002候補 Q135689795。要公式確認
+S-0226,山崎 正昭,自民,masaakiyamazaki,Wikidata P2002候補 Q2225687。要公式確認
+S-0227,山下 雄平,自民,Yuhey4YOU,Wikidata P2002候補 Q17223414。要公式確認
+S-0228,山添 拓,共産,pioneertaku84,Wikidata P2002候補 Q26044103。要公式確認
+S-0229,山田 太郎,自民,yamadataro43,Xプロフィール/検索結果から自動登録。要公式確認
+S-0230,山田 宏,自民,yamazogaikuzo,Wikidata P2002候補 Q1620290。要公式確認
+S-0231,山田 吉彦,民主,,未解決: 自動判定条件を満たさず。公式確認が必要
+S-0232,山谷 えり子,自民,yamatanieriko,Wikidata P2002候補 Q534539。要公式確認
+S-0233,山中 泉,参政,SenYamanaka,Wikidata P2002候補 Q116936314。要公式確認
+S-0234,山本 啓介,自民,yamamoto_ngs,Wikidata P2002候補 Q113566553。要公式確認
+S-0235,山本 佐知子,自民,sachikoy1024,Wikidata P2002候補 Q65617529。要公式確認
+S-0236,山本 順三,自民,junzo_yamamoto,Wikidata P2002候補 Q6314438。要公式確認
+S-0237,山本 太郎,れ新,,未解決: 自動判定条件を満たさず。公式確認が必要
+S-0238,横沢 高徳,立憲,teamyokosawa,Xプロフィール/検索結果から自動登録。要公式確認
+S-0239,横山 信一,公明,gagomeyokoyama,Wikidata P2002候補 Q11542504。要公式確認
+S-0240,吉井 章,自民,,未解決: 自動判定条件を満たさず。公式確認が必要
+S-0241,吉川 沙織,立憲,yoshikawasaori,Wikidata P2002候補 Q7420872。要公式確認
+S-0242,吉田 忠智,立憲,tadatomoyoshida,Wikidata P2002候補 Q11413794。要公式確認
+S-0243,ラサール石井,立憲,l_ishii_office,Xプロフィール/検索結果から自動登録。要公式確認
+S-0244,蓮舫,立憲,renho_office,Wikidata P2002候補 Q465290。要公式確認
+S-0245,若井 敦子,自民,atsukowakai0912,Wikidata P2002候補 Q2869852。要公式確認
+S-0246,若林 洋平,自民,w_youhei,Wikidata P2002候補 Q17230793。要公式確認
+S-0247,脇 雅昭,自民,masaakiwaki9981,Wikidata P2002候補 Q135499027。要公式確認
+S-0248,渡辺 猛之,自民,w_takeyuki,Wikidata P2002候補 Q11562408。要公式確認

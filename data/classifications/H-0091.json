@@ -1,0 +1,36 @@
+{
+  "member_id": "H-0091",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "solar": {
+      "stance": "cautious",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "quote": "メガソーラー等の再生可能エネルギー"
+        }
+      ]
+    },
+    "economic_security": {
+      "stance": "conditional_support",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "quote": "中国企業が関与したと思われるロゴ"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "solar_skeptic",
+    "label": "太陽光批判",
+    "confidence": 0.5,
+    "rationale": "メガソーラー・再エネ特措法を問題提起。再エネタスクフォースの中国企業関与も指摘（経済安保視点）。"
+  },
+  "engagement": {
+    "level": "medium",
+    "relevant_speech_count": 6
+  },
+  "flags": []
+}

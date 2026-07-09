@@ -1,0 +1,19 @@
+{
+  "member_id": "H-0405",
+  "classified_by": "claude_main_agent_pilot",
+  "axes_version": "0.2",
+  "topics": {},
+  "archetype": {
+    "id": "low_engagement",
+    "label": "発言少・様子見",
+    "confidence": 0.6,
+    "rationale": "収集した発言は委員長としての議事運営（開会・参考人招致）のみで、政策スタンスは表明されていない。"
+  },
+  "engagement": {
+    "level": "none",
+    "relevant_speech_count": 3
+  },
+  "flags": [
+    "委員長発言のため個人スタンス不明・要追加収集"
+  ]
+}

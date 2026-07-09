@@ -1,0 +1,27 @@
+{
+  "member_id": "H-0036",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "decarbonization": {
+      "stance": "conditional_support",
+      "confidence": 0.4,
+      "evidence": [
+        {
+          "quote": "カーボンニュートラルもこれは本気で"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "low_engagement",
+    "label": "発言少・様子見",
+    "confidence": 0.5,
+    "rationale": "収集分は2件と少なく、明確な政策スタンスは読み取りにくい。要追加収集。"
+  },
+  "engagement": {
+    "level": "low",
+    "relevant_speech_count": 2
+  },
+  "flags": []
+}

@@ -1,0 +1,46 @@
+{
+  "member_id": "S-0033",
+  "classified_by": "claude_main_agent_pilot",
+  "axes_version": "0.2",
+  "topics": {
+    "decarbonization": {
+      "stance": "conditional_support",
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "quote": "地球温暖化対策の推進に関する法律",
+          "verified": true
+        },
+        {
+          "quote": "どの国もこの脱炭素を",
+          "verified": true
+        }
+      ]
+    },
+    "economic_security": {
+      "stance": "strong_support",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "quote": "食料・エネルギー安全保障",
+          "verified": true
+        },
+        {
+          "quote": "リスクを分散する必要",
+          "verified": true
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "renewable_champion",
+    "label": "再エネ積極支持",
+    "confidence": 0.55,
+    "rationale": "温対法・脱炭素を支持しつつ、エネルギー安全保障（OPEC・供給リスク分散）にも強い関心。econ_security_focus寄りの側面もあり要レビュー。"
+  },
+  "engagement": {
+    "level": "high",
+    "relevant_speech_count": 8
+  },
+  "flags": []
+}

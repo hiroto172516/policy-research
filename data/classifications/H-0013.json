@@ -1,0 +1,48 @@
+{
+  "member_id": "H-0013",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "nuclear": {
+      "stance": "strong_support",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "quote": "核融合発電"
+        },
+        {
+          "quote": "高レベル放射能廃棄物が出ない"
+        }
+      ]
+    },
+    "renewables": {
+      "stance": "cautious",
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "quote": "浮体式の洋上風力だと三十六円の買取り"
+        }
+      ]
+    },
+    "ev": {
+      "stance": "cautious",
+      "confidence": 0.55,
+      "evidence": [
+        {
+          "quote": "ＥＶ、ＰＨＥＶの割合はたった二・九七％"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "nuclear_advocate",
+    "label": "原子力・安定供給重視",
+    "confidence": 0.6,
+    "rationale": "核融合を積極評価。再エネはFIT高価格に懐疑的、EV目標未達を指摘。"
+  },
+  "engagement": {
+    "level": "high",
+    "relevant_speech_count": 41
+  },
+  "flags": []
+}

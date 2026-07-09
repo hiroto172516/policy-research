@@ -1,0 +1,52 @@
+{
+  "member_id": "H-0151",
+  "classified_by": "claude_main_agent_pilot",
+  "axes_version": "0.2",
+  "topics": {
+    "decarbonization": {
+      "stance": "conditional_support",
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "quote": "二〇三〇年に四六％減",
+          "verified": true
+        },
+        {
+          "quote": "カーボンニュートラル",
+          "verified": true
+        }
+      ]
+    },
+    "renewables": {
+      "stance": "conditional_support",
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "quote": "再生可能エネルギーの一つである水素",
+          "verified": true
+        }
+      ]
+    },
+    "economic_security": {
+      "stance": "conditional_support",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "quote": "エネルギー安定供給に与える影響",
+          "verified": true
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "renewable_champion",
+    "label": "再エネ積極支持",
+    "confidence": 0.55,
+    "rationale": "カーボンニュートラルポート・水素活用を推進。経済安保・エネルギー安定供給にも言及。"
+  },
+  "engagement": {
+    "level": "high",
+    "relevant_speech_count": 12
+  },
+  "flags": []
+}

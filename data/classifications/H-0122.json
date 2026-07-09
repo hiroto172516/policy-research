@@ -1,0 +1,44 @@
+{
+  "member_id": "H-0122",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "renewables": {
+      "stance": "strong_support",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "quote": "再生可能エネルギーをしっかりと大きく進めていく"
+        },
+        {
+          "quote": "再生可能エネルギーから生み出す"
+        }
+      ]
+    },
+    "nuclear": {
+      "stance": "cautious",
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "quote": "原発依存から脱却"
+        },
+        {
+          "quote": "このままただ原発に依存する"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "renewable_champion",
+    "label": "再エネ積極支持",
+    "confidence": 0.7,
+    "rationale": "福島の再エネ100%目標を推進、原発依存からの脱却を主張。"
+  },
+  "engagement": {
+    "level": "high",
+    "relevant_speech_count": 11
+  },
+  "flags": [
+    "sensitive:原子力"
+  ]
+}

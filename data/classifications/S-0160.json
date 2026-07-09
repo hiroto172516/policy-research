@@ -1,0 +1,42 @@
+{
+  "member_id": "S-0160",
+  "classified_by": "claude_main_agent_pilot",
+  "axes_version": "0.2",
+  "topics": {
+    "decarbonization": {
+      "stance": "strong_support",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "quote": "国際公約の四六％削減目標",
+          "verified": true
+        },
+        {
+          "quote": "ハードルを低めに設定するんではなくて",
+          "verified": true
+        }
+      ]
+    },
+    "energy_policy": {
+      "stance": "conditional_support",
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "quote": "一次エネルギー消費量の上位等級を新設",
+          "verified": true
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "renewable_champion",
+    "label": "再エネ積極支持",
+    "confidence": 0.7,
+    "rationale": "46%削減の確実な達成・省エネ上位等級新設など、脱炭素の野心度を上げる方向の発言。"
+  },
+  "engagement": {
+    "level": "medium",
+    "relevant_speech_count": 4
+  },
+  "flags": []
+}

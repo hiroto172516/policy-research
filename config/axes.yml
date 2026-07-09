@@ -1,0 +1,196 @@
+# =====================================================================
+# 評価軸 設定ファイル（STEP2）  v0.2 ─ ヒアリング結果メモ準拠
+# ---------------------------------------------------------------------
+# 【設計方針】
+#   本ファイルは `../ヒアリング結果メモ.md`（＝現時点で唯一の一次情報）だけを
+#   根拠に作成した評価軸。外部フレームワークは持ち込まない。各要素に memo_ref
+#   （メモの行番号）を付し、なぜその軸なのかを追跡可能にしている。
+#   評価軸の設計はJCLPの役割（memo L54-59）。AIは「発言という事実」を集めて
+#   この軸で分類する。→ 本ファイルは JCLP（武井氏）レビューで確定させる叩き台。
+# status: memo準拠v0.2（要JCLPレビュー）
+# source: ヒアリング結果メモ.md
+# as_of: 2026-07-03
+# =====================================================================
+
+meta:
+  version: "0.2"
+  status: memo準拠v0.2_要JCLPレビュー
+  as_of: "2026-07-03"
+  source: ../ヒアリング結果メモ.md
+
+# ---------------------------------------------------------------------
+# 設計原則（メモから）
+# ---------------------------------------------------------------------
+principles:
+  - "事実収集はAI／評価軸の設計はJCLP（memo L54-59）。軸を変えたらこのファイルだけ差し替える。"
+  - "賛成も反対も対象。JCLPに反対の発言をする議員も重要（memo L64）。"
+  - "発言が少ない議員も落とさない。どちらにも動きうるため戦略上重要（memo L65）→ engagement_scale と low_engagement 類型で保持。"
+  - "議員単位のスタンスと会議体単位の構成の両方を見る（memo L26,L66）→ 分類結果を committees に結合して集計。"
+  - "推測で埋めない。発言に無い立場は neutral_unknown（真正性の担保）。"
+
+# ---------------------------------------------------------------------
+# スタンス尺度（全トピック共通・5段階＋言及なし）
+#   memo L24「関心・スタンス」の「スタンス」に対応
+# ---------------------------------------------------------------------
+stance_scale:
+  - key: strong_support      # 積極支持
+    label: 積極支持
+  - key: conditional_support # 条件付き支持
+    label: 条件付き支持
+  - key: neutral_unknown     # 中立・言及なし
+    label: 中立・不明
+  - key: cautious            # 慎重・懐疑
+    label: 慎重・懐疑
+  - key: opposed             # 反対
+    label: 反対
+
+# ---------------------------------------------------------------------
+# 関心度（engagement）尺度
+#   memo L24「関心」・L65「発言が少ない人も重要」に対応。
+#   スタンス（賛否の向き）と関心度（どれだけ言及しているか）は別軸で持つ。
+# ---------------------------------------------------------------------
+engagement_scale:
+  - key: high     # 頻繁に発信・主導的
+    label: 高
+  - key: medium   # 一定の言及
+    label: 中
+  - key: low      # 言及わずか
+    label: 低
+  - key: none     # 関連発言なし（＝様子見・監視対象。ゼロにしない）
+    label: なし
+
+# ---------------------------------------------------------------------
+# 評価軸（トピック）
+#   memo L24 明示の5トピック＋L92-93 の「時期により変化する関連トピック」。
+#   group: core=大枠で不変 / dynamic=時期・社会トレンドで重要度が変化（memo L90-94）。
+#   retrieval_keywords は収集・検索の手掛かり（分類はキーワードでなくClaudeの判断）。
+# ---------------------------------------------------------------------
+topics:
+  - id: decarbonization
+    label: 脱炭素・気候変動
+    group: core
+    memo_ref: "L24,L92"
+    description: カーボンニュートラル・GX・気候目標への基本スタンス（大枠テーマ）
+    retrieval_keywords: [脱炭素, カーボンニュートラル, 気候変動, GX, 温室効果ガス, 排出削減, ネットゼロ]
+
+  - id: renewables
+    label: 再生可能エネルギー
+    group: core
+    memo_ref: "L24,L25"
+    description: 再エネ全般の推進・導入拡大へのスタンス（類型「再エネ積極支持」の基礎）
+    retrieval_keywords: [再生可能エネルギー, 再エネ, 洋上風力, 風力, 蓄電池, 系統, 送電網]
+
+  - id: solar
+    label: 太陽光発電
+    group: dynamic
+    memo_ref: "L24,L25,L93"
+    description: 太陽光の推進/批判（景観・農地・防災・安全保障・国産化。類型「太陽光批判」の基礎）
+    retrieval_keywords: [太陽光, 太陽光発電, メガソーラー, パネル, FIT, FIP, 野立て]
+
+  - id: nuclear
+    label: 原子力
+    group: dynamic
+    memo_ref: "L93"
+    description: 原子力の再稼働・新増設・リプレースへのスタンス（時期で重要度が変化）
+    retrieval_keywords: [原子力, 原発, 再稼働, 新増設, リプレース, SMR, 核燃料]
+
+  - id: power_demand_ai
+    label: 電力需要（AI・データセンター）
+    group: dynamic
+    memo_ref: "L93"
+    description: AI・データセンターによる電力需要増と供給力・電源確保の議論
+    retrieval_keywords: [データセンター, AI, 電力需要, 電力不足, 半導体, 電源確保]
+
+  - id: ev
+    label: EV・電動化
+    group: core
+    memo_ref: "L92"
+    description: EV・自動車電動化への関心・スタンス（大枠テーマ）
+    retrieval_keywords: [EV, 電気自動車, 電動化, 充電インフラ, 蓄電池, 自動車産業]
+
+  - id: economic_security
+    label: 経済安全保障
+    group: core
+    memo_ref: "L24,L25"
+    description: 供給網・重要物資・エネルギー自給・対外依存等（類型「経済安保重視」の基礎）
+    retrieval_keywords: [経済安全保障, サプライチェーン, 重要物資, 自給, 資源, 対中依存]
+
+  - id: energy_policy
+    label: エネルギー政策全般
+    group: core
+    memo_ref: "L24"
+    description: エネルギー基本計画・電源構成・電気料金など全般スタンス
+    retrieval_keywords: [エネルギー基本計画, 電源構成, 電気料金, ベースロード, 燃料, LNG]
+
+topic_groups:
+  core: 大枠で変わらないテーマ（memo L92「脱炭素やEV等の大枠は大きく変わらない」）
+  dynamic: 時期・社会トレンドで重要度が動くテーマ（memo L93-94）。収集の観点も随時更新する。
+
+# ---------------------------------------------------------------------
+# 類型（archetype）: トピック別スタンス＋関心度から導く議員タイプ
+#   memo L25 の3例を初期類型として明示採用し、dynamicトピックの分を補う。
+# ---------------------------------------------------------------------
+archetypes:
+  - id: renewable_champion
+    label: 再エネ積極支持
+    memo_ref: "L25"
+    definition: 再エネ・脱炭素に積極的。太陽光にも肯定的。
+  - id: solar_skeptic
+    label: 太陽光批判
+    memo_ref: "L25"
+    definition: 脱炭素全般は否定しないが、太陽光には慎重〜反対（景観・農地・安保等）。
+  - id: econ_security_focus
+    label: 脱炭素関心薄・経済安保重視
+    memo_ref: "L25"
+    definition: 脱炭素への関心は薄いが、経済安全保障・エネルギー自給に詳しい。
+  - id: nuclear_advocate
+    label: 原子力・安定供給重視
+    memo_ref: "L93"
+    definition: 原子力・安定供給を重視。再エネは条件付き。
+  - id: low_engagement
+    label: 発言少・様子見
+    memo_ref: "L65"
+    definition: 関連発言がほとんど無い。どちらにも動きうるため監視対象に残す（ゼロにしない）。
+  - id: unclassified
+    label: 分類保留
+    definition: 発言はあるが軸に落とし込めない／要人間確認。
+
+# ---------------------------------------------------------------------
+# 影響力（influence）: memo L9「影響力」・L26「どの類型がどの程度いるか」
+#   ★これは発言ではなく名簿(roster)から導く別軸（役職・委員会・当選回数）。
+#   compute_influence.py が下の規則で Tier を計算する。エンゲージメント戦略の
+#   優先順位付け（重点議員＝Tier A）に使う。
+# ---------------------------------------------------------------------
+influence:
+  memo_ref: "L9,L26-28"
+  note: 発言から独立。roster の roles/committees/elected_count から機械的に算出。
+  # Tier は「重点＝キーマン」を絞るため、既定では公式の役職保有で A を定義する。
+  # 当選回数(seniority)は別属性として記録し、既定では自動で A にしない（下の flag で切替）。
+  tiers:
+    - id: A
+      label: 重点（キーマン）
+      rule: 政府三役（大臣・副大臣・政務官）または委員長・会長
+      signals: [role_minister, role_committee_chair]
+    - id: B
+      label: 通常監視
+      rule: 委員会所属あり（Aでない）
+      signals: [has_committee]
+    - id: C
+      label: 様子見
+      rule: 上記に該当しない
+      signals: []
+  # seniority（当選回数）属性: senior/mid/junior を別に記録する
+  seniority:
+    senior_min: 5     # 当選この回数以上=senior（要JCLP調整）
+    mid_min: 2        # 当選この回数以上=mid
+  senior_grants_tier_a: false  # true にすると senior も Tier A に含める（JCLPで切替）
+
+# ---------------------------------------------------------------------
+# 分類の出力ルール（classify.py が従う）
+# ---------------------------------------------------------------------
+output_rules:
+  require_evidence: true          # 各スタンス判定に根拠発言(quote+出典)を必須
+  require_confidence: true        # 0.0-1.0 の確信度を必須
+  low_engagement_threshold: 2     # 関連発言がこの件数未満なら low_engagement に寄せる（memo L65）
+  no_fabrication: true            # 発言に無い立場を推測で埋めない → neutral_unknown
+  direction_balance: true         # 賛成/反対の両面を客観的に扱う（memo L64）

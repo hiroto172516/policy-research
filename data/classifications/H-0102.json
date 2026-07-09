@@ -1,0 +1,50 @@
+{
+  "member_id": "H-0102",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "decarbonization": {
+      "stance": "conditional_support",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "quote": "ＧＸ、ＤＸは重要"
+        }
+      ]
+    },
+    "renewables": {
+      "stance": "conditional_support",
+      "confidence": 0.55,
+      "evidence": [
+        {
+          "quote": "太陽光パネルの生産"
+        }
+      ]
+    },
+    "economic_security": {
+      "stance": "strong_support",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "quote": "食料もエネルギーもデジタルも"
+        },
+        {
+          "quote": "生産の国内回帰"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "econ_security_focus",
+    "label": "脱炭素関心薄・経済安保重視",
+    "confidence": 0.5,
+    "rationale": "エネルギー自給・国産化・供給網を重視。ただしGX/水素は支持しており『脱炭素関心薄』とは言い切れない→類型の境界事例。"
+  },
+  "engagement": {
+    "level": "high",
+    "relevant_speech_count": 22
+  },
+  "flags": [
+    "archetype境界: 脱炭素支持かつ経済安保重視は既存類型に当てはまりにくい（軸拡張候補）"
+  ]
+}
