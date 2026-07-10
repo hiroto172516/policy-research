@@ -1,0 +1,7 @@
+{
+  "speaker": "園崎 弘道",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E5%9C%92%E5%B4%8E+%E5%BC%98%E9%81%93&recordPacking=json&maximumRecords=30&startRecord=1&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 0,
+  "speeches": []
+}

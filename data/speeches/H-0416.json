@@ -1,0 +1,7 @@
+{
+  "speaker": "村木 汀",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E6%9D%91%E6%9C%A8+%E6%B1%80&recordPacking=json&maximumRecords=30&startRecord=1&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 12,
+  "speeches": []
+}

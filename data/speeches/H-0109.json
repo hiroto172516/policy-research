@@ -1,0 +1,7 @@
+{
+  "speaker": "鹿嶋 祐介",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E9%B9%BF%E5%B6%8B+%E7%A5%90%E4%BB%8B&recordPacking=json&maximumRecords=30&startRecord=181&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 210,
+  "speeches": []
+}

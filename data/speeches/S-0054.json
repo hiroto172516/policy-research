@@ -1,0 +1,7 @@
+{
+  "speaker": "岡崎 太",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E5%B2%A1%E5%B4%8E+%E5%A4%AA&recordPacking=json&maximumRecords=30&startRecord=271&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 300,
+  "speeches": []
+}

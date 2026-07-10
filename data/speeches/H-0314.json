@@ -1,0 +1,7 @@
+{
+  "speaker": "西村 康稔",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E8%A5%BF%E6%9D%91+%E5%BA%B7%E7%A8%94&recordPacking=json&maximumRecords=30&startRecord=271&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 300,
+  "speeches": []
+}

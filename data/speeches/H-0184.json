@@ -1,0 +1,7 @@
+{
+  "speaker": "齋藤 健",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E9%BD%8B%E8%97%A4+%E5%81%A5&recordPacking=json&maximumRecords=30&startRecord=271&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 300,
+  "speeches": []
+}

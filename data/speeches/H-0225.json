@@ -1,0 +1,7 @@
+{
+  "speaker": "世古 万美子",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E4%B8%96%E5%8F%A4+%E4%B8%87%E7%BE%8E%E5%AD%90&recordPacking=json&maximumRecords=30&startRecord=1&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 0,
+  "speeches": []
+}

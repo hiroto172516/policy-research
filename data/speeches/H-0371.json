@@ -1,0 +1,7 @@
+{
+  "speaker": "古川 元久",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E5%8F%A4%E5%B7%9D+%E5%85%83%E4%B9%85&recordPacking=json&maximumRecords=30&startRecord=271&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 300,
+  "speeches": []
+}

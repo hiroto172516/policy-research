@@ -1,0 +1,7 @@
+{
+  "speaker": "西條 昌良",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E8%A5%BF%E6%A2%9D+%E6%98%8C%E8%89%AF&recordPacking=json&maximumRecords=30&startRecord=181&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 189,
+  "speeches": []
+}

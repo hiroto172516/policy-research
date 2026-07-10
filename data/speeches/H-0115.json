@@ -1,0 +1,7 @@
+{
+  "speaker": "加藤 鮎子",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E5%8A%A0%E8%97%A4+%E9%AE%8E%E5%AD%90&recordPacking=json&maximumRecords=30&startRecord=271&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 300,
+  "speeches": []
+}

@@ -1,0 +1,7 @@
+{
+  "speaker": "小泉 龍司",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E5%B0%8F%E6%B3%89+%E9%BE%8D%E5%8F%B8&recordPacking=json&maximumRecords=30&startRecord=271&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 300,
+  "speeches": []
+}

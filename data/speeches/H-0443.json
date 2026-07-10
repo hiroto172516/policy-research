@@ -1,0 +1,7 @@
+{
+  "speaker": "山本 裕三",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E5%B1%B1%E6%9C%AC+%E8%A3%95%E4%B8%89&recordPacking=json&maximumRecords=30&startRecord=271&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 300,
+  "speeches": []
+}

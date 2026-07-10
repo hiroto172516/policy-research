@@ -1,0 +1,7 @@
+{
+  "speaker": "田中 和徳",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E7%94%B0%E4%B8%AD+%E5%92%8C%E5%BE%B3&recordPacking=json&maximumRecords=30&startRecord=271&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 300,
+  "speeches": []
+}

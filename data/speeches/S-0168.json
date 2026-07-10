@@ -1,0 +1,7 @@
+{
+  "speaker": "野村 哲郎",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E9%87%8E%E6%9D%91+%E5%93%B2%E9%83%8E&recordPacking=json&maximumRecords=30&startRecord=271&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 300,
+  "speeches": []
+}

@@ -1,0 +1,7 @@
+{
+  "speaker": "岡田 直樹",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E5%B2%A1%E7%94%B0+%E7%9B%B4%E6%A8%B9&recordPacking=json&maximumRecords=30&startRecord=271&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 300,
+  "speeches": []
+}

@@ -1,0 +1,7 @@
+{
+  "speaker": "井上 貴博",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E4%BA%95%E4%B8%8A+%E8%B2%B4%E5%8D%9A&recordPacking=json&maximumRecords=30&startRecord=271&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 300,
+  "speeches": []
+}

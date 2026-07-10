@@ -1,0 +1,7 @@
+{
+  "speaker": "平 将明",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E5%B9%B3+%E5%B0%86%E6%98%8E&recordPacking=json&maximumRecords=30&startRecord=271&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 300,
+  "speeches": []
+}

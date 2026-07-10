@@ -1,0 +1,7 @@
+{
+  "speaker": "黒崎 祐一",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E9%BB%92%E5%B4%8E+%E7%A5%90%E4%B8%80&recordPacking=json&maximumRecords=30&startRecord=271&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 300,
+  "speeches": []
+}

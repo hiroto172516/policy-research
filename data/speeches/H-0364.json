@@ -1,0 +1,7 @@
+{
+  "speaker": "藤丸 敏",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E8%97%A4%E4%B8%B8+%E6%95%8F&recordPacking=json&maximumRecords=30&startRecord=271&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 300,
+  "speeches": []
+}

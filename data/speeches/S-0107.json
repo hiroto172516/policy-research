@@ -1,0 +1,7 @@
+{
+  "speaker": "櫻井 充",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E6%AB%BB%E4%BA%95+%E5%85%85&recordPacking=json&maximumRecords=30&startRecord=271&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 300,
+  "speeches": []
+}

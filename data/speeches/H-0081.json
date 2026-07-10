@@ -1,0 +1,7 @@
+{
+  "speaker": "遠藤 敬",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E9%81%A0%E8%97%A4+%E6%95%AC&recordPacking=json&maximumRecords=30&startRecord=271&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 300,
+  "speeches": []
+}

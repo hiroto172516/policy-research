@@ -1,0 +1,7 @@
+{
+  "speaker": "川 裕一郎",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E5%B7%9D+%E8%A3%95%E4%B8%80%E9%83%8E&recordPacking=json&maximumRecords=30&startRecord=271&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 300,
+  "speeches": []
+}

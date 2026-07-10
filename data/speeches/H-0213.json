@@ -1,0 +1,7 @@
+{
+  "speaker": "鈴木 俊一",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E9%88%B4%E6%9C%A8+%E4%BF%8A%E4%B8%80&recordPacking=json&maximumRecords=30&startRecord=271&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 300,
+  "speeches": []
+}

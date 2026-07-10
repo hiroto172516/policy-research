@@ -1,0 +1,7 @@
+{
+  "speaker": "藤沢 忠盛",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E8%97%A4%E6%B2%A2+%E5%BF%A0%E7%9B%9B&recordPacking=json&maximumRecords=30&startRecord=1&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 3,
+  "speeches": []
+}

@@ -1,0 +1,7 @@
+{
+  "speaker": "木原 誠二",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E6%9C%A8%E5%8E%9F+%E8%AA%A0%E4%BA%8C&recordPacking=json&maximumRecords=30&startRecord=271&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 300,
+  "speeches": []
+}

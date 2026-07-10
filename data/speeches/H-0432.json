@@ -1,0 +1,7 @@
+{
+  "speaker": "山下 史守朗",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E5%B1%B1%E4%B8%8B+%E5%8F%B2%E5%AE%88%E6%9C%97&recordPacking=json&maximumRecords=30&startRecord=271&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 300,
+  "speeches": []
+}

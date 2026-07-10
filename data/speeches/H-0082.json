@@ -1,0 +1,7 @@
+{
+  "speaker": "遠藤 寛明",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E9%81%A0%E8%97%A4+%E5%AF%9B%E6%98%8E&recordPacking=json&maximumRecords=30&startRecord=271&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 300,
+  "speeches": []
+}

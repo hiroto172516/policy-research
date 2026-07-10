@@ -1,0 +1,7 @@
+{
+  "speaker": "伊藤 忠彦",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E4%BC%8A%E8%97%A4+%E5%BF%A0%E5%BD%A6&recordPacking=json&maximumRecords=30&startRecord=271&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 300,
+  "speeches": []
+}

@@ -1,0 +1,7 @@
+{
+  "speaker": "山田 美樹",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E5%B1%B1%E7%94%B0+%E7%BE%8E%E6%A8%B9&recordPacking=json&maximumRecords=30&startRecord=271&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 300,
+  "speeches": []
+}

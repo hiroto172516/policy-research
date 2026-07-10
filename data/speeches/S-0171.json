@@ -1,0 +1,7 @@
+{
+  "speaker": "橋本 聖子",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E6%A9%8B%E6%9C%AC+%E8%81%96%E5%AD%90&recordPacking=json&maximumRecords=30&startRecord=271&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 300,
+  "speeches": []
+}

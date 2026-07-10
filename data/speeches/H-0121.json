@@ -1,0 +1,7 @@
+{
+  "speaker": "金澤 結衣",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E9%87%91%E6%BE%A4+%E7%B5%90%E8%A1%A3&recordPacking=json&maximumRecords=30&startRecord=1&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 1,
+  "speeches": []
+}

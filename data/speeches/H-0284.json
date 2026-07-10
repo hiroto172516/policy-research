@@ -1,0 +1,7 @@
+{
+  "speaker": "長澤 興祐",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E9%95%B7%E6%BE%A4+%E8%88%88%E7%A5%90&recordPacking=json&maximumRecords=30&startRecord=1&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 19,
+  "speeches": []
+}

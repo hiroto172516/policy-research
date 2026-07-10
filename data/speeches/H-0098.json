@@ -1,0 +1,7 @@
+{
+  "speaker": "長田 紘一郎",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E9%95%B7%E7%94%B0+%E7%B4%98%E4%B8%80%E9%83%8E&recordPacking=json&maximumRecords=30&startRecord=1&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 18,
+  "speeches": []
+}

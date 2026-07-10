@@ -1,0 +1,7 @@
+{
+  "speaker": "野田 聖子",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E9%87%8E%E7%94%B0+%E8%81%96%E5%AD%90&recordPacking=json&maximumRecords=30&startRecord=271&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 300,
+  "speeches": []
+}

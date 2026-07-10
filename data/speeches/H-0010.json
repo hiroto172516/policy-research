@@ -1,0 +1,7 @@
+{
+  "speaker": "浅田 眞澄美",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E6%B5%85%E7%94%B0+%E7%9C%9E%E6%BE%84%E7%BE%8E&recordPacking=json&maximumRecords=30&startRecord=271&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 300,
+  "speeches": []
+}

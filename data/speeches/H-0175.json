@@ -1,0 +1,7 @@
+{
+  "speaker": "小林 鷹之",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E5%B0%8F%E6%9E%97+%E9%B7%B9%E4%B9%8B&recordPacking=json&maximumRecords=30&startRecord=271&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 300,
+  "speeches": []
+}

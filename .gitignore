@@ -4,8 +4,6 @@ config/*.key
 .env
 
 # 収集データ・生成物（大きい/再生成可能）
-data/speeches/
-data/x_posts/
 __pycache__/
 *.pyc
 

@@ -1,0 +1,7 @@
+{
+  "speaker": "藤田 誠",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E8%97%A4%E7%94%B0+%E8%AA%A0&recordPacking=json&maximumRecords=30&startRecord=271&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 300,
+  "speeches": []
+}

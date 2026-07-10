@@ -1,0 +1,7 @@
+{
+  "speaker": "本田 太郎",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E6%9C%AC%E7%94%B0+%E5%A4%AA%E9%83%8E&recordPacking=json&maximumRecords=30&startRecord=271&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 300,
+  "speeches": []
+}

@@ -1,0 +1,40 @@
+{
+  "speaker": "石井 浩郎",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E7%9F%B3%E4%BA%95+%E6%B5%A9%E9%83%8E&recordPacking=json&maximumRecords=30&startRecord=271&from=2022-01-01",
+  "count": 4,
+  "dropped_other_speaker": 296,
+  "speeches": [
+    {
+      "date": "2026-02-18",
+      "meeting": "こども・子育て・若者活躍に関する特別委員会",
+      "house": "参議院",
+      "speaker": "石井浩郎",
+      "speech": "○石井浩郎君　委員長の選任は、主宰者の指名に一任することの動議を提出いたします。",
+      "url": "https://kokkai.ndl.go.jp/txt/122115386X00120260218/2"
+    },
+    {
+      "date": "2026-02-18",
+      "meeting": "災害対策及び東日本大震災復興特別委員会",
+      "house": "参議院",
+      "speaker": "石井浩郎",
+      "speech": "○石井浩郎君　委員長の選任は、主宰者の指名に一任することの動議を提出いたします。",
+      "url": "https://kokkai.ndl.go.jp/txt/122115384X00120260218/2"
+    },
+    {
+      "date": "2026-01-23",
+      "meeting": "こども・子育て・若者活躍に関する特別委員会",
+      "house": "参議院",
+      "speaker": "石井浩郎",
+      "speech": "○石井浩郎君　委員長の選任は、主宰者の指名に一任することの動議を提出いたします。",
+      "url": "https://kokkai.ndl.go.jp/txt/122015386X00120260123/2"
+    },
+    {
+      "date": "2026-01-23",
+      "meeting": "災害対策及び東日本大震災復興特別委員会",
+      "house": "参議院",
+      "speaker": "石井浩郎",
+      "speech": "○石井浩郎君　委員長の選任は、主宰者の指名に一任することの動議を提出いたします。",
+      "url": "https://kokkai.ndl.go.jp/txt/122015384X00120260123/2"
+    }
+  ]
+}

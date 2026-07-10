@@ -1,0 +1,7 @@
+{
+  "speaker": "武田 良太",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E6%AD%A6%E7%94%B0+%E8%89%AF%E5%A4%AA&recordPacking=json&maximumRecords=30&startRecord=271&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 300,
+  "speeches": []
+}

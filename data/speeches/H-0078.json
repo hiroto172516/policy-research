@@ -1,0 +1,7 @@
+{
+  "speaker": "江藤 拓",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E6%B1%9F%E8%97%A4+%E6%8B%93&recordPacking=json&maximumRecords=30&startRecord=271&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 300,
+  "speeches": []
+}

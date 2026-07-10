@@ -1,0 +1,7 @@
+{
+  "speaker": "菅家 一郎",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E8%8F%85%E5%AE%B6+%E4%B8%80%E9%83%8E&recordPacking=json&maximumRecords=30&startRecord=271&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 300,
+  "speeches": []
+}

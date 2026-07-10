@@ -1,0 +1,7 @@
+{
+  "speaker": "上原 正裕",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E4%B8%8A%E5%8E%9F+%E6%AD%A3%E8%A3%95&recordPacking=json&maximumRecords=30&startRecord=271&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 284,
+  "speeches": []
+}

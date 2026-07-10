@@ -1,0 +1,7 @@
+{
+  "speaker": "菅原 一秀",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E8%8F%85%E5%8E%9F+%E4%B8%80%E7%A7%80&recordPacking=json&maximumRecords=30&startRecord=121&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 129,
+  "speeches": []
+}

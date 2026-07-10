@@ -1,0 +1,7 @@
+{
+  "speaker": "上野 宏史",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E4%B8%8A%E9%87%8E+%E5%AE%8F%E5%8F%B2&recordPacking=json&maximumRecords=30&startRecord=271&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 300,
+  "speeches": []
+}

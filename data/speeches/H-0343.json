@@ -1,0 +1,7 @@
+{
+  "speaker": "東田 淳平",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E6%9D%B1%E7%94%B0+%E6%B7%B3%E5%B9%B3&recordPacking=json&maximumRecords=30&startRecord=31&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 57,
+  "speeches": []
+}

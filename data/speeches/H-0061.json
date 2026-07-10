@@ -1,0 +1,7 @@
+{
+  "speaker": "岩崎 比菜",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E5%B2%A9%E5%B4%8E+%E6%AF%94%E8%8F%9C&recordPacking=json&maximumRecords=30&startRecord=1&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 22,
+  "speeches": []
+}

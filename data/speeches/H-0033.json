@@ -1,0 +1,7 @@
+{
+  "speaker": "石破 茂",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E7%9F%B3%E7%A0%B4+%E8%8C%82&recordPacking=json&maximumRecords=30&startRecord=271&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 300,
+  "speeches": []
+}

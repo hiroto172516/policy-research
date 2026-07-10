@@ -1,0 +1,7 @@
+{
+  "speaker": "内山 こう",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E5%86%85%E5%B1%B1+%E3%81%93%E3%81%86&recordPacking=json&maximumRecords=30&startRecord=271&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 300,
+  "speeches": []
+}

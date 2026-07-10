@@ -1,0 +1,7 @@
+{
+  "speaker": "吉田 有理",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E5%90%89%E7%94%B0+%E6%9C%89%E7%90%86&recordPacking=json&maximumRecords=30&startRecord=271&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 300,
+  "speeches": []
+}

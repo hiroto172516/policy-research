@@ -1,0 +1,7 @@
+{
+  "speaker": "渡辺 勝幸",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E6%B8%A1%E8%BE%BA+%E5%8B%9D%E5%B9%B8&recordPacking=json&maximumRecords=30&startRecord=271&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 300,
+  "speeches": []
+}

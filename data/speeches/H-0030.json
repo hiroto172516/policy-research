@@ -1,0 +1,7 @@
+{
+  "speaker": "石川 勝",
+  "url": "https://kokkai.ndl.go.jp/api/speech?speaker=%E7%9F%B3%E5%B7%9D+%E5%8B%9D&recordPacking=json&maximumRecords=30&startRecord=271&from=2022-01-01",
+  "count": 0,
+  "dropped_other_speaker": 300,
+  "speeches": []
+}
