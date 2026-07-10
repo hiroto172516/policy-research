@@ -1,0 +1,41 @@
+{
+  "member_id": "H-0123",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "solar": {
+      "stance": "cautious",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "quote": "メガソーラー等の再生可能エネルギー施設の整備はエネルギー政策上重要ではありますが、一方で、各地に無秩序に設置され、地域にとって重要な景観資源の価値が損なわれトラブルにつながってしまうのは避けなければなりません。",
+          "source": "diet"
+        }
+      ]
+    },
+    "energy_policy": {
+      "stance": "conditional_support",
+      "confidence": 0.70,
+      "evidence": [
+        {
+          "quote": "持続可能燃料を含むクリーンエネルギーの活用は、自動車のみならず、運輸分野の脱炭素化やエネルギー安全保障等の観点から非常に重要と考えております。",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "solar_skeptic",
+    "label": "太陽光批判",
+    "confidence": 0.65,
+    "rationale": "脱炭素化・再エネ推進の必要性を認めつつ、太陽光の無秩序設置による景観・農地への懸念を示す。運輸・港湾分野では脱炭素推進に前向きだが、太陽光に対する慎重姿勢が目立つ。"
+  },
+  "engagement": {
+    "level": "medium",
+    "relevant_speech_count": 3
+  },
+  "flags": [
+    "国土交通大臣として、運輸・港湾分野の脱炭素化に関心あり",
+    "太陽光発電の景観・農地への懸念を基に慎重姿勢を示す"
+  ]
+}

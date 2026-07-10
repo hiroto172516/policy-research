@@ -1,0 +1,45 @@
+{
+  "member_id": "S-0026",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "economic_security": {
+      "stance": "strong_support",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "経済安全保障を目的としたＪＢＩＣの海外事業支援とそれに伴う地政学的リスク",
+          "source": "diet"
+        },
+        {
+          "quote": "サプライチェーンの強靱化に向け、国内企業の海外子会社等に対する融資機能の強化",
+          "source": "diet"
+        }
+      ]
+    },
+    "energy_policy": {
+      "stance": "cautious",
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "quote": "この原発のセキュリティーの問題ですね、セキュリティーの問題",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "low_engagement",
+    "label": "発言少・様子見",
+    "confidence": 0.75,
+    "rationale": "気候・エネルギー政策に関する実質的な発言が少ない。主な関心は経済安全保障、防衛、地政学的リスク。エネルギー政策についての言及は限定的で、原発セキュリティーのみ。"
+  },
+  "engagement": {
+    "level": "low",
+    "relevant_speech_count": 2
+  },
+  "flags": [
+    "主要関心は経済安保・防衛・地政学。エネルギー政策への言及は副次的",
+    "れいわ新選組所属"
+  ]
+}

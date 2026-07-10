@@ -1,0 +1,42 @@
+{
+  "member_id": "S-0120",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "decarbonization": {
+      "stance": "conditional_support",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "二〇五〇年までのカーボンニュートラルとともに、二〇三〇年度温室効果ガス四六％削減の実現を目指して",
+          "source": "diet"
+        }
+      ]
+    },
+    "nuclear": {
+      "stance": "conditional_support",
+      "confidence": 0.90,
+      "evidence": [
+        {
+          "quote": "我が国のエネルギー政策における原子力発電の今後の方向性について確認をさせていただきたいと思います。",
+          "source": "diet"
+        },
+        {
+          "quote": "可能な限り原発依存度を低減すると位置付けております。",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "nuclear_advocate",
+    "label": "原子力・安定供給重視",
+    "confidence": 0.80,
+    "rationale": "原子力の再稼働と安全規制について複数委員会で質問。カーボンニュートラル目標は支持するが、原発再稼働には地域住民理解を前提とする条件付き支持。福島の教訓を踏まえた慎重なアプローチを重視。農業・林業など食料安全保障とエネルギー自給の関連性を指摘。43件発言中、関連発言は限定的だが明確な政策立場。"
+  },
+  "engagement": {
+    "level": "medium",
+    "relevant_speech_count": 6
+  },
+  "flags": ["sensitive:原子力", "福島の復興支援", "食料自給率向上への関心"]
+}

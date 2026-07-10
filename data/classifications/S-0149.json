@@ -1,0 +1,31 @@
+{
+  "member_id": "S-0149",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "economic_security": {
+      "stance": "strong_support",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "quote": "この改正案には日本の戦略的不可欠性を伸ばすための施策が",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "econ_security_focus",
+    "label": "脱炭素関心薄・経済安保重視",
+    "confidence": 0.75,
+    "rationale": "経済安全保障・食料安全保障に強い関心。気候変動は農業・漁業への影響という文脈で言及するが、脱炭素エネルギー政策への専門的立場なし。発言の大半は農業・食料政策、経済安保、漁業問題に集中。エネルギー政策や再エネ・原子力についての直接的な議論なし"
+  },
+  "engagement": {
+    "level": "medium",
+    "relevant_speech_count": 4
+  },
+  "flags": [
+    "農業・食料政策・食料安全保障が発言の中心。気候・エネルギー政策の専門的議論は限定的",
+    "経済安全保障重視。気候変動は農業・漁業への影響の文脈でのみ言及"
+  ]
+}

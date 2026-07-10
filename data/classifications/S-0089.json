@@ -1,0 +1,72 @@
+{
+  "member_id": "S-0089",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "energy_policy": {
+      "stance": "strong_support",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "安価で安定的なエネルギー供給の確保をする、そして気候変動問題へ対応していくという、いわゆるＳプラス３Ｅでございますが、実現するため、あらゆる政策を総動員していく必要があると思っております。",
+          "source": "diet"
+        },
+        {
+          "quote": "徹底した省エネを実現できるよう、それを促進していくことでありますとか、あるいは再エネの最大限の導入や、先ほどお話があったような、安全性が確保された原子力の活用などを進めてきたところであります。",
+          "source": "diet"
+        }
+      ]
+    },
+    "renewables": {
+      "stance": "strong_support",
+      "confidence": 0.80,
+      "evidence": [
+        {
+          "quote": "再エネの最大限の導入や、先ほどお話があったような、安全性が確保された原子力の活用などを進めてきたところであります。",
+          "source": "diet"
+        }
+      ]
+    },
+    "nuclear": {
+      "stance": "conditional_support",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "安全性が確保された原子力の活用などを進めてきたところであります。",
+          "source": "diet"
+        },
+        {
+          "quote": "原子力規制委員会が、福島第一原発事故の反省を踏まえて、地震や津波、竜巻など自然災害への対策強化、電源や冷却、注水機能の多重化などを求めた新規制基準に適合すると認めない限り、原子力発電所の再稼働が認められることはないというのが政府の方針であります。",
+          "source": "diet"
+        }
+      ]
+    },
+    "decarbonization": {
+      "stance": "conditional_support",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "quote": "気候変動問題へ対応していくという、いわゆるＳプラス３Ｅでございますが、実現するため、あらゆる政策を総動員していく必要があると思っております。",
+          "source": "diet"
+        },
+        {
+          "quote": "二〇五〇年カーボンニュートラルの実現に向けてできる限りその発電比率を引き下げていく方針としておりますが、これは、委員からも御指摘ありましたが、安定供給の確保が大前提でございます。",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "nuclear_advocate",
+    "label": "原子力・安定供給重視",
+    "confidence": 0.75,
+    "rationale": "再エネの最大限導入を支持しつつも、原子力を安全性確保下で支持。エネルギー安定供給と脱炭素の両立を強調し、安定供給を大前提とする立場。S+3E（安全、安定供給、経済性、環境）の枠組みを採用"
+  },
+  "engagement": {
+    "level": "high",
+    "relevant_speech_count": 10
+  },
+  "flags": [
+    "sensitive:原子力"
+  ]
+}

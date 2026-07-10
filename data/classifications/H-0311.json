@@ -1,0 +1,52 @@
+{
+  "member_id": "H-0311",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "decarbonization": {
+      "stance": "conditional_support",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "quote": "脱炭素、そしてまたサーティー・バイ・サーティー、あるいはブルーオーシャン、そして最近ではサーキュラーエコノミー、こうした多くの課題を抱えておりますので",
+          "source": "diet"
+        }
+      ]
+    },
+    "economic_security": {
+      "stance": "strong_support",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "資源制約の観点。私は、経済安全保障の観点というふうにも言い換えることができるのではないかというふうに思います",
+          "source": "diet"
+        },
+        {
+          "quote": "資源が有限であるだけではなくて、資源の偏在性、そしてまた資源ナショナリズム、こうしたものが相まって、我々が欲しい資源に自由にアクセスする、その余地が小さくなっている、これが現実だというふうに思います",
+          "source": "diet"
+        }
+      ]
+    },
+    "energy_policy": {
+      "stance": "conditional_support",
+      "confidence": 0.70,
+      "evidence": [
+        {
+          "quote": "世界各国の大企業が、いろいろな分野で、自動車であっても半導体であっても、本当にしのぎを削っている。さらに、重要な物資については、政府としても、もうあからさまにてこ入れをしている、支援している",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "econ_security_focus",
+    "label": "脱炭素関心薄・経済安保重視",
+    "confidence": 0.75,
+    "rationale": "気候変動・脱炭素への直接的言及は限定的であり、サーキュラーエコノミー・資源循環を産業政策として位置付け。主な関心は経済安全保障、資源の安定供給、供給網の多角化。半導体、TSMC、産業支援に多くの質問。資源制約と資源ナショナリズムへの危機感が強い。"
+  },
+  "engagement": {
+    "level": "high",
+    "relevant_speech_count": 23
+  },
+  "flags": ["economic_security_primary"]
+}

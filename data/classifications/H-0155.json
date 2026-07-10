@@ -1,0 +1,28 @@
+{
+  "member_id": "H-0155",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "economic_security": {
+      "stance": "strong_support",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "原油輸入の九割以上を中東地域に依存しており",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "econ_security_focus",
+    "label": "脱炭素関心薄・経済安保重視",
+    "confidence": 0.80,
+    "rationale": "気候・エネルギー政策スタンスの発言が限定的。主な発言は経済安全保障、エネルギー自給率、外交、ODA等に関するもの。医療保険、ヘルスケア産業が関心領域。気候変動や脱炭素については言及が稀。中東エネルギー依存性への危機感、シーレーン安定化への関心が顕著。"
+  },
+  "engagement": {
+    "level": "low",
+    "relevant_speech_count": 5
+  },
+  "flags": ["limited_energy_focus", "medical_background"]
+}

@@ -1,0 +1,84 @@
+{
+  "member_id": "H-0408",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "solar": {
+      "stance": "conditional_support",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "太陽光パネルのリサイクルの大きな課題は、やはり普通の処分とリサイクルの処分の価格差が非常に大きいということ",
+          "source": "diet"
+        }
+      ]
+    },
+    "decarbonization": {
+      "stance": "strong_support",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "浄化槽システムの脱炭素化推進事業について質問いたしました",
+          "source": "diet"
+        }
+      ]
+    },
+    "renewables": {
+      "stance": "strong_support",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "再エネの普及もできませんし、本当にこれ、続けていかなきゃいけないという大きな命題もございまして",
+          "source": "diet"
+        }
+      ]
+    },
+    "ev": {
+      "stance": "strong_support",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "脱中東依存そして脱石油だというふうに思います",
+          "source": "diet"
+        }
+      ]
+    },
+    "economic_security": {
+      "stance": "strong_support",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "日本は、陸地では世界で六十二位、しかしＥＥＺでは六位になっている",
+          "source": "diet"
+        }
+      ]
+    },
+    "energy_policy": {
+      "stance": "conditional_support",
+      "confidence": 0.80,
+      "evidence": [
+        {
+          "quote": "我が党は再エネ賦課金の廃止に取り組んでいます",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "renewable_champion",
+    "label": "再エネ積極支持",
+    "confidence": 0.82,
+    "rationale": "再生可能エネルギー・脱炭素化・EV化を強く支持。ただし太陽光については環境破壊・安全保障・リサイクルコストの懸念から条件付き。EV化と全固体電池技術に注力。経済安全保障（海洋資源開発）への関心も高い。環境と経済のバランスを重視する姿勢が特徴。42件の関連発言あり"
+  },
+  "engagement": {
+    "level": "high",
+    "relevant_speech_count": 42
+  },
+  "flags": [
+    "focus:太陽光リサイクル",
+    "focus:EV化・全固体電池",
+    "focus:海洋資源開発",
+    "focus:データセンター電力",
+    "concern:環境破壊"
+  ]
+}

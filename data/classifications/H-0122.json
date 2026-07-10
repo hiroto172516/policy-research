@@ -3,27 +3,43 @@
   "classified_by": "claude_code",
   "axes_version": "0.2",
   "topics": {
-    "renewables": {
-      "stance": "strong_support",
-      "confidence": 0.8,
-      "evidence": [
-        {
-          "quote": "再生可能エネルギーをしっかりと大きく進めていく"
-        },
-        {
-          "quote": "再生可能エネルギーから生み出す"
-        }
-      ]
-    },
-    "nuclear": {
-      "stance": "cautious",
+    "decarbonization": {
+      "stance": "conditional_support",
       "confidence": 0.7,
       "evidence": [
         {
-          "quote": "原発依存から脱却"
-        },
+          "quote": "気候変動に悪影響を与えるなどの様々な問題が生じ",
+          "source": "diet"
+        }
+      ]
+    },
+    "solar": {
+      "stance": "conditional_support",
+      "confidence": 0.8,
+      "evidence": [
         {
-          "quote": "このままただ原発に依存する"
+          "quote": "埋立処分費用とリサイクル費用について詳細な調査",
+          "source": "diet"
+        }
+      ]
+    },
+    "renewables": {
+      "stance": "strong_support",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "再生可能エネルギーをしっかりと推進するということ",
+          "source": "diet"
+        }
+      ]
+    },
+    "energy_policy": {
+      "stance": "conditional_support",
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "quote": "マテリアルリサイクルを本当に進めようとするのであれば",
+          "source": "diet"
         }
       ]
     }
@@ -31,14 +47,15 @@
   "archetype": {
     "id": "renewable_champion",
     "label": "再エネ積極支持",
-    "confidence": 0.7,
-    "rationale": "福島の再エネ100%目標を推進、原発依存からの脱却を主張。"
+    "confidence": 0.8,
+    "rationale": "脱炭素・再生可能エネルギーに積極的。福島の再エネ100%以上目標を強く推進。太陽光パネルについても、リサイクル体制の整備を通じて推進する条件付き支持。環境問題全般・サーキュラーエコノミーに詳しく関心が高い。"
   },
   "engagement": {
     "level": "high",
-    "relevant_speech_count": 11
+    "relevant_speech_count": 23
   },
   "flags": [
-    "sensitive:原子力"
+    "sensitive:原子力",
+    "福島県選出・原発被災地支援に強い関心"
   ]
 }

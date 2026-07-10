@@ -1,0 +1,19 @@
+{
+  "member_id": "H-0054",
+  "classified_by": "auto_keyword_filter",
+  "axes_version": "0.2",
+  "topics": {},
+  "archetype": {
+    "id": "low_engagement",
+    "label": "発言少・様子見",
+    "confidence": 1.0,
+    "rationale": "収集発言・X投稿に評価軸トピックのキーワードが1件も含まれず、判定材料が無いため自動判定。"
+  },
+  "engagement": {
+    "level": "none",
+    "relevant_speech_count": 0
+  },
+  "flags": [
+    "auto:キーワードマッチなし（Claude Codeによる読解は未実施）"
+  ]
+}

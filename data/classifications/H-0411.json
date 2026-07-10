@@ -1,0 +1,62 @@
+{
+  "member_id": "H-0411",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "decarbonization": {
+      "stance": "strong_support",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "カーボンニュートラルの達成もございまして、世界的にエネルギーの政策が大きく変わってきていると思います。",
+          "source": "diet"
+        }
+      ]
+    },
+    "renewables": {
+      "stance": "conditional_support",
+      "confidence": 0.72,
+      "evidence": [
+        {
+          "quote": "原発の稼働率、利用率を上げていく、また、再生可能エネルギーの導入を増やしていくしかございません。",
+          "source": "diet"
+        }
+      ]
+    },
+    "nuclear": {
+      "stance": "strong_support",
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "quote": "原子力政策が我が国の将来を決めると言っても過言ではないのではないかと思います。",
+          "source": "diet"
+        },
+        {
+          "quote": "原発の重要度は増しているというふうに思います。",
+          "source": "diet"
+        }
+      ]
+    },
+    "energy_policy": {
+      "stance": "strong_support",
+      "confidence": 0.78,
+      "evidence": [
+        {
+          "quote": "この法律案につきまして、当然、賛成の立場でございますし、その立場から本法律案につきまして",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "nuclear_advocate",
+    "label": "原子力・安定供給重視",
+    "confidence": 0.92,
+    "rationale": "脱炭素化・GX推進に強い支持。特に原子力の重要性・稼働率向上について詳細に質問・主張。エネルギー安定供給と脱炭素を両立させるため、原発と再エネの組み合わせを重視。経済安全保障の視点からエネルギー自給も強調。24件発言中14件が気候・エネルギー関連。"
+  },
+  "engagement": {
+    "level": "high",
+    "relevant_speech_count": 14
+  },
+  "flags": ["sensitive:原子力", "GX実現・脱炭素電源法案に関わる"]
+}

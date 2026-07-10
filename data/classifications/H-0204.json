@@ -1,0 +1,65 @@
+{
+  "member_id": "H-0204",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "decarbonization": {
+      "stance": "neutral_unknown",
+      "confidence": 0.4,
+      "evidence": []
+    },
+    "renewables": {
+      "stance": "cautious",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "quote": "生態系に影響を与えるような環境リスクのある行き過ぎた再生可能エネルギーの推進には反対",
+          "source": "diet"
+        }
+      ]
+    },
+    "solar": {
+      "stance": "opposed",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "quote": "太陽光発電設備、特に大規模なメガソーラーについては、森林伐採、災害リスク、景観の悪化、地域住民への影響など、多くの懸念",
+          "source": "diet"
+        },
+        {
+          "quote": "リサイクルの仕組みが整ったからといって、太陽光発電設備の更なる設置拡大が正当化されるものではありません",
+          "source": "diet"
+        }
+      ]
+    },
+    "economic_security": {
+      "stance": "neutral_unknown",
+      "confidence": 0.3,
+      "evidence": []
+    },
+    "energy_policy": {
+      "stance": "cautious",
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "quote": "参政党は、エネルギー政策を考えるに当たって、単に発電量を追うのではなく、日本の国土、水源、そして地域住民の暮らしを守ることを最優先に据えるべき",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "solar_skeptic",
+    "label": "太陽光批判",
+    "confidence": 0.85,
+    "rationale": "脱炭素全般は否定しないが、太陽光・風力には慎重〜反対。環境保全（水源保全、森林破壊、生態系）を重視し、メガソーラーと風力発電の環境リスクを詳細に指摘。"
+  },
+  "engagement": {
+    "level": "high",
+    "relevant_speech_count": 32
+  },
+  "flags": [
+    "環境保全・水源保全が重要な関心事",
+    "参政党の脱炭素政策批判の代表者"
+  ]
+}

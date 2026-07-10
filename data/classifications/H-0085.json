@@ -1,0 +1,50 @@
+{
+  "member_id": "H-0085",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "economic_security": {
+      "stance": "strong_support",
+      "confidence": 0.96,
+      "evidence": [
+        {
+          "quote": "レアアースについて、やはり中国は九二年から取り組んでおります",
+          "source": "diet"
+        },
+        {
+          "quote": "希土類が必要だ。米国国防総省の来年一月からの調達のガイドライン",
+          "source": "diet"
+        },
+        {
+          "quote": "政府が法律に基づき、対象物資、対象地域、優先順位、数量、期間",
+          "source": "diet"
+        }
+      ]
+    },
+    "energy_policy": {
+      "stance": "conditional_support",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "quote": "今やっていることは、石油備蓄法に基づいてこれは備蓄放出している",
+          "source": "diet"
+        },
+        {
+          "quote": "シェールガスは、値段が上がってくれば採算が合うから、たくさん出せる",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "econ_security_focus",
+    "label": "脱炭素関心薄・経済安保重視",
+    "confidence": 0.91,
+    "rationale": "経済安全保障・レアアース・希土類・サプライチェーン重視。脱炭素への直接言及は限定的。価格転嫁・中小企業支援に注力。"
+  },
+  "engagement": {
+    "level": "high",
+    "relevant_speech_count": 14
+  },
+  "flags": []
+}

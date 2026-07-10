@@ -1,0 +1,91 @@
+{
+  "member_id": "H-0357",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "decarbonization": {
+      "stance": "strong_support",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "quote": "脱炭素、ＣＯ2の削減であります",
+          "source": "diet"
+        }
+      ]
+    },
+    "renewables": {
+      "stance": "strong_support",
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "quote": "洋上風力発電が商業ベースで、今、日本で一番進んでいます",
+          "source": "diet"
+        }
+      ]
+    },
+    "nuclear": {
+      "stance": "neutral_unknown",
+      "confidence": 0.5,
+      "evidence": [
+        {
+          "quote": "好きか嫌いかは別にして、原発もあります",
+          "source": "diet"
+        }
+      ]
+    },
+    "power_demand_ai": {
+      "stance": "strong_support",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "生産効率性を高めるためにＡＩは絶対に必要なんですが、圧倒的に電力を消費いたします",
+          "source": "diet"
+        }
+      ]
+    },
+    "ev": {
+      "stance": "conditional_support",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "quote": "ドローンでスマート農業をしたり自動運転をしたりという",
+          "source": "diet"
+        }
+      ]
+    },
+    "economic_security": {
+      "stance": "strong_support",
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "quote": "経済安全保障上重要な分野において、連携国とのつながりというのは",
+          "source": "diet"
+        }
+      ]
+    },
+    "energy_policy": {
+      "stance": "strong_support",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "ワット・ビット連携のＧＸ二〇四〇ビジョンとの整合性をどうするか",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "renewable_champion",
+    "label": "再エネ積極支持",
+    "confidence": 0.75,
+    "rationale": "脱炭素・GX2040への強い支持、洋上風力発電への積極的支持、地熱発電への高い関心。ただし経済安全保障・エネルギー自給も同等レベルで重視しており、純粋な再エネ推進者というより『脱炭素×経済安保を統合的に推進する戦略的議員』の特性も有す"
+  },
+  "engagement": {
+    "level": "high",
+    "relevant_speech_count": 21
+  },
+  "flags": [
+    "sensitive:原子力",
+    "多分野統合型：経済安保・脱炭素・エネルギー自給を一体的に議論"
+  ]
+}

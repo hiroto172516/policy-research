@@ -121,11 +121,48 @@ def load_x_posts(mid: str) -> list[dict]:
     return json.loads(xp_path.read_text(encoding="utf-8")).get("posts", [])
 
 
+def collect_keywords(axes: dict) -> list[str]:
+    """axes.yml の全トピックの retrieval_keywords を集約（重複除去）。"""
+    kws: list[str] = []
+    seen = set()
+    for t in axes["topics"]:
+        for k in t.get("retrieval_keywords", []):
+            if k not in seen:
+                seen.add(k)
+                kws.append(k)
+    return kws
+
+
+def filter_relevant(items: list[dict], text_key: str, keywords: list[str]) -> list[dict]:
+    """本文にトピックキーワードを1つも含まない項目を除外する（無関係発言のノイズ削減）。
+    quote自体は元テキストからそのまま採るため、この絞り込みは検証(quote実在チェック)の安全性に影響しない。"""
+    return [it for it in items if any(k in (it.get(text_key) or "") for k in keywords)]
+
+
+def write_auto_low_engagement(mid: str, axes: dict) -> None:
+    """関連キーワードが1件も無い議員は、Claude Codeを介さず機械的に low_engagement を記録する。
+    根拠quoteが存在しない（＝判定材料が無い）ケースなので、捏造を避けるための安全側の自動化。"""
+    rec = {
+        "member_id": mid,
+        "classified_by": "auto_keyword_filter",
+        "axes_version": axes.get("meta", {}).get("version"),
+        "topics": {},
+        "archetype": {"id": "low_engagement", "label": "発言少・様子見", "confidence": 1.0,
+                      "rationale": "収集発言・X投稿に評価軸トピックのキーワードが1件も含まれず、判定材料が無いため自動判定。"},
+        "engagement": {"level": "none", "relevant_speech_count": 0},
+        "flags": ["auto:キーワードマッチなし（Claude Codeによる読解は未実施）"],
+    }
+    (common.CLASSIFICATIONS / f"{mid}.json").write_text(
+        json.dumps(rec, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--member")
     ap.add_argument("--sources", default="diet,x",
                     help="ワークシートに含めるソース。カンマ区切り: diet,x")
+    ap.add_argument("--no-filter", action="store_true",
+                     help="キーワード絞り込みをせず全発言をワークシートに含める（従来動作）")
     args = ap.parse_args()
 
     common.ensure_dirs()
@@ -133,6 +170,7 @@ def main() -> int:
     ws_dir.mkdir(exist_ok=True)
     axes = common.load_axes()
     roster = {r["member_id"]: r for r in common.load_roster()}
+    keywords = collect_keywords(axes)
 
     sources = {s.strip() for s in args.sources.split(",") if s.strip()}
     target_ids = set()
@@ -145,15 +183,23 @@ def main() -> int:
         print("収集済みデータがありません。先に fetch_speeches.py / fetch_x.py を実行してください。", file=sys.stderr)
         return 1
 
+    n_ws, n_auto = 0, 0
     for mid in targets:
         member = roster.get(mid, {"member_id": mid})
         speeches = load_speeches(mid) if "diet" in sources else []
         x_posts = load_x_posts(mid) if "x" in sources else []
+        if not args.no_filter:
+            speeches = filter_relevant(speeches, "speech", keywords)
+            x_posts = filter_relevant(x_posts, "text", keywords)
         if not speeches and not x_posts:
+            write_auto_low_engagement(mid, axes)
+            n_auto += 1
             continue
         (ws_dir / f"{mid}.md").write_text(build_worksheet(member, axes, speeches, x_posts), encoding="utf-8")
+        n_ws += 1
         print(f"{mid}: ワークシート生成（議事録{len(speeches)}件/X{len(x_posts)}件）-> output/worksheets/{mid}.md")
-    print("\n→ Claude Code が各ワークシートを読み、data/classifications/<mid>.json を作成。"
+    print(f"\nワークシート生成: {n_ws}名 / キーワード無マッチで自動low_engagement: {n_auto}名")
+    print("→ Claude Code が各ワークシートを読み、data/classifications/<mid>.json を作成。"
           "\n  その後 validate_classifications.py で検証してください。")
     return 0
 

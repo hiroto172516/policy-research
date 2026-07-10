@@ -1,0 +1,45 @@
+{
+  "member_id": "H-0270",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "solar": {
+      "stance": "conditional_support",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "quote": "営農型太陽光発電は、地球環境問題への貢献、地域課題の解決とともに、農業者の所得向上など農業の魅力向上にも資するものとして、近年、全国的にも導入が進みつつあります",
+          "source": "diet"
+        },
+        {
+          "quote": "農地への太陽光発電導入はあくまでも営農の継続が基本であるべき",
+          "source": "diet"
+        }
+      ]
+    },
+    "decarbonization": {
+      "stance": "conditional_support",
+      "confidence": 0.70,
+      "evidence": [
+        {
+          "quote": "気候変動、こうした中で、食料安全保障を確保する上からも、新たな品種の開発の重要性というのがますます高まっている",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "solar_skeptic",
+    "label": "太陽光批判",
+    "confidence": 0.60,
+    "rationale": "営農型太陽光発電を推進しつつも、農業継続が基本という条件付きスタンス。気候変動対応は認めるが、食糧安全保障・農業維持を優先。脱炭素よりも農業の持続可能性を重視。"
+  },
+  "engagement": {
+    "level": "medium",
+    "relevant_speech_count": 2
+  },
+  "flags": [
+    "営農型太陽光発電については条件付き支持（農業継続が前提）",
+    "発言内容は主に農林水産政策に集中。気候・エネルギー政策への言及は限定的"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "member_id": "S-0208",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "decarbonization": {
+      "stance": "strong_support",
+      "confidence": 0.90,
+      "evidence": [
+        {
+          "quote": "二〇五〇年カーボンニュートラルを実現するためには、領海及び内水における海洋再生可能エネルギー発電設備の整備に加え、我が国の排他的経済水域における海洋再生可能エネルギー源の適正な利用を図る",
+          "source": "diet"
+        },
+        {
+          "quote": "二〇三〇年までに一千万キロワット、二〇四〇年までに三千万から四千五百万キロワットの案件形成を目指しております",
+          "source": "diet"
+        }
+      ]
+    },
+    "renewables": {
+      "stance": "strong_support",
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "quote": "洋上風力発電というのは、再生可能エネルギーの主力電源化に向けました切り札であると考えてございます。",
+          "source": "diet"
+        },
+        {
+          "quote": "洋上風力発電のＥＥＺ展開を重点戦略の重要ミッションの一つとして位置づけているところでもございます。",
+          "source": "diet"
+        }
+      ]
+    },
+    "economic_security": {
+      "stance": "strong_support",
+      "confidence": 0.88,
+      "evidence": [
+        {
+          "quote": "脱炭素に資するのみならず、我が国で生産可能なエネルギー源でもございますし、経済安全保障上も重要でございます。",
+          "source": "diet"
+        },
+        {
+          "quote": "広大な管轄海域を有する我が国にとりましては、海洋資源の開発でありますとか、また海上開発ビジネスの推進は、他国に過度に依存せず、我が国の経済社会活動を維持強化していく観点から、経済安全保障上、大変重要であると考えております。",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "renewable_champion",
+    "label": "再エネ積極支持",
+    "confidence": 0.90,
+    "rationale": "大臣として洋上風力発電・再エネ・2050年カーボンニュートラルについて一貫して積極的に推進。脱炭素目標の具体的実現手段（洋上風力EEZ展開、2030/2040/2050年目標）を明示。経済安全保障とも結合させた戦略的支持。地域経済・雇用創出効果も重視。22件発言中15件が気候・エネルギー関連。政策主導者として位置付けられる。"
+  },
+  "engagement": {
+    "level": "high",
+    "relevant_speech_count": 15
+  },
+  "flags": ["government_minister", "marine_renewable_specialist", "integrated_decarbonization_security_strategy", "eez_expansion_advocate"]
+}

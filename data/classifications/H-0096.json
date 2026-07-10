@@ -1,0 +1,48 @@
+{
+  "member_id": "H-0096",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "decarbonization": {
+      "stance": "conditional_support",
+      "confidence": 0.72,
+      "evidence": [
+        {
+          "quote": "このままのペースでいったらなかなか難しい",
+          "source": "diet"
+        }
+      ]
+    },
+    "energy_policy": {
+      "stance": "neutral_unknown",
+      "confidence": 0.55,
+      "evidence": [
+        {
+          "quote": "脱炭素化社会構築の観点から、こういったディーゼル",
+          "source": "diet"
+        }
+      ]
+    },
+    "ev": {
+      "stance": "conditional_support",
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "quote": "これが一番現実的なカーボンニュートラルへの近道かな",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "renewable_champion",
+    "label": "再エネ積極支持",
+    "confidence": 0.58,
+    "rationale": "脱炭素化への基本的な支持姿勢を示しているが、実現方法には現実的・慎重なアプローチ。環境への関心は高いが、エネルギー政策全般では中立的。38件の発言中、気候・エネルギー関連の発言は複数あるが、具体的な政策立場は限定的。"
+  },
+  "engagement": {
+    "level": "medium",
+    "relevant_speech_count": 12
+  },
+  "flags": []
+}

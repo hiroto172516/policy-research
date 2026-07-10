@@ -1,0 +1,48 @@
+{
+  "member_id": "H-0384",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "economic_security": {
+      "stance": "strong_support",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "国防に直結するような、そういう技術になるという場合には、きちっと考えていっていただきたいというふうに要望したいと思います",
+          "source": "diet"
+        }
+      ]
+    },
+    "energy_policy": {
+      "stance": "cautious",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "quote": "安定供給、そして安価にみんなが使える、このことがやはり産業を支える上で非常に重要になってくると思います",
+          "source": "diet"
+        }
+      ]
+    },
+    "decarbonization": {
+      "stance": "neutral_unknown",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "quote": "必ずしも我々も脱炭素の取組全てを決して否定しているわけではありませんが",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "econ_security_focus",
+    "label": "脱炭素関心薄・経済安保重視",
+    "confidence": 0.82,
+    "rationale": "脱炭素への懐疑的態度を示す一方、経済安全保障・エネルギー自給・サプライチェーン強化を強く主張。産業競争力と国民負担のバランスを重視。35件の発言あり"
+  },
+  "engagement": {
+    "level": "high",
+    "relevant_speech_count": 35
+  },
+  "flags": []
+}

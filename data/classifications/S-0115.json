@@ -1,0 +1,35 @@
+{
+  "member_id": "S-0115",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "economic_security": {
+      "stance": "strong_support",
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "quote": "改めて言うまでもありませんが、経済安全保障を推進するにはこの経済インテリジェンス能力を国全体として高めていく、この必要があろうかと思います。そのためには国の積極的な取組が求められるということになるわけですが",
+          "source": "diet"
+        },
+        {
+          "quote": "昨今のこの日本を取り囲む国際環境も大きく変わり、また不安定化し、そして、いわゆる経済的威圧による脅威の増大などなど、我が国の経済力を支える産業技術基盤に対するリスクは増大をしてきています。したがって、この経済安全保障の重要性はますます高まっていると言ってもいいかと思っています。",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "low_engagement",
+    "label": "発言少・様子見",
+    "confidence": 0.85,
+    "rationale": "エネルギー・気候変動政策における関連発言がゼロ。経済安全保障、特に海底ケーブル・重要鉱物サプライチェーン・情報セキュリティに特化。気候・エネルギー政策分野では発言なし。どちらにも動きうるため監視対象に残す。"
+  },
+  "engagement": {
+    "level": "none",
+    "relevant_speech_count": 0
+  },
+  "flags": [
+    "focus:経済安全保障・インテリジェンス",
+    "climate_energy_policy:no_statements"
+  ]
+}

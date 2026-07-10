@@ -1,0 +1,80 @@
+{
+  "member_id": "H-0153",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "decarbonization": {
+      "stance": "strong_support",
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "quote": "気候変動を始めといたします環境問題の解決のためにも大変意義",
+          "source": "diet"
+        },
+        {
+          "quote": "二〇五〇年のカーボンニュートラルの実現を目指してまいりたい",
+          "source": "diet"
+        }
+      ]
+    },
+    "renewables": {
+      "stance": "strong_support",
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "quote": "再エネ最大限導入と地域内経済循環を実現するといった事例",
+          "source": "diet"
+        },
+        {
+          "quote": "再エネ導入による効果を活用した交流人口の増加、町のにぎわい",
+          "source": "diet"
+        }
+      ]
+    },
+    "solar": {
+      "stance": "neutral_unknown",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "quote": "太陽光パネルやリチウム蓄電池といった分離回収が困難な廃棄物",
+          "source": "diet"
+        }
+      ]
+    },
+    "economic_security": {
+      "stance": "strong_support",
+      "confidence": 0.93,
+      "evidence": [
+        {
+          "quote": "経済安全保障など様々な社会的課題の解決に貢献するものでございまして",
+          "source": "diet"
+        },
+        {
+          "quote": "経済安全保障に貢献できるものというふうに考えております",
+          "source": "diet"
+        }
+      ]
+    },
+    "energy_policy": {
+      "stance": "strong_support",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "quote": "地域脱炭素は地方の成長戦略として地域の強みを生かした地域の課題解決",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "renewable_champion",
+    "label": "再エネ積極支持",
+    "confidence": 0.88,
+    "rationale": "脱炭素・再エネ導入に積極的で、地域脱炭素を成長戦略として推進。経済安保と脱炭素を両立させる立場。36件の高い関心度。"
+  },
+  "engagement": {
+    "level": "high",
+    "relevant_speech_count": 36
+  },
+  "flags": []
+}

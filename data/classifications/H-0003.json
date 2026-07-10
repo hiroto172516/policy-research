@@ -1,0 +1,21 @@
+{
+  "member_id": "H-0003",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {},
+  "archetype": {
+    "id": "low_engagement",
+    "label": "発言少・様子見",
+    "confidence": 0.95,
+    "rationale": "17件の発言は全てODA戦略化・経済安全保障に関するもの。気候変動・脱炭素・エネルギー政策については言及なし。JCLP関連トピックに対する関心・スタンスは判定できない。"
+  },
+  "engagement": {
+    "level": "none",
+    "relevant_speech_count": 0
+  },
+  "flags": [
+    "no_climate_energy_mentions",
+    "focus:economic_security_oda",
+    "all_speeches_unrelated_to_policy_scope"
+  ]
+}

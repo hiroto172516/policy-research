@@ -1,0 +1,78 @@
+{
+  "member_id": "H-0348",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "decarbonization": {
+      "stance": "conditional_support",
+      "confidence": 0.80,
+      "evidence": [
+        {
+          "quote": "脱炭素を達成するためには現実的に見て原子力は不可欠",
+          "source": "diet"
+        }
+      ]
+    },
+    "renewables": {
+      "stance": "conditional_support",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "quote": "再エネ自体に異を唱えるものではありません",
+          "source": "diet"
+        }
+      ]
+    },
+    "solar": {
+      "stance": "cautious",
+      "confidence": 0.80,
+      "evidence": [
+        {
+          "quote": "太陽光の問題でございまして、土地の問題であったり、廃棄パネルの処分の懸念",
+          "source": "diet"
+        }
+      ]
+    },
+    "nuclear": {
+      "stance": "strong_support",
+      "confidence": 0.90,
+      "evidence": [
+        {
+          "quote": "脱炭素を達成するためには現実的に見て原子力は不可欠であります",
+          "source": "diet"
+        }
+      ]
+    },
+    "economic_security": {
+      "stance": "strong_support",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "中国の事業者が土地を取得をしてきている",
+          "source": "diet"
+        }
+      ]
+    },
+    "energy_policy": {
+      "stance": "conditional_support",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "quote": "エネルギーというのは安定供給が最も重要なファクターである",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "nuclear_advocate",
+    "label": "原子力・安定供給重視",
+    "confidence": 0.92,
+    "rationale": "原子力を脱炭素達成のため不可欠と明言。2040年20%目標の達成を強く支持。再エネについては条件付き支持（安定供給課題を指摘）。太陽光の環境・安保上の課題に懸念。サプライチェーン維持と人材確保を強調。"
+  },
+  "engagement": {
+    "level": "high",
+    "relevant_speech_count": 21
+  },
+  "flags": ["sensitive:原子力"]
+}

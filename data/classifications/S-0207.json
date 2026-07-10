@@ -1,0 +1,66 @@
+{
+  "member_id": "S-0207",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "economic_security": {
+      "stance": "strong_support",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "半導体という産業の中で復活をしていくというのが一番大事なところかなと思っております",
+          "source": "diet"
+        },
+        {
+          "quote": "経済安全保障ということにつながっていくと思うんですが",
+          "source": "diet"
+        }
+      ]
+    },
+    "solar": {
+      "stance": "cautious",
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "quote": "太陽光、地域トラブルもたくさんあるということで、実際私も",
+          "source": "diet"
+        },
+        {
+          "quote": "メガソーラーというのが設置をされておりまして",
+          "source": "diet"
+        }
+      ]
+    },
+    "power_demand_ai": {
+      "stance": "neutral_unknown",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "quote": "ＡＩなどのＤＸによって消費電力が増えていく",
+          "source": "diet"
+        }
+      ]
+    },
+    "renewables": {
+      "stance": "conditional_support",
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "quote": "フュージョンエネルギーも進めていただきたいなと思っています",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "econ_security_focus",
+    "label": "脱炭素関心薄・経済安保重視",
+    "confidence": 0.8,
+    "rationale": "半導体・レアアース・経済安全保障に強い関心。太陽光については地域問題への懸念を示す。脱炭素への全般的な関心は中程度。"
+  },
+  "engagement": {
+    "level": "medium",
+    "relevant_speech_count": 8
+  },
+  "flags": []
+}

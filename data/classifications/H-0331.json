@@ -1,0 +1,32 @@
+{
+  "member_id": "H-0331",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "economic_security": {
+      "stance": "conditional_support",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "サプライチェーン、ここにリスクがないのかというところを見極める",
+          "source": "diet"
+        },
+        {
+          "quote": "サプライチェーンのリスクというところをいま一度見詰め直すときではないかなと思っております",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "low_engagement",
+    "label": "発言少・様子見",
+    "confidence": 0.89,
+    "rationale": "気候・エネルギー関連発言がほぼなし。主たる発言はインテリジェンス改革・安全保障。サプライチェーンリスク論もあるが限定的。気候政策スタンス不明。"
+  },
+  "engagement": {
+    "level": "low",
+    "relevant_speech_count": 2
+  },
+  "flags": ["気候・エネルギー政策に直接言及なし。主発言分野はインテリジェンス改革。"]
+}

@@ -1,0 +1,112 @@
+{
+  "member_id": "H-0263",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "decarbonization": {
+      "stance": "strong_support",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "カーボンニュートラルという世界的な課題もございます。大きな転換点を自動車自体も迎えている",
+          "source": "diet"
+        },
+        {
+          "quote": "脱炭素化と産業の成長というのを両立させなきゃいけないので、これはすごく難しい課題だと思っていますけれども、これを成功させることができれば勝機となることができると思います",
+          "source": "diet"
+        }
+      ]
+    },
+    "renewables": {
+      "stance": "strong_support",
+      "confidence": 0.88,
+      "evidence": [
+        {
+          "quote": "再エネの急増によって、物理的に送れないとか、安定して流せないという制約が生じていると思っておりまして、再エネ導入拡大にまつわる課題は多々あるんですけれども",
+          "source": "diet"
+        },
+        {
+          "quote": "政府として、系統整備を国家のインフラ戦略なんだと位置づけて、スピード感を持って取り組むことを強く求めたい",
+          "source": "diet"
+        }
+      ]
+    },
+    "solar": {
+      "stance": "strong_support",
+      "confidence": 0.82,
+      "evidence": [
+        {
+          "quote": "次世代型太陽電池、ペロブスカイトを取り上げます",
+          "source": "diet"
+        },
+        {
+          "quote": "軽くて薄い、曲げることができる、そして材料が日本でたくさん取れる、そして製造工程が少ない、この三つがあって、もう本当に魅力的な新しい技術だなと思うわけですけれども",
+          "source": "diet"
+        }
+      ]
+    },
+    "nuclear": {
+      "stance": "cautious",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "quote": "原子力については、これも地元でいろいろなお話を伺うんですけれども、原子力の安全というところでいうと、イデオロギーを含めてどこまでが安全なのかとか、いろいろ意見が分かれるところがあって、なかなか平行線のままであるんですけれども",
+          "source": "diet"
+        },
+        {
+          "quote": "原子力のごみの問題においてはやはり皆さん共通の課題を持っていらっしゃって、そこも非常に問題であると",
+          "source": "diet"
+        }
+      ]
+    },
+    "power_demand_ai": {
+      "stance": "neutral_unknown",
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "quote": "ラピダスの工場とデータセンターによりまして北海道の電力需要が増すことは確実であります。電力の供給体制をどのように万全にしているのか",
+          "source": "diet"
+        }
+      ]
+    },
+    "ev": {
+      "stance": "strong_support",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "quote": "全固体電池というのは、ＥＶ車の性能を上げるためのものとして開発をされております",
+          "source": "diet"
+        }
+      ]
+    },
+    "energy_policy": {
+      "stance": "strong_support",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "日本のエネルギー供給体制の自給率を上げることがやはり重要と思っております",
+          "source": "diet"
+        },
+        {
+          "quote": "脱炭素が実現していくためには発電政策と系統政策を一体で進めることが非常に重要と私は思っております",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "renewable_champion",
+    "label": "再エネ積極支持",
+    "confidence": 0.83,
+    "rationale": "再生可能エネルギー・脱炭素に積極的で、ペロブスカイト太陽電池など先端技術の推進を強調。系統整備・蓄電池・全固体電池など、再エネの実装に必要なインフラ整備に強い関心。太陽光にも肯定的。59件の国会会議録にて一貫した再エネ拡大・脱炭素推進の立場"
+  },
+  "engagement": {
+    "level": "high",
+    "relevant_speech_count": 59
+  },
+  "flags": [
+    "国民民主党所属議員",
+    "気候・エネルギー政策に対する高い専門性と関心を示す",
+    "原子力については慎重なスタンス（ただし絶対反対ではなく、安全性と最終処分の課題を重視）"
+  ]
+}

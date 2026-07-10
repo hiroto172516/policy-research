@@ -3,7 +3,7 @@
 > 目的: 国会議員（与党全員）の気候・エネルギー政策スタンスを収集→類型化→会議体別に可視化し、
 > JCLPの政策エンゲージメント戦略の基礎情報にする（→ `../ヒアリング結果メモ.md` / `../政策調査_進め方設計メモ.md`）。
 > **このファイルは新規セッションでの引き継ぎ用。作業したら必ず更新すること。**
-> 最終更新: 2026-07-09（★会議録：**ローカル環境で直結が通ることを確認**し、全713名の発言を一括取得・73,328件）
+> 最終更新: 2026-07-09（★分類（STEP3後半）着手：キーワード絞り込み＋Haikuサブエージェント並列で308/713名まで進行中・作業中断）
 
 ---
 
@@ -13,7 +13,7 @@
 |------|------|------|--------|
 | STEP1 | 議員マスター名簿 | 🟢 **公開データで取れる列は完了**（部会/参経歴は公開なし＝要外部データ） | `data/roster.csv`（713名・実データ） |
 | STEP2 | 評価軸の設定ファイル化 | 🟢 v0.2メモ準拠（**要JCLPレビュー**）＋影響力Tier算出済 | `config/axes.yml` / `docs/axes_design.md` |
-| STEP3 | 収集＋類型化 | 🟢 **会議録は713名全件取得済**（73,328件）／X投稿はパイロット20名のみ／分類はパイロット10名のみ | `fetch_speeches.py`（--via direct）/ `fetch_x.py` / `classify.py` |
+| STEP3 | 収集＋類型化 | 🟡 会議録713名全件取得済（73,328件）。**分類は308/713名まで進行中**（自動low_engagement206＋実分類102）／X投稿はパイロット20名のみ | `fetch_speeches.py`（--via direct）/ `fetch_x.py` / `classify.py` |
 | STEP4 | 会議体別 集計・可視化 | 🟢 **実データで実証**（分類済/全体を明示） | `scripts/aggregate.py` / `visualize.py` |
 | STEP5 | 定期収集の運用化 | ⚪ 未着手 | （cron / `/loop`） |
 
@@ -172,6 +172,69 @@ python3 scripts/visualize.py
 ---
 
 ## 6. 意思決定ログ / 未解決事項（申し送り）
+
+- **[進捗/中断 2026-07-09]** ★**STEP3後半（分類）に着手・308/713名まで進行して中断**（続きは次回セッションで再開）。
+  経緯・現状・再開手順は以下の通り。
+
+  **① ワークシート軽量化（`classify.py` 改修）**: 会議録713名分（当初95MB・平均155KB/名）をそのままエージェントに
+  読ませるのは非現実的なため、`axes.yml` の `retrieval_keywords` で発言本文をフィルタし、無関係発言を除外する
+  機能を追加（`collect_keywords()` / `filter_relevant()`）。結果、対象507名・合計17MB（平均32KB/名）に圧縮。
+  **キーワードが1件もマッチしない議員（206名）は、Claude Codeを介さず `write_auto_low_engagement()` で機械的に
+  `archetype=low_engagement, engagement.level=none` を自動記録**（quoteが存在せず判定材料が無いため、捏造回避の
+  安全側の自動化。`classified_by: "auto_keyword_filter"` で識別可能）。`--no-filter` で従来の全文動作に戻せる。
+  実行: `python3 scripts/classify.py --sources diet,x`（ワークシートは `output/worksheets/`、既存の分類済みは
+  自動判定の対象にならない限り上書きされない＝パイロット10名は保持されることを確認済み）。
+
+  **② サブエージェント（Haiku 4.5）による並列分類**: 631→507名分のワークシートをサイズでバッチ分割し、
+  `Agent`（`general-purpose`, `model: haiku`）に割り当てて `data/classifications/<mid>.json` を書かせ、
+  `validate_classifications.py` で検証する方式で進めた。
+
+  **★重要な教訓（分類作業を再開する際は必ず踏襲すること）**:
+  1. **evidence.quoteは20〜40文字程度に短く指示すること。** 当初「原文をそのまま引用」とだけ指示したところ、
+     Haikuが長い引用（100文字超）を転記する際に前半は原文通りだが後半を別の文脈と混同して「作文」してしまい、
+     validate_classifications.pyのquote実在チェックでNGになるケースが多発した（例: H-0091/solar、他18件）。
+     これは捏造ではなく転記ミスだが、結果は同じなので短い引用に限定するプロンプトが必須。
+  2. **1バッチ最大4〜6名・合計250KB程度に抑えること。** 8名・約490KBのバッチは "Prompt is too long" で
+     ほぼ確実に失敗する（何も書き込まれない）。3〜4名・200〜330KBは安定して成功した。
+  3. **同時に起動できるサブエージェントは4体まで**（tmuxのペイン数上限："Failed to create teammate pane: no
+     space for new pane"）。5体以上を同一メッセージで並列起動すると5体目以降が失敗するので、常に4体ずつ束ねる。
+  4. **713名分の会議録を新規取得し直した後（本ファイルの直前の項目）、パイロット10名の古い分類は
+     evidence.quoteが新しい`data/speeches/`と食い違いNGになった**（H-0405のみ偶然OK）。データソースを
+     再取得したら既存分類は原則すべて作り直しが必要。
+
+  **③ 現在の進捗（2026-07-09時点、308/713名）**:
+  - 自動low_engagement（キーワード無マッチ）: 206名
+  - 実分類（Claude Code/Haikuサブエージェント）: 102名（パイロット10名のうち9名を新データで作り直し含む）
+  - **残り405名が未分類**（`output/worksheets/` にワークシートは既に生成済み、再生成不要）
+
+  **④ 再開手順**:
+  ```bash
+  cd jclp/TASK-E/policy-research && source venv/bin/activate
+  # 未完了分のバッチリストを再生成（既存classifications済みを自動で除外）
+  python3 -c "
+  import os, json
+  existing = set(f[:-5] for f in os.listdir('data/classifications') if f.endswith('.json'))
+  files = [(m, os.path.getsize(f'output/worksheets/{m}.md'))
+           for m in (f[:-3] for f in os.listdir('output/worksheets') if f.endswith('.md'))
+           if m not in existing]
+  files.sort(key=lambda x: -x[1])
+  TARGET, MAX_N = 250_000, 6
+  batches, cur, cur_size = [], [], 0
+  for m, sz in files:
+      if cur and (cur_size + sz > TARGET or len(cur) >= MAX_N):
+          batches.append(cur); cur, cur_size = [], 0
+      cur.append(m); cur_size += sz
+  if cur: batches.append(cur)
+  print(f'残り{len(files)}名 / {len(batches)}バッチ')
+  json.dump(batches, open('/tmp/classify_batches_resume.json','w'), ensure_ascii=False)
+  "
+  ```
+  その後、`/tmp/classify_batches_resume.json` の先頭から4バッチずつ、上記②の教訓（quote短く・4-6名/バッチ・
+  同時4体まで）を踏まえたプロンプトで `Agent`（haiku）に割り当てる。全完了後は
+  `python3 scripts/validate_classifications.py` で全体検証 → `python3 scripts/build_dashboard.py` で
+  `output/policy_dashboard.html` を再生成すること（**ここがユーザーの元々の目的＝会議録を踏まえたダッシュボード更新**。
+  分類が308名分のみの状態でダッシュボードを生成すると「分類済308名」の中途半端な状態で表示されるため、
+  全713名（または少なくとも大部分）の分類完了後に生成するのが望ましい）。
 
 - **[進捗 2026-07-09]** ★**会議録を713名全件取得完了**。従来はGithub Codespaces（クラウドIP）での実行を前提に
   `--via jina` を使っていたが、**ローカルPC（自宅回線）から実行する場合はNDLのWAFに遮断されず直結できる**ことを

@@ -1,0 +1,70 @@
+{
+  "member_id": "H-0168",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "solar": {
+      "stance": "strong_support",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "quote": "太陽光発電は、地域におけるエネルギーの地産地消、地域経済の活性化、安定した自立分散型エネルギー、そして脱炭素の推進に資する重要な事業である",
+          "source": "diet"
+        },
+        {
+          "quote": "太陽光パネルは適切な保守管理の下では長期間の使用が可能となり、使用済みとなる前の段階で点検、保守、部品交換、長寿命化や再使用等を促すことは、廃棄量の抑制にも、廃棄の平準化にも資する重要な取組である",
+          "source": "diet"
+        },
+        {
+          "quote": "太陽光発電施設の拡大による地域経済への貢献と、あと、太陽電池廃棄物の再資源化の事業性の確保を両立させる政策の方向性について",
+          "source": "diet"
+        }
+      ]
+    },
+    "renewables": {
+      "stance": "strong_support",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "電力供給における再生可能エネルギー電源構成を、現在の約一〇％から、将来は約三〇％に引き上げる目標を掲げられております",
+          "source": "diet"
+        }
+      ]
+    },
+    "decarbonization": {
+      "stance": "strong_support",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "脱炭素と自然再興に貢献するサーキュラーエコノミー、循環経済の推進について伺いたいと思います",
+          "source": "diet"
+        },
+        {
+          "quote": "二〇五〇年のカーボンニュートラル及び二〇三〇年の削減目標の実現に向けて、衣食住やライフスタイルの分野での大幅なＣＯ2削減が求められていると思います",
+          "source": "diet"
+        }
+      ]
+    },
+    "power_demand_ai": {
+      "stance": "conditional_support",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "quote": "データセンターを中心に電力消費量も急拡大することが見込まれております。二〇一〇年、二ゼタバイトだった情報量が、十五年後の二五年には九十倍の百七十五ゼタバイトになる",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "renewable_champion",
+    "label": "再エネ積極支持",
+    "confidence": 0.85,
+    "rationale": "太陽光発電を含む再エネ推進に強く支持。ライフサイクル全体での環境配慮・資源循環を強調し、脱炭素・循環経済への関心が深い。環境政策全般に対する詳細で実務的な関心"
+  },
+  "engagement": {
+    "level": "high",
+    "relevant_speech_count": 40
+  },
+  "flags": []
+}

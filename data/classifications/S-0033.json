@@ -1,46 +1,31 @@
 {
   "member_id": "S-0033",
-  "classified_by": "claude_main_agent_pilot",
+  "classified_by": "claude_code",
   "axes_version": "0.2",
   "topics": {
-    "decarbonization": {
-      "stance": "conditional_support",
-      "confidence": 0.7,
-      "evidence": [
-        {
-          "quote": "地球温暖化対策の推進に関する法律",
-          "verified": true
-        },
-        {
-          "quote": "どの国もこの脱炭素を",
-          "verified": true
-        }
-      ]
-    },
     "economic_security": {
       "stance": "strong_support",
       "confidence": 0.75,
       "evidence": [
         {
-          "quote": "食料・エネルギー安全保障",
-          "verified": true
-        },
-        {
-          "quote": "リスクを分散する必要",
-          "verified": true
+          "quote": "気候変動が安全保障に及ぼす影響をめぐる対応については、国連開発計画との連携強化、建造中の北極域研究船を国際研究プラットフォームとする北極域での研究開発、海洋に関わる人材育成、北極政策における国際連携の推進等を進めるほか、気候変動の影響による海面上昇への対応として、領海基線（ベースライン）の維持を可能とする国際法解釈を国際社会で広めていくための外交的な働きかけや合意形成に取り組んでいくべき",
+          "source": "diet"
         }
       ]
     }
   },
   "archetype": {
-    "id": "renewable_champion",
-    "label": "再エネ積極支持",
-    "confidence": 0.55,
-    "rationale": "温対法・脱炭素を支持しつつ、エネルギー安全保障（OPEC・供給リスク分散）にも強い関心。econ_security_focus寄りの側面もあり要レビュー。"
+    "id": "low_engagement",
+    "label": "発言少・様子見",
+    "confidence": 0.8,
+    "rationale": "会議録の大部分は委員長としての議事運営のみ。D4の外交・安全保障調査報告では気候変動と安全保障の関連に言及するが、これは個人スタンスというより調査会の報告内容。気候・エネルギー政策に関する個人的な政策立場は不明確。"
   },
   "engagement": {
-    "level": "high",
-    "relevant_speech_count": 8
+    "level": "low",
+    "relevant_speech_count": 1
   },
-  "flags": []
+  "flags": [
+    "委員長としての議事運営が主体",
+    "D4は外交・安全保障調査報告（個人スタンス不明確）"
+  ]
 }

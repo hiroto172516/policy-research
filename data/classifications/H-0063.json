@@ -1,0 +1,45 @@
+{
+  "member_id": "H-0063",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "solar": {
+      "stance": "cautious",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "quote": "風力発電用の風車に限らず、オブジェのような風車とか、その他の構造物、あるいは妨害装置のようなものが建設されて設置された際も、これを撤去するような仕組みは何かあるのか",
+          "source": "diet"
+        }
+      ]
+    },
+    "economic_security": {
+      "stance": "strong_support",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "quote": "再エネ事業では、中国などの外国資本による用地買収が明らかになっているだけでも多数行われているわけであります。しかも、出資者の秘匿性が高い合同会社の仕組みを利用することによって、実態がつかめていないと言われております。",
+          "source": "diet"
+        },
+        {
+          "quote": "中国側が自衛隊施設に影響が出る形で意図的に風力発電設置を画策しているのは間違いないというようなことをおっしゃる公安関係者もいると報じられております。",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "low_engagement",
+    "label": "発言少・様子見",
+    "confidence": 0.75,
+    "rationale": "気候・エネルギー政策に関する直接的な発言が限定的（2件程度）。主に安全保障の観点から風力発電規制を言及。脱炭素政策全般への立場は明確ではなく、経済安保と防衛関連の懸念が中心。"
+  },
+  "engagement": {
+    "level": "low",
+    "relevant_speech_count": 2
+  },
+  "flags": [
+    "economic_security_focus",
+    "defense_infrastructure_concern"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "member_id": "S-0106",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "decarbonization": {
+      "stance": "cautious",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "温暖化とのつながりがあるのかというのには疑義",
+          "source": "diet"
+        }
+      ]
+    },
+    "renewables": {
+      "stance": "cautious",
+      "confidence": 0.80,
+      "evidence": [
+        {
+          "quote": "再エネ比率が極端に高まっていくと、電気料金が上がる傾向",
+          "source": "diet"
+        }
+      ]
+    },
+    "solar": {
+      "stance": "cautious",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "quote": "メガソーラーによる自然破壊、これは看過できるものではありません",
+          "source": "diet"
+        }
+      ]
+    },
+    "energy_policy": {
+      "stance": "neutral_unknown",
+      "confidence": 0.70,
+      "evidence": [
+        {
+          "quote": "この制度はいつまで続けるお考えなのかということを疑問",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "econ_security_focus",
+    "label": "脱炭素関心薄・経済安保重視",
+    "confidence": 0.88,
+    "rationale": "脱炭素・CO2削減効果に根本的な疑義を提示し、気候科学の信頼性を問題視。電気料金、コスト効率、経済影響を重視する発言が中心。脱炭素より少子化対策を優先すべきと主張。"
+  },
+  "engagement": {
+    "level": "high",
+    "relevant_speech_count": 26
+  },
+  "flags": []
+}

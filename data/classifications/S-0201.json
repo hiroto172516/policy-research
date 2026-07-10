@@ -1,0 +1,21 @@
+{
+  "member_id": "S-0201",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {},
+  "archetype": {
+    "id": "low_engagement",
+    "label": "発言少・様子見",
+    "confidence": 0.95,
+    "rationale": "気候・エネルギー政策に関する実質的な言及がない。発言23件すべてが復興大臣・防災庁設置準備担当大臣としての東日本大震災の復興・原発事故対応に関するもので、脱炭素・再エネ・エネルギー政策のスタンス判定に足りない。"
+  },
+  "engagement": {
+    "level": "low",
+    "relevant_speech_count": 0
+  },
+  "flags": [
+    "気候・エネルギー政策への言及なし",
+    "発言23件はすべて復興・防災対応の文脈",
+    "原発廃炉・ALPS処理水について言及あるも、エネルギー政策としてのスタンス表明ではなく復興対応の範囲"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "member_id": "S-0113",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "economic_security": {
+      "stance": "strong_support",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "quote": "経済安保とその核心というのは、特定国への過度な依存を脱却して、必要な素材や部品とか調達先を例えばグローバルサウスなどに多様化するという、これフレンドショアリングという言い方をしているそうなんですが、そうしたところにあるんじゃないかなというふうに思っております。",
+          "source": "diet"
+        },
+        {
+          "quote": "経済安保の確立には、やっぱりサプライチェーンの強靱化だけではなくて、大前提として日本自体を強靱化することも喫緊の課題だというふうに思っています。",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "econ_security_focus",
+    "label": "脱炭素関心薄・経済安保重視",
+    "confidence": 0.85,
+    "rationale": "23件の発言の大多数が経済安全保障（サプライチェーン、グローバルサウス連携、重要鉱物確保）に関するものであり、気候・エネルギー政策への直接的言及がほぼない。"
+  },
+  "engagement": {
+    "level": "high",
+    "relevant_speech_count": 23
+  },
+  "flags": []
+}

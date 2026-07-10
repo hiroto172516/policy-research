@@ -1,0 +1,74 @@
+{
+  "member_id": "S-0151",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "renewables": {
+      "stance": "strong_support",
+      "confidence": 0.80,
+      "evidence": [
+        {
+          "quote": "再生可能エネルギー導入の取組を行うとともに、政府は、既設炉の最大限活用の方針を掲げております",
+          "source": "diet"
+        },
+        {
+          "quote": "二〇四〇年度のあるべき電源構成を見通す中で、再エネの大量導入、電源構成比率を高めることに資する取組、これを一層強化していく必要があるというふうに考えています",
+          "source": "diet"
+        },
+        {
+          "quote": "ＥＵの二〇二四年上半期の電源構成比率に占める再エネの割合は五割に達しているとされて、我が国でももう少し頑張れるんではないかというのが率直な思いではあります",
+          "source": "diet"
+        }
+      ]
+    },
+    "nuclear": {
+      "stance": "conditional_support",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "quote": "原子力については、既存の原子力発電所の再稼働、引き続き推進することが示されておりますが、この一方で、東京電力福島第一原子力発電所の事故後、今もなお国民の原子力や行政、事業者に対する不信、不安は払拭できていないということも明記されております",
+          "source": "diet"
+        },
+        {
+          "quote": "再稼働に当たっては、まずは原子力規制委員会において新規制基準に基づく厳正な審査が行われることが大前提ではありますが、あわせて、関係自治体、また住民の方々の理解を十分に得た上での再稼働の是非、判断されるべきものだというふうに思います",
+          "source": "diet"
+        }
+      ]
+    },
+    "economic_security": {
+      "stance": "strong_support",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "経済安全保障が国際競争の中で重要性を増しているということは言うまでもありません",
+          "source": "diet"
+        },
+        {
+          "quote": "肥料は食料安全保障という基盤でもございます。その安定供給と自給力、この向上に向けた取組というのが大変重要だというふうに考えております",
+          "source": "diet"
+        }
+      ]
+    },
+    "energy_policy": {
+      "stance": "conditional_support",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "quote": "世界の資源エネルギー、環境をめぐる状況は流動的であり、特に、国家間の協調よりも自らの国益を最優先させるエネルギー安全保障政策、経済政策、気候変動問題への対応を取る傾向が強まっているというふうに思います",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "renewable_champion",
+    "label": "再エネ積極支持",
+    "confidence": 0.70,
+    "rationale": "再エネ大量導入、電源構成比率向上に強い支持。EUとの比較で日本の可能性強調。原子力については安全・規制委員会評価と地域住民理解を前提にした条件付き支持。経済安全保障・食料安保・肥料問題に高い関心。公正な移行（ジャストトランジション）、労働環境、人材育成など多元的視点を重視。脱炭素と人道の両立を主張。"
+  },
+  "engagement": {
+    "level": "high",
+    "relevant_speech_count": 17
+  },
+  "flags": ["just_transition_emphasis", "multi_stakeholder_view", "fukushima_sensitive"]
+}

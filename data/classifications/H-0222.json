@@ -1,0 +1,88 @@
+{
+  "member_id": "H-0222",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "decarbonization": {
+      "stance": "conditional_support",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "quote": "ゼロエミッション船の開発や普及促進に向け、どのような取組を行うのか",
+          "source": "diet"
+        },
+        {
+          "quote": "世界的な脱炭素の流れの中で、アンモニア燃料船や水素燃料船など、いわゆるゼロエミッション船の開発、普及が重要な課題となっております",
+          "source": "diet"
+        }
+      ]
+    },
+    "renewables": {
+      "stance": "cautious",
+      "confidence": 0.80,
+      "evidence": [
+        {
+          "quote": "太陽光が手いっぱいであるのを、現実的に、この日本というのは国土が狭いですので、太陽光が今後増えていくというのはなかなか難しいところでございます",
+          "source": "diet"
+        }
+      ]
+    },
+    "solar": {
+      "stance": "cautious",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "景観破壊、生態系への影響など、懸念があることも事実です",
+          "source": "diet"
+        },
+        {
+          "quote": "太陽光パネルには有害物質が含まれ、それを知らずに、あるいは知っていても費用負担を嫌って、そのまま廃棄、放置して、土壌が汚染される危険性もございます",
+          "source": "diet"
+        },
+        {
+          "quote": "安価な太陽光パネルに関しては中国が大半を占めており、国の根幹を成すエネルギー政策において他国の関与を強め過ぎるというのは余りいいことだとは思いません",
+          "source": "diet"
+        },
+        {
+          "quote": "安全保障上の懸念もあるわけであります",
+          "source": "diet"
+        }
+      ]
+    },
+    "economic_security": {
+      "stance": "strong_support",
+      "confidence": 0.90,
+      "evidence": [
+        {
+          "quote": "リスクを最小化する危機管理投資により、他国に過度に依存しないサプライチェーンを構築しつつ、国際競争力を高める成長投資を推進すべきと考えます",
+          "source": "diet"
+        },
+        {
+          "quote": "エネルギー安全保障の観点から考えれば、自国のＬＮＧ運搬船を建造できる造船基盤を維持していくこと、これは国家戦略として極めて重要な課題であると考えます",
+          "source": "diet"
+        }
+      ]
+    },
+    "energy_policy": {
+      "stance": "conditional_support",
+      "confidence": 0.70,
+      "evidence": [
+        {
+          "quote": "エネルギー政策はその時々の状況に応じて重視するものが変わっていくのは当然だと考えますので、この変化自体は悪いことだとは思いません。しかし、場当たり的な変更は消費者を混乱させ、一貫したエネルギー政策も実現できないため、エネルギー政策自体を一度考え直す、こういうことも必要ではないかと考えております",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "solar_skeptic",
+    "label": "太陽光批判",
+    "confidence": 0.80,
+    "rationale": "脱炭素基本スタンスは条件付きで支持するが、太陽光については景観・農地・防災・安全保障・外資・国産化など複数の角度から懸念を表明。経済安全保障を重視し、他国依存リスクを強調。ゼロエミッション船など技術的脱炭素には関心も示すが、再エネ導入方法に慎重。"
+  },
+  "engagement": {
+    "level": "high",
+    "relevant_speech_count": 27
+  },
+  "flags": ["sensitive:太陽光/外資問題", "economic_security_focus"]
+}

@@ -1,0 +1,61 @@
+{
+  "member_id": "H-0315",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "energy_policy": {
+      "stance": "strong_support",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "再生可能エネルギーを最優先に、安全確保を大前提に、原発再稼働などあらゆるエネルギー源の活用を進めていく",
+          "source": "diet"
+        }
+      ]
+    },
+    "nuclear": {
+      "stance": "strong_support",
+      "confidence": 0.80,
+      "evidence": [
+        {
+          "quote": "原発再稼働などあらゆるエネルギー源の活用を進めていく",
+          "source": "diet"
+        }
+      ]
+    },
+    "renewables": {
+      "stance": "conditional_support",
+      "confidence": 0.80,
+      "evidence": [
+        {
+          "quote": "再生可能エネルギーを最優先に",
+          "source": "diet"
+        }
+      ]
+    },
+    "decarbonization": {
+      "stance": "conditional_support",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "quote": "ＧＸ脱炭素電源法を制定し、再生可能エネルギーを最優先に、安全確保を大前提に、原発再稼働などあらゆるエネルギー源の活用を進めていく方向性を示すなど、エネルギー安全保障を高めるための施策を大胆に進めています。",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "nuclear_advocate",
+    "label": "原子力・安定供給重視",
+    "confidence": 0.80,
+    "rationale": "原発再稼働を支持し、再エネも含めた多様なエネルギー源の活用を強調。エネルギー安全保障と安定供給を重視する姿勢。ただし委員長の事務的発言が大部分を占める"
+  },
+  "engagement": {
+    "level": "medium",
+    "relevant_speech_count": 4
+  },
+  "flags": [
+    "mostly_procedural_remarks:47件中の大部分が委員長としての議事進行のみ",
+    "sensitive:原子力"
+  ]
+}

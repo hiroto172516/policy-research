@@ -1,0 +1,28 @@
+{
+  "member_id": "H-0281",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "energy_policy": {
+      "stance": "neutral_unknown",
+      "confidence": 0.45,
+      "evidence": [
+        {
+          "quote": "太陽光発電所の遠隔監視システムが通信不能になれば、異常発生時の通知が届かず、出力制御も行えないため、最悪の場合は売電ロス、また発電停止という重大な経済的損失、インフラの不安定化を招きます",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "low_engagement",
+    "label": "発言少・様子見",
+    "confidence": 0.88,
+    "rationale": "関連発言が1件未満のほぼゼロに近い状況。21件の国会会議録の大部分は防災、通信インフラ、地方財政などが主要テーマで、気候・エネルギー政策への直接的な政策スタンスが示されていない。太陽光発電システムについて言及されているが、これは技術インフラの課題であり、政策スタンスではない。"
+  },
+  "engagement": {
+    "level": "none",
+    "relevant_speech_count": 0
+  },
+  "flags": ["気候・エネルギー政策に関する直接的な言及がなし"]
+}

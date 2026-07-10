@@ -1,0 +1,56 @@
+{
+  "member_id": "H-0226",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "economic_security": {
+      "stance": "strong_support",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "quote": "そして、経済安保もまた国民生活に直結する極めて重要な課題です。",
+          "source": "diet"
+        },
+        {
+          "quote": "重要鉱物や永久磁石、蓄電池、半導体、医薬品などの重要物資について、その供給を特定国に過度に依存している現状は早急に改善すべきであります。",
+          "source": "diet"
+        },
+        {
+          "quote": "グリーン水素の製造については日本にはその基盤となる再生可能エネルギーの適地が少なく、将来世界で水素利用が普及した場合、日本は水素の輸入国になると予想されています。しかし、現在日本が世界をリードしている水素製造技術、輸送技術、利活用技術をしっかり押さえておけば、将来にわたって水素生産国との交渉力が高まり、水素を安定的に確保することができます。",
+          "source": "diet"
+        }
+      ]
+    },
+    "nuclear": {
+      "stance": "strong_support",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "岸田総理は今回の所信表明演説で、既存原発の再稼働と、新たな安全メカニズムを組み込んだ次世代革新炉については開発だけではなく建設にまで言及されました。私も強く支持をいたします。特に、次世代炉は、開発、建設に向けては官民挙げての具体的なロードマップが必要となります。",
+          "source": "diet"
+        }
+      ]
+    },
+    "energy_policy": {
+      "stance": "strong_support",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "quote": "化石燃料の使用は必然的に、ＣＯ２排出により、カーボンニュートラル達成も遅らせることになります。",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "nuclear_advocate",
+    "label": "原子力・安定供給重視",
+    "confidence": 0.85,
+    "rationale": "2件の発言とも経済安全保障と原子力に関するもの。既存原発の再稼働と次世代革新炉の建設を強く支持。水素技術を活用した国家戦略的なエネルギー確保に注力。"
+  },
+  "engagement": {
+    "level": "low",
+    "relevant_speech_count": 2
+  },
+  "flags": ["sensitive:原子力"]
+}

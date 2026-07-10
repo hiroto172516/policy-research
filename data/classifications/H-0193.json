@@ -1,0 +1,42 @@
+{
+  "member_id": "H-0193",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "economic_security": {
+      "stance": "strong_support",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "quote": "エネルギー安全保障分野でどういった戦略をお持ちなのか",
+          "source": "diet"
+        },
+        {
+          "quote": "食料の安全保障の観点であるとかエネルギーについても、アジア諸国がまさに今困っているときには、日本として貢献していくことが非常に重要",
+          "source": "diet"
+        }
+      ]
+    },
+    "energy_policy": {
+      "stance": "conditional_support",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "quote": "輸送リスクであるとか、原油価格の高騰、ＬＮＧ市場の不安定化等",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "econ_security_focus",
+    "label": "脱炭素関心薄・経済安保重視",
+    "confidence": 0.8,
+    "rationale": "23件の発言の大多数が経済安全保障（食料・エネルギー・鉱物資源確保）、アフリカとの関係構築、防災に関するもの。脱炭素・気候変動への直接的言及がない。"
+  },
+  "engagement": {
+    "level": "high",
+    "relevant_speech_count": 23
+  },
+  "flags": []
+}

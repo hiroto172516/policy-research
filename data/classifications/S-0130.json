@@ -1,0 +1,19 @@
+{
+  "member_id": "S-0130",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {},
+  "archetype": {
+    "id": "low_engagement",
+    "label": "発言少・様子見",
+    "confidence": 0.95,
+    "rationale": "エネルギー政策に関する実質的な発言がほぼ無い。経済安保、防衛費、外交が主な活動領域。予算委員会での単一の発言（ソフトバンクのガス火力発電所建設への予算批判）があるが、エネルギー政策そのものについての立場は不明。"
+  },
+  "engagement": {
+    "level": "none",
+    "relevant_speech_count": 0
+  },
+  "flags": [
+    "主な活動領域は経済安保・防衛費・外交。エネルギー政策への関心・言及なし"
+  ]
+}

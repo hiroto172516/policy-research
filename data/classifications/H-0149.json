@@ -1,0 +1,72 @@
+{
+  "member_id": "H-0149",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "decarbonization": {
+      "stance": "conditional_support",
+      "confidence": 0.68,
+      "evidence": [
+        {
+          "quote": "再エネや原子力といった脱炭素電源の利用促進などを進める",
+          "source": "diet"
+        }
+      ]
+    },
+    "renewables": {
+      "stance": "conditional_support",
+      "confidence": 0.62,
+      "evidence": [
+        {
+          "quote": "再エネや原子力といった脱炭素電源の利用促進などを進める",
+          "source": "diet"
+        }
+      ]
+    },
+    "nuclear": {
+      "stance": "conditional_support",
+      "confidence": 0.62,
+      "evidence": [
+        {
+          "quote": "再エネや原子力といった脱炭素電源の利用促進などを進める",
+          "source": "diet"
+        }
+      ]
+    },
+    "economic_security": {
+      "stance": "strong_support",
+      "confidence": 0.78,
+      "evidence": [
+        {
+          "quote": "原油や石油製品の確保が急務となっております",
+          "source": "diet"
+        },
+        {
+          "quote": "医療品などの重要物資の供給体制を維持するために",
+          "source": "diet"
+        }
+      ]
+    },
+    "energy_policy": {
+      "stance": "neutral_unknown",
+      "confidence": 0.55,
+      "evidence": [
+        {
+          "quote": "ＣＣＳやＣＣＵＳが注目されております",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "econ_security_focus",
+    "label": "脱炭素関心薄・経済安保重視",
+    "confidence": 0.72,
+    "rationale": "経済安全保障、エネルギー供給網、サプライチェーン構築に強い関心を示す。脱炭素化については条件付き支持だが、実現方法（再エネと原発の組み合わせ）に対しては中立的。26件の発言中、エネルギー・経済安保関連は複数あるが、気候変動そのものへの直接的な政策姿勢は限定的。"
+  },
+  "engagement": {
+    "level": "medium",
+    "relevant_speech_count": 6
+  },
+  "flags": []
+}

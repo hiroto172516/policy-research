@@ -1,0 +1,72 @@
+{
+  "member_id": "S-0022",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "decarbonization": {
+      "stance": "strong_support",
+      "confidence": 0.80,
+      "evidence": [
+        {
+          "quote": "二〇五〇年カーボンニュートラルの実現に向けまして、政府では、二〇三五年、十年後ですね、までに乗用車の新車発売で電動車一〇〇％、これハイブリッドも含むという数字ですけれども、この目標を掲げております",
+          "source": "diet"
+        }
+      ]
+    },
+    "ev": {
+      "stance": "strong_support",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "ＥＶの普及について御質問をさせていただきたいというふうに思います。二〇五〇年カーボンニュートラルの実現に向けまして",
+          "source": "diet"
+        },
+        {
+          "quote": "充電インフラの整備がＥＶ普及の鍵というふうに言うことができるというふうに思います",
+          "source": "diet"
+        }
+      ]
+    },
+    "economic_security": {
+      "stance": "strong_support",
+      "confidence": 0.80,
+      "evidence": [
+        {
+          "quote": "日米両国が産業間での連携を強めるとともに、相互利益を促進するために、国益の最大化、あるいは経済安全保障上の重要分野で米国を含む諸外国との強靱なサプライチェーンを構築することに資するというふうに考えております",
+          "source": "diet"
+        }
+      ]
+    },
+    "energy_policy": {
+      "stance": "conditional_support",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "quote": "エネルギーの安定供給が非常に困難になっている中で様々な手だてを打っていただいております",
+          "source": "diet"
+        }
+      ]
+    },
+    "power_demand_ai": {
+      "stance": "neutral_unknown",
+      "confidence": 0.70,
+      "evidence": [
+        {
+          "quote": "イラン情勢を受けて、エネルギーの安定供給、調達先の多角化を進めていくという観点からは、今回の戦略的投資イニシアチブでエネルギー関連の事業を盛り込んでいただいているというのは極めてタイムリーな案件設定ではないかというふうにも思っておりますので",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "renewable_champion",
+    "label": "再エネ積極支持",
+    "confidence": 0.75,
+    "rationale": "EV普及、充電インフラ整備、カーボンニュートラル2050実現に積極的なスタンス。GX推進法改正、排出量取引制度、DAC技術サポート等に詳しく、脱炭素政策の深い理解を示す。経済安全保障との両立視点も強い。トランプ政権脱炭素政策転換への懸念も表明。中小企業支援、サプライチェーン強靱化への関心も高い。"
+  },
+  "engagement": {
+    "level": "high",
+    "relevant_speech_count": 40
+  },
+  "flags": ["gx_policy_expert", "ev_charging_infrastructure"]
+}

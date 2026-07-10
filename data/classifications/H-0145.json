@@ -1,0 +1,21 @@
+{
+  "member_id": "H-0145",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {},
+  "archetype": {
+    "id": "low_engagement",
+    "label": "発言少・様子見",
+    "confidence": 0.95,
+    "rationale": "18件の発言は全て農業・食料・肥料・ホルムズ海峡危機に関するもの。気候変動・脱炭素・エネルギー政策については言及なし。JCLP政策スコープ内のトピックに対する関心・スタンスは判定できない。"
+  },
+  "engagement": {
+    "level": "none",
+    "relevant_speech_count": 0
+  },
+  "flags": [
+    "no_climate_energy_mentions",
+    "focus:food_security_fertilizer",
+    "all_speeches_unrelated_to_policy_scope"
+  ]
+}

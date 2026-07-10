@@ -1,0 +1,66 @@
+{
+  "member_id": "H-0246",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "nuclear": {
+      "stance": "opposed",
+      "confidence": 0.98,
+      "evidence": [
+        {
+          "quote": "原発、動かしてええのかと思いますよ",
+          "source": "diet"
+        },
+        {
+          "quote": "原発ゼロ、省エネと再エネで二〇三〇年までにＣＯ2五〇％から六〇％を削減",
+          "source": "diet"
+        }
+      ]
+    },
+    "renewables": {
+      "stance": "strong_support",
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "quote": "省エネと再エネで二〇三〇年までにＣＯ2五〇％から六〇％を削減",
+          "source": "diet"
+        }
+      ]
+    },
+    "decarbonization": {
+      "stance": "strong_support",
+      "confidence": 0.96,
+      "evidence": [
+        {
+          "quote": "気候危機への対策として、ガソリン等の化石燃料の使用量を減らしていくこと",
+          "source": "diet"
+        }
+      ]
+    },
+    "energy_policy": {
+      "stance": "cautious",
+      "confidence": 0.90,
+      "evidence": [
+        {
+          "quote": "第七次のエネ基の作成過程の問題点として、原子力推進派が圧倒的多数を占める",
+          "source": "diet"
+        },
+        {
+          "quote": "定性的には明確な原発回帰というものを盛り込んだ",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "renewable_champion",
+    "label": "再エネ積極支持",
+    "confidence": 0.92,
+    "rationale": "脱炭素・気候変動対策に積極的で、再エネの推進を強く支持。原発には厳しく反対し、安全性への疑問を繰り返し指摘。規制当局の監視機能強化を求める姿勢は一貫している。共産党の立場を反映した明確な方針。"
+  },
+  "engagement": {
+    "level": "high",
+    "relevant_speech_count": 28
+  },
+  "flags": ["sensitive:原子力"]
+}

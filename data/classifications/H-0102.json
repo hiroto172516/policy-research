@@ -3,48 +3,90 @@
   "classified_by": "claude_code",
   "axes_version": "0.2",
   "topics": {
-    "decarbonization": {
-      "stance": "conditional_support",
-      "confidence": 0.6,
+    "solar": {
+      "stance": "strong_support",
+      "confidence": 0.85,
       "evidence": [
         {
-          "quote": "ＧＸ、ＤＸは重要"
+          "quote": "ペロブスカイトだというふうに思います。これは、非常に薄い太陽光電池で、建物の壁や屋根の曲面などでも設置できるので、すごく世界でこれから需要があるということで注目されています。これは日本発の技術で、完全に日本が先頭を走っていました",
+          "source": "diet"
+        },
+        {
+          "quote": "この十年、エネルギーの分野で最も発電量も投資量も増えているのが再エネの分野であり、そして、その再エネの分野の主力である太陽光の次世代パネルのエースを日本が先行してきたのに、抜かされつつあるというか、ちょっと抜かされていると思います",
+          "source": "diet"
         }
       ]
     },
     "renewables": {
-      "stance": "conditional_support",
-      "confidence": 0.55,
+      "stance": "strong_support",
+      "confidence": 0.90,
       "evidence": [
         {
-          "quote": "太陽光パネルの生産"
+          "quote": "例えば国産の再エネを、自給率を高めていくことですとか、あと、プラスして、オイルショックのときにやっていたような省エネも、同じように本腰を入れて打っていかなければならないと思います",
+          "source": "diet"
+        },
+        {
+          "quote": "やはり、ＧＸ、ＤＸの流れを考えつつ、基幹的な産業としてしっかりとエネルギー自給率を高めていくこと、そしてデジタル自給率を高めていくこと、これは重要であると思います",
+          "source": "diet"
         }
       ]
     },
     "economic_security": {
       "stance": "strong_support",
-      "confidence": 0.8,
+      "confidence": 0.95,
       "evidence": [
         {
-          "quote": "食料もエネルギーもデジタルも"
+          "quote": "日本はだんだんと国民生活に必要不可欠な分野、産業の競争力がなくなってきてしまっている。それが、例えばデジタルの分野、今、ラピダスに投資したりとかやっていますけれども、デジタル自給率が下がってきていることは、エネルギーや食料の自給率が低いことと同じぐらい、だんだん問題になってくると思います",
+          "source": "diet"
         },
         {
-          "quote": "生産の国内回帰"
+          "quote": "国民生活に必要不可欠な分野を自給できない国は、通貨の価値が下がっていって、どんどん苦しくなっていっちゃうんですよね",
+          "source": "diet"
+        }
+      ]
+    },
+    "energy_policy": {
+      "stance": "strong_support",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "やはり、短期的な施策をまずばしっと打っていくことも重要ですが、この先こういった問題が続くことも見越して、例えば国産の再エネを、自給率を高めていくことですとか、あと、プラスして、オイルショックのときにやっていたような省エネも、同じように本腰を入れて打っていかなければならないと思います",
+          "source": "diet"
+        },
+        {
+          "quote": "原油の調達の多角化をした方がいいと。オイルショックのときからどんどん多角化が進んできて、ただ、九〇年代ぐらいからまた中東依存度が上がってきて、戻ってきてしまったという状況である",
+          "source": "diet"
+        }
+      ]
+    },
+    "ev": {
+      "stance": "conditional_support",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "残念ながら電気自動車ですとかはそんなにリードしていませんが、ハイブリッド車ですとか燃料電池車も世界の中でそれなりに優位性があります",
+          "source": "diet"
+        },
+        {
+          "quote": "プラグインハイブリッドを環境性能車の主力の一つに入れていく、これをしっかりと日本の産業政策として位置づけていく。これでよろしいでしょうか。やるべきだと思います",
+          "source": "diet"
         }
       ]
     }
   },
   "archetype": {
-    "id": "econ_security_focus",
-    "label": "脱炭素関心薄・経済安保重視",
-    "confidence": 0.5,
-    "rationale": "エネルギー自給・国産化・供給網を重視。ただしGX/水素は支持しており『脱炭素関心薄』とは言い切れない→類型の境界事例。"
+    "id": "renewable_champion",
+    "label": "再エネ積極支持",
+    "confidence": 0.85,
+    "rationale": "ペロブスカイト太陽光電池などの次世代再エネ技術開発に強い支持。国内再エネ自給率向上を経済安全保障の重要要素として主張。EV・プラグインハイブリッド等の電動化も推進。デジタル・エネルギー・食料等必須産業の国内自給率向上を繰り返し強調。成長戦略の観点から脱炭素技術投資を重視。"
   },
   "engagement": {
     "level": "high",
-    "relevant_speech_count": 22
+    "relevant_speech_count": 18
   },
   "flags": [
-    "archetype境界: 脱炭素支持かつ経済安保重視は既存類型に当てはまりにくい（軸拡張候補）"
+    "economic_security_focus",
+    "technology_innovation_emphasis",
+    "domestic_self_sufficiency"
   ]
 }

@@ -1,0 +1,91 @@
+{
+  "member_id": "H-0410",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "decarbonization": {
+      "stance": "conditional_support",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "安定供給と脱炭素の両立に向けた取組を進めながら、エネルギーコストにも十分配慮することが極めて重要だというふうに承知をしているところです",
+          "source": "diet"
+        },
+        {
+          "quote": "二〇五〇年ネットゼロに向けて、二〇三五年度六〇％、二〇四〇年度七三％削減という一・五度目標と整合的で野心的な目標を掲げてきております",
+          "source": "diet"
+        }
+      ]
+    },
+    "renewables": {
+      "stance": "conditional_support",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "quote": "再生可能エネルギーについて、地域との共生と国民負担の抑制を図りつつ、主力電源として最大限導入することが政府の基本方針でもあります",
+          "source": "diet"
+        },
+        {
+          "quote": "第七次エネルギー基本計画では、二〇三〇年までに一千万キロワット、二〇四〇年までに三千万から四千五百万キロワットの案件の形成目標を掲げ、積極的な導入拡大を進める方針に来ております",
+          "source": "diet"
+        }
+      ]
+    },
+    "solar": {
+      "stance": "conditional_support",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "quote": "太陽光発電のサイバーセキュリティー確保に努めます",
+          "source": "diet"
+        },
+        {
+          "quote": "ペロブスカイト太陽電池の開発、社会実装を始め、大規模な投資が進み始めている",
+          "source": "diet"
+        }
+      ]
+    },
+    "nuclear": {
+      "stance": "strong_support",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "我が国では、これは、資源の有効利用、そして高レベル放射性廃棄物の減容化、そして有害度の低減と、これらなどの観点から、一貫して核燃料サイクルの推進を基本方針としてきているところであります",
+          "source": "diet"
+        },
+        {
+          "quote": "徹底した省エネに加え、再エネや原子力などの脱炭素電源を最大限活用してまいります",
+          "source": "diet"
+        }
+      ]
+    },
+    "energy_policy": {
+      "stance": "conditional_support",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "quote": "安定供給と脱炭素の両立に向けた取組を進めながら、エネルギーコストにも十分配慮することが極めて重要だというふうに承知をしているところです",
+          "source": "diet"
+        },
+        {
+          "quote": "エネルギー安定供給、経済成長、脱炭素の同時実現を図るため、適切に予算措置を講じてまいりたいと思っているところです",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "nuclear_advocate",
+    "label": "原子力・安定供給重視",
+    "confidence": 0.82,
+    "rationale": "原子力・核燃料サイクルの推進を明確に主張し、再生可能エネルギーについても条件付きで支持。安定供給と脱炭素の両立を重視する立場。77件の国会会議録にて一貫した発言あり"
+  },
+  "engagement": {
+    "level": "high",
+    "relevant_speech_count": 77
+  },
+  "flags": [
+    "sensitive:原子力",
+    "国務大臣（経産省）の発言であり公式立場を反映"
+  ]
+}

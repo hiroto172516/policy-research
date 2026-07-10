@@ -2,64 +2,20 @@
   "member_id": "H-0044",
   "classified_by": "claude_code",
   "axes_version": "0.2",
-  "topics": {
-    "decarbonization": {
-      "stance": "strong_support",
-      "confidence": 0.85,
-      "evidence": [
-        {
-          "quote": "二〇五〇年カーボンニュートラル"
-        },
-        {
-          "quote": "温室効果ガス四六％削減"
-        }
-      ]
-    },
-    "renewables": {
-      "stance": "strong_support",
-      "confidence": 0.8,
-      "evidence": [
-        {
-          "quote": "基本的には再生エネルギーは増やすべき"
-        },
-        {
-          "quote": "再エネ比率三六から三八％"
-        }
-      ]
-    },
-    "solar": {
-      "stance": "conditional_support",
-      "confidence": 0.7,
-      "evidence": [
-        {
-          "quote": "太陽光発電にもいろんな懸念"
-        },
-        {
-          "quote": "地域の環境が壊れない形で"
-        }
-      ]
-    },
-    "economic_security": {
-      "stance": "conditional_support",
-      "confidence": 0.6,
-      "evidence": [
-        {
-          "quote": "エネルギー安全保障"
-        }
-      ]
-    }
-  },
+  "topics": {},
   "archetype": {
-    "id": "renewable_champion",
-    "label": "再エネ積極支持",
-    "confidence": 0.75,
-    "rationale": "環境大臣として2050CN・46%削減・再エネ拡大を推進。太陽光は地域環境配慮で条件付き。"
+    "id": "low_engagement",
+    "label": "発言少・様子見",
+    "confidence": 0.70,
+    "rationale": "国会会議録にあるスタンス発言なし。X投稿2件は環境大臣・原子力防災担当大臣の就任報告のみで、政策スタンスが不明。閣僚として職責を全うする旨の一般的な表明に過ぎず、エネルギー・気候政策について具体的立場を表明していない。"
   },
   "engagement": {
-    "level": "high",
-    "relevant_speech_count": 52
+    "level": "none",
+    "relevant_speech_count": 0
   },
   "flags": [
-    "政府答弁（環境大臣）＝政府方針の色。個人スタンスと区別要"
+    "ministerial_position",
+    "no_stance_statements",
+    "x_posts_only"
   ]
 }

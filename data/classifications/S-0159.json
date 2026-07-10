@@ -1,0 +1,72 @@
+{
+  "member_id": "S-0159",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "economic_security": {
+      "stance": "strong_support",
+      "confidence": 0.96,
+      "evidence": [
+        {
+          "quote": "この脱却は近代以降の悲願であるというふうに認識します",
+          "source": "diet"
+        },
+        {
+          "quote": "経済安保推進法が成立し、重要物資の供給確保や先端技術開発にも注力",
+          "source": "diet"
+        }
+      ]
+    },
+    "nuclear": {
+      "stance": "strong_support",
+      "confidence": 0.94,
+      "evidence": [
+        {
+          "quote": "ゲームチェンジャーになり得る技術、我が国が技術優位性も持っておる分野",
+          "source": "diet"
+        }
+      ]
+    },
+    "power_demand_ai": {
+      "stance": "strong_support",
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "quote": "ＡＩ・半導体、データセンターの時代を迎え、電力需要がますます増大する中で",
+          "source": "diet"
+        }
+      ]
+    },
+    "energy_policy": {
+      "stance": "conditional_support",
+      "confidence": 0.88,
+      "evidence": [
+        {
+          "quote": "老朽化した火力発電を次世代型に置き換え、またアンモニアや水素などクリーンエネルギーにリプレース",
+          "source": "diet"
+        }
+      ]
+    },
+    "decarbonization": {
+      "stance": "conditional_support",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "水素などクリーンエネルギーにリプレースすることによって商品の市場拡大や付加価値向上につなぐ",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "econ_security_focus",
+    "label": "脱炭素関心薄・経済安保重視",
+    "confidence": 0.90,
+    "rationale": "エネルギー自給・経済安全保障を最優先課題として強調。核融合（フュージョン）を日本の技術優位性を活かす戦略的投資として推進。データセンター・AI時代への電力需要対応を強く支持。脱炭素は経済安保・技術戦略の文脈で扱うもので、気候変動対策そのものが主眼ではない。"
+  },
+  "engagement": {
+    "level": "high",
+    "relevant_speech_count": 14
+  },
+  "flags": []
+}

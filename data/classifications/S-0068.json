@@ -1,0 +1,35 @@
+{
+  "member_id": "S-0068",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "economic_security": {
+      "stance": "strong_support",
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "quote": "本法案が対内直接投資審査制度の高度化を通じて、健全な対内直接投資の促進と経済安全保障の確保との両立を目指すという目的でございますので、そこを御理解いただければと存じます。",
+          "source": "diet"
+        },
+        {
+          "quote": "我が国経済の健全な発展に寄与する対内直接投資を一層促進しつつ、安全保障の裾野が経済分野に急速に拡大する中、国の安全等を損なうおそれがある対内直接投資に適切に対応する必要があります。",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "low_engagement",
+    "label": "発言少・様子見",
+    "confidence": 0.9,
+    "rationale": "エネルギー・気候変動政策における関連発言がほぼないため、気候・エネルギー政策分野での関心度は低い。専門は経済安全保障・金融規制分野。エネルギー・気候政策のスタンスを把握するには、より多くの関連発言が必要。どちらにも動きうるため監視対象に残す。"
+  },
+  "engagement": {
+    "level": "low",
+    "relevant_speech_count": 0
+  },
+  "flags": [
+    "focus:経済安全保障",
+    "climate_energy_engagement:minimal"
+  ]
+}

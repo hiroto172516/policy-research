@@ -1,0 +1,66 @@
+{
+  "member_id": "H-0244",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "decarbonization": {
+      "stance": "strong_support",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "quote": "チャンスと申し上げたのは、再エネも省エネも、経済合理的な理由で誰でもやらざるを得ないような状況に今なってきている",
+          "source": "diet"
+        }
+      ]
+    },
+    "renewables": {
+      "stance": "conditional_support",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "quote": "再生可能エネルギーは大変なブレーキが今かかってしまっている状況でありますので",
+          "source": "diet"
+        }
+      ]
+    },
+    "solar": {
+      "stance": "cautious",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "quote": "鴨川メガソーラーを経済産業委員会で六回取り上げました",
+          "source": "diet"
+        },
+        {
+          "quote": "ソーラーシェアリング、営農の発電なんというのはまだ一つも事例がない",
+          "source": "diet"
+        }
+      ]
+    },
+    "energy_policy": {
+      "stance": "conditional_support",
+      "confidence": 0.78,
+      "evidence": [
+        {
+          "quote": "政府にも、ここぞとばかりに支援をやはり強化をする必要があるのではないか",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "renewable_champion",
+    "label": "再エネ積極支持",
+    "confidence": 0.75,
+    "rationale": "再生可能エネルギー・脱炭素に積極的。省エネ加速と再エネ推進を重視。ただしメガソーラー問題への懸念があり、営農型発電など良質な事業形態を支持。太陽光は条件付き支持。"
+  },
+  "engagement": {
+    "level": "high",
+    "relevant_speech_count": 20
+  },
+  "flags": [
+    "地方再生とエネルギー政策の結合を重視",
+    "CCS、ワット・ビット連携など実装的な関心",
+    "メガソーラー問題への実績的な取り組み"
+  ]
+}

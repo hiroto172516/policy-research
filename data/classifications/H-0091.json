@@ -5,19 +5,29 @@
   "topics": {
     "solar": {
       "stance": "cautious",
-      "confidence": 0.6,
+      "confidence": 0.90,
       "evidence": [
         {
-          "quote": "メガソーラー等の再生可能エネルギー"
+          "quote": "自然環境、生活環境にプラスでない、全体として環境にマイナスである可能性のある再エネがあり得る",
+          "source": "diet"
+        },
+        {
+          "quote": "地方自治体を含めてみんな止めたいと思っているんだけれども、止まらないというケースが結構全国で散見されたわけですよね",
+          "source": "diet"
         }
       ]
     },
-    "economic_security": {
-      "stance": "conditional_support",
-      "confidence": 0.6,
+    "power_demand_ai": {
+      "stance": "cautious",
+      "confidence": 0.85,
       "evidence": [
         {
-          "quote": "中国企業が関与したと思われるロゴ"
+          "quote": "いろいろな環境上の考慮というのが必要だと思うんですよね",
+          "source": "diet"
+        },
+        {
+          "quote": "保育園とか幼稚園とか学校とか、そういうところに隣接している場所にデータセンターを置くことは若干問題がある",
+          "source": "diet"
         }
       ]
     }
@@ -25,12 +35,16 @@
   "archetype": {
     "id": "solar_skeptic",
     "label": "太陽光批判",
-    "confidence": 0.5,
-    "rationale": "メガソーラー・再エネ特措法を問題提起。再エネタスクフォースの中国企業関与も指摘（経済安保視点）。"
+    "confidence": 0.85,
+    "rationale": "再エネ全般に対しては脱炭素の必要性を認めつつ、太陽光パネルの環境負荷（廃棄、地域環境への影響）について多角的に批判。メガソーラーの規制強化、地域共生の重要性を繰り返し主張。データセンターの熱環境への懸念も表明。環境配慮の観点から現行制度の問題点を指摘する立場。"
   },
   "engagement": {
-    "level": "medium",
-    "relevant_speech_count": 6
+    "level": "high",
+    "relevant_speech_count": 21
   },
-  "flags": []
+  "flags": [
+    "environmental_focus",
+    "regulatory_critique",
+    "local_community_concerns"
+  ]
 }

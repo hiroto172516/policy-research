@@ -1,0 +1,28 @@
+{
+  "member_id": "H-0097",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "decarbonization": {
+      "stance": "conditional_support",
+      "confidence": 0.60,
+      "evidence": [
+        {
+          "quote": "交通分野においても地球温暖化対策を進めることは極めて重要",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "low_engagement",
+    "label": "発言少・様子見",
+    "confidence": 0.90,
+    "rationale": "気候・エネルギー政策への明確なスタンス不足。発言21件のうち大多数は経済安全保障・災害対策・地方振興・観光に関するもの。脱炭素関連の発言はSAF・航空分野のみで政策的スタンス不明確。"
+  },
+  "engagement": {
+    "level": "low",
+    "relevant_speech_count": 1
+  },
+  "flags": ["primarily_focuses_on_economic_security_and_disaster_management"]
+}

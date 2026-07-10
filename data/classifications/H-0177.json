@@ -1,0 +1,66 @@
+{
+  "member_id": "H-0177",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "renewables": {
+      "stance": "conditional_support",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "quote": "再エネも是非最大限活用していくということで考えているところであります",
+          "source": "diet"
+        }
+      ]
+    },
+    "solar": {
+      "stance": "conditional_support",
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "quote": "この太陽光発電の問題について、抑えなければいけないものは抑えなければいけませんけれども、進めなければいけないことは進めていきます",
+          "source": "diet"
+        }
+      ]
+    },
+    "nuclear": {
+      "stance": "strong_support",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "新しい規制基準をクリアしている原子力発電所をしっかりと稼働させることの重要性を改めて申し上げまして",
+          "source": "diet"
+        },
+        {
+          "quote": "廃炉、そして福島の復興は経済産業省の最重要課題でありますので",
+          "source": "diet"
+        }
+      ]
+    },
+    "energy_policy": {
+      "stance": "strong_support",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "quote": "日本人が知恵を絞り汗水垂らして稼いだお金が、エネルギーの輸入によって約二十六兆円も国外に流出をしてしまっている",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "nuclear_advocate",
+    "label": "原子力・安定供給重視",
+    "confidence": 0.82,
+    "rationale": "原子力の再稼働・安定供給を重視。新規制基準達成済み原発の稼働推進を強調。再エネは条件付き支持（進めるべきだが過度な導入には慎重）。エネルギー自給率向上・資源流出抑制を重視。"
+  },
+  "engagement": {
+    "level": "high",
+    "relevant_speech_count": 30
+  },
+  "flags": [
+    "政務官・復興大臣政務官として福島復興・廃炉を重要案件",
+    "偽情報・デマ対策にも言及",
+    "能登半島地震対応など実務的な関心も強い"
+  ]
+}

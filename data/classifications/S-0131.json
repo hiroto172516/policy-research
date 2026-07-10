@@ -1,0 +1,17 @@
+{
+  "member_id": "S-0131",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {},
+  "archetype": {
+    "id": "low_engagement",
+    "label": "発言少・様子見",
+    "confidence": 0.95,
+    "rationale": "気候・エネルギー政策に関する発言がなく、経済安全保障に特化した発言22件のみ。気候・脱炭素への言及なし。"
+  },
+  "engagement": {
+    "level": "none",
+    "relevant_speech_count": 0
+  },
+  "flags": ["no_climate_energy_policy_mentions"]
+}

@@ -1,0 +1,74 @@
+{
+  "member_id": "H-0059",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "decarbonization": {
+      "stance": "cautious",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "気候変動対策、カーボンニュートラルの重要性、これは待ったなしでございます",
+          "source": "diet"
+        },
+        {
+          "quote": "我が国は、内燃機関はありながらのカーボンニュートラルを模索すべき",
+          "source": "diet"
+        }
+      ]
+    },
+    "ev": {
+      "stance": "cautious",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "quote": "レアメタルが非常に特定の国に集中をしているということもありまして、依存を強くしなくちゃいけないという、経済安全保障上のリスクもあります",
+          "source": "diet"
+        },
+        {
+          "quote": "ハイブリッドやＰＨＥＶや水素で走るＦＣＶなど、多様な選択肢を追求",
+          "source": "diet"
+        }
+      ]
+    },
+    "economic_security": {
+      "stance": "strong_support",
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "quote": "レアメタルが非常に特定の国に集中をしているということもありまして、依存を強くしなくちゃいけないという、経済安全保障上のリスク",
+          "source": "diet"
+        },
+        {
+          "quote": "ＥＶ一辺倒というような流れをつくっているように見受けられます",
+          "source": "diet"
+        }
+      ]
+    },
+    "energy_policy": {
+      "stance": "conditional_support",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "quote": "燃料の脱炭素化を進める合成燃料が一番いいのではないか",
+          "source": "diet"
+        },
+        {
+          "quote": "二〇三五年よりも前に合成燃料の商用化を、これは絶対にやるべき",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "econ_security_focus",
+    "label": "脱炭素関心薄・経済安保重視",
+    "confidence": 0.85,
+    "rationale": "脱炭素は認識しつつも、経済安全保障上のリスク（レアメタル依存、産業競争力）を強く懸念。BEV一辺倒への批判と合成燃料・多様エネルギー選択肢の推進を一貫して主張。サプライチェーン多様化と国内産業基盤の維持を重視。"
+  },
+  "engagement": {
+    "level": "high",
+    "relevant_speech_count": 16
+  },
+  "flags": []
+}

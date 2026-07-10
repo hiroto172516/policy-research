@@ -1,0 +1,62 @@
+{
+  "member_id": "H-0308",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "solar": {
+      "stance": "conditional_support",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "quote": "他の場所で再使用、リユースするといった対応は可能なのではないか",
+          "source": "diet"
+        },
+        {
+          "quote": "リユースを促していくということがまさに重要な柱だと私も思います",
+          "source": "diet"
+        }
+      ]
+    },
+    "decarbonization": {
+      "stance": "strong_support",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "脱炭素をいかに着実に進めていくか、本委員会において建設的な議論を進めていきたい",
+          "source": "diet"
+        }
+      ]
+    },
+    "energy_policy": {
+      "stance": "strong_support",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "quote": "知見やノウハウの蓄積、そして必要なデータの収集が進められ",
+          "source": "diet"
+        }
+      ]
+    },
+    "economic_security": {
+      "stance": "strong_support",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "quote": "我が国製造業の機密情報やサプライチェーンの核心データが他国に握られ",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "renewable_champion",
+    "label": "再エネ積極支持",
+    "confidence": 0.8,
+    "rationale": "脱炭素・GX推進に積極的で、太陽光のリユース・リサイクルの重要性を強調。経済安全保障面での戦略性も重視し、EU規制への対抗を含めた実務的アプローチを示している。36件の関連発言あり"
+  },
+  "engagement": {
+    "level": "high",
+    "relevant_speech_count": 36
+  },
+  "flags": []
+}

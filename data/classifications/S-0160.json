@@ -1,29 +1,37 @@
 {
   "member_id": "S-0160",
-  "classified_by": "claude_main_agent_pilot",
+  "classified_by": "claude_code",
   "axes_version": "0.2",
   "topics": {
     "decarbonization": {
       "stance": "strong_support",
-      "confidence": 0.8,
+      "confidence": 0.85,
       "evidence": [
         {
-          "quote": "国際公約の四六％削減目標",
-          "verified": true
+          "quote": "気候変動対策について伺います。大臣所信の中でも、デコ活という表現がありました。脱炭素、ディカーボナイゼーションとエコの造語のようでございますが",
+          "source": "diet"
         },
         {
-          "quote": "ハードルを低めに設定するんではなくて",
-          "verified": true
+          "quote": "かつて環境大臣を拝命した際にも取り組ませていただいた温暖化対策は今や地球規模での喫緊の課題となっている",
+          "source": "diet"
+        },
+        {
+          "quote": "気候変動と同じように、この生物多様性の問題も、大体、一九九二年のリオ宣言、あの会議から発生している問題ですが、解決に導くためにはやっぱり国民の理解をどのぐらい得られるかどうかということだと思います",
+          "source": "diet"
         }
       ]
     },
     "energy_policy": {
-      "stance": "conditional_support",
-      "confidence": 0.7,
+      "stance": "strong_support",
+      "confidence": 0.8,
       "evidence": [
         {
-          "quote": "一次エネルギー消費量の上位等級を新設",
-          "verified": true
+          "quote": "循環経済、サーキュラーエコノミーに関連をして、災害廃棄物を可能な限り再利用していくということは、最終処分場のキャパの問題も併せてとても重要な観点ではないかなというふうに思います",
+          "source": "diet"
+        },
+        {
+          "quote": "希土類と希少金属、希少金属の回収の場合は、いわゆる都市鉱山的な、いわゆる人口集中しているようなところでも電化製品等々を使うことによってそこに鉱山が存在をするんだというようなこともありました。しかし、希土類、レアアース、これも今の国際環境の中においては大変重要なこの回収という概念だと思いますが、このリサイクルに関しての環境省の取組はいかがでしょうか",
+          "source": "diet"
         }
       ]
     }
@@ -32,11 +40,11 @@
     "id": "renewable_champion",
     "label": "再エネ積極支持",
     "confidence": 0.7,
-    "rationale": "46%削減の確実な達成・省エネ上位等級新設など、脱炭素の野心度を上げる方向の発言。"
+    "rationale": "脱炭素・気候変動対策を地球規模の喫緊課題と位置づけ強く支持。循環経済・資源リサイクル・省エネの観点から環境政策全般に積極的。太陽光・再エネについての明確な言及は少ないが、脱炭素への意思は強固。"
   },
   "engagement": {
     "level": "medium",
-    "relevant_speech_count": 4
+    "relevant_speech_count": 6
   },
   "flags": []
 }

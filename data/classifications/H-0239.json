@@ -1,0 +1,52 @@
+{
+  "member_id": "H-0239",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "economic_security": {
+      "stance": "strong_support",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "quote": "エネルギー安全保障についても申し上げます。本予算案の審議と並行して、イラン情勢は緊迫した情勢が続いています。我が国の一次エネルギーの大半は中東に依存しており、ホルムズ海峡の安定は国民生活と経済活動の生命線です。",
+          "source": "diet"
+        },
+        {
+          "quote": "エネルギー価格の高騰対策に向けた予算上の手当ては、本予算案においても一層の充実が求められるものであると指摘せざるを得ません。",
+          "source": "diet"
+        }
+      ]
+    },
+    "energy_policy": {
+      "stance": "conditional_support",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "再生可能エネルギーや電力安定化への投資の前倒しといったエネルギー安全保障に関する予算について、現行予算であるとか予備費の枠内での対応ということはおっしゃっておりますが、それを超えた積み増しであるとか組替えが現時点では必要ないという御判断でありましょうか。",
+          "source": "diet"
+        }
+      ]
+    },
+    "power_demand_ai": {
+      "stance": "neutral_unknown",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "quote": "鹿児島は、地熱であったりとか太陽光であったりとか再生可能エネルギーのポテンシャルも大変高いというふうに聞いておりますので、このデータセンターとしての立地に大変適した場所であるというふうに認識をしております。",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "econ_security_focus",
+    "label": "脱炭素関心薄・経済安保重視",
+    "confidence": 0.85,
+    "rationale": "17件の発言のうち、大半がエネルギー安全保障（中東情勢・ホルムズ海峡・LNG供給）に関するものであり、脱炭素・気候変動への直接的な言及が少ない。経済安全保障観点からのエネルギー政策重視が特徴。"
+  },
+  "engagement": {
+    "level": "high",
+    "relevant_speech_count": 17
+  },
+  "flags": []
+}

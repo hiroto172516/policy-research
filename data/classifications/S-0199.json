@@ -1,0 +1,90 @@
+{
+  "member_id": "S-0199",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "decarbonization": {
+      "stance": "strong_support",
+      "confidence": 0.93,
+      "evidence": [
+        {
+          "quote": "脱炭素効果の大きい電源のほか、次世代エネルギーとして水素などの活用、導入を進める",
+          "source": "diet"
+        },
+        {
+          "quote": "石油依存から脱却し、他国への依存をできるだけ下げていくということが触れられている",
+          "source": "diet"
+        }
+      ]
+    },
+    "renewables": {
+      "stance": "conditional_support",
+      "confidence": 0.88,
+      "evidence": [
+        {
+          "quote": "浮体式洋上風力、次世代型地熱、原子力などの脱炭素効果の大きい電源",
+          "source": "diet"
+        }
+      ]
+    },
+    "solar": {
+      "stance": "conditional_support",
+      "confidence": 0.87,
+      "evidence": [
+        {
+          "quote": "ペロブスカイト太陽電池というすばらしい技術が、太陽光パネルのように、我が国が技術開発で先行しながら普及フェーズで海外に負けることがないようにする",
+          "source": "diet"
+        }
+      ]
+    },
+    "nuclear": {
+      "stance": "strong_support",
+      "confidence": 0.91,
+      "evidence": [
+        {
+          "quote": "原子力への依存割合を高めていく中で、危機管理という意味での備えに怠りなく対応",
+          "source": "diet"
+        },
+        {
+          "quote": "将来のエネルギー需給の見通しも踏まえて原子力人材の育成に取り組む必要があると考えますが",
+          "source": "diet"
+        }
+      ]
+    },
+    "economic_security": {
+      "stance": "strong_support",
+      "confidence": 0.94,
+      "evidence": [
+        {
+          "quote": "石油依存から脱却し、他国への依存をできるだけ下げていくということが触れられている",
+          "source": "diet"
+        },
+        {
+          "quote": "ペロブスカイト太陽電池は、経済安全保障の観点でも注力、注目をされているところでございます",
+          "source": "diet"
+        }
+      ]
+    },
+    "energy_policy": {
+      "stance": "strong_support",
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "quote": "第七次エネルギー基本計画では、現代社会においての国民生活や国内産業のエネルギー需要を賄うだけの供給を確保",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "nuclear_advocate",
+    "label": "原子力・安定供給重視",
+    "confidence": 0.89,
+    "rationale": "脱炭素電源として原子力への依存度向上・人材育成を重視。再エネ（特に太陽光）は条件付きで、国産化・経済安保を両立。エネルギー安定供給と脱炭素を一体推進。"
+  },
+  "engagement": {
+    "level": "high",
+    "relevant_speech_count": 15
+  },
+  "flags": ["sensitive:原子力"]
+}

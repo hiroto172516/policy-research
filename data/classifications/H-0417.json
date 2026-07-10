@@ -1,0 +1,36 @@
+{
+  "member_id": "H-0417",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "economic_security": {
+      "stance": "strong_support",
+      "confidence": 0.88,
+      "evidence": [
+        {
+          "quote": "エネルギー安全保障、さらには経済安全保障の重要性というのが増しているのは間違いない",
+          "source": "diet"
+        },
+        {
+          "quote": "エネルギーや資源の多く海外に依存していることから、ＯＤＡを通じて資源調達先の多角化であったり資源の安定供給の確保に取り組むことが重要でありまして",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "low_engagement",
+    "label": "発言少・様子見",
+    "confidence": 0.85,
+    "rationale": "外務大臣として経済安全保障・資源外交に重点。気候・エネルギー政策に関する直接的な発言がほとんど無い。60件の国会会議録は外交・防衛・ODA関連で、climate/energy政策スタンスの評価が困難"
+  },
+  "engagement": {
+    "level": "low",
+    "relevant_speech_count": 2
+  },
+  "flags": [
+    "外務大臣の発言であり外交・安保観点が主軸",
+    "気候・エネルギー政策よりも経済安全保障が優先",
+    "発言の大半は資源外交・FOIP・サプライチェーン関連"
+  ]
+}

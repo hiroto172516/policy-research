@@ -1,0 +1,20 @@
+{
+  "member_id": "H-0209",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {},
+  "archetype": {
+    "id": "low_engagement",
+    "label": "発言少・様子見",
+    "confidence": 0.95,
+    "rationale": "気候・エネルギー政策に関する実質的な言及がない。唯一の関連発言は原子力について極めて中立的なコメント（D15）で、スタンス判定に足りない。"
+  },
+  "engagement": {
+    "level": "low",
+    "relevant_speech_count": 1
+  },
+  "flags": [
+    "気候・エネルギー政策への実質的言及なし",
+    "発言17件はいずれも経済財政・雇用・海洋資源開発等に集中"
+  ]
+}

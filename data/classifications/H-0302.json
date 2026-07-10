@@ -1,0 +1,36 @@
+{
+  "member_id": "H-0302",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "economic_security": {
+      "stance": "strong_support",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "quote": "経済安全保障推進法が成立をし、政府においては各種の施策を体系的に取り組んでくれていることが寄与しているんだと存じます。",
+          "source": "diet"
+        },
+        {
+          "quote": "次に参りますが、近年、科学技術・イノベーションが、激化する国家間の覇権争いの中核を占めていると認識をしています。先端的な技術の研究開発やその成果を活用することは、我が国の国民生活、経済活動にとって非常に重要であるのみならず、我が国経済の優位性、不可欠性を確保するに当たって必要なことと考えています。",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "econ_security_focus",
+    "label": "脱炭素関心薄・経済安保重視",
+    "confidence": 0.85,
+    "rationale": "22件の発言のほぼ全てが経済安全保障・サプライチェーン・重要技術・セキュリティークリアランスに集中。脱炭素・再エネ・原子力などのエネルギー政策トピックについては言及なし。経済安保論者として一貫している。"
+  },
+  "engagement": {
+    "level": "high",
+    "relevant_speech_count": 22
+  },
+  "flags": [
+    "focus:economic_security_supply_chain",
+    "no_decarbonization_or_energy_policy_mentions",
+    "sensitive:technology_security"
+  ]
+}

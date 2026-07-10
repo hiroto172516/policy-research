@@ -3,12 +3,27 @@
   "classified_by": "claude_code",
   "axes_version": "0.2",
   "topics": {
-    "decarbonization": {
-      "stance": "conditional_support",
-      "confidence": 0.4,
+    "solar": {
+      "stance": "neutral_unknown",
+      "confidence": 0.65,
       "evidence": [
         {
-          "quote": "カーボンニュートラルもこれは本気で"
+          "quote": "太陽電池廃棄物の再資源化等の推進に関する法律案に対する参考人の皆さんへの質疑",
+          "source": "diet"
+        }
+      ]
+    },
+    "economic_security": {
+      "stance": "strong_support",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "特に、石油や天然ガスといったエネルギーなどの輸入への懸念が取り沙汰されています",
+          "source": "diet"
+        },
+        {
+          "quote": "国家備蓄、民間備蓄、産油国共同備蓄を合わせて日本には合計二百五十四日分の石油備蓄があり、政府もその放出を検討し始めたとの報道もあります",
+          "source": "diet"
         }
       ]
     }
@@ -16,12 +31,15 @@
   "archetype": {
     "id": "low_engagement",
     "label": "発言少・様子見",
-    "confidence": 0.5,
-    "rationale": "収集分は2件と少なく、明確な政策スタンスは読み取りにくい。要追加収集。"
+    "confidence": 0.75,
+    "rationale": "関連発言は3件のみ。太陽光パネルリサイクル法案の参考人質疑と石油備蓄・エネルギー安全保障についての質問。スタンスが明確でなく、経済安全保障への関心はあるが、脱炭素・再エネについて言及なし。"
   },
   "engagement": {
     "level": "low",
-    "relevant_speech_count": 2
+    "relevant_speech_count": 3
   },
-  "flags": []
+  "flags": [
+    "limited_evidence",
+    "energy_security_focus"
+  ]
 }

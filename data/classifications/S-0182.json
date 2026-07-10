@@ -1,0 +1,60 @@
+{
+  "member_id": "S-0182",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "economic_security": {
+      "stance": "strong_support",
+      "confidence": 0.90,
+      "evidence": [
+        {
+          "quote": "エネルギー安全保障イニシアチブの立ち上げ",
+          "source": "diet"
+        },
+        {
+          "quote": "経済安全保障は重要であるというのとはちょっとやっぱり文脈が違うんですよ。経済成長ということと安全保障をある意味循環させていくという話",
+          "source": "diet"
+        },
+        {
+          "quote": "サプライチェーンの分断リスクへの対応",
+          "source": "diet"
+        }
+      ]
+    },
+    "ev": {
+      "stance": "neutral_unknown",
+      "confidence": 0.60,
+      "evidence": [
+        {
+          "quote": "世界でＥＶのいわゆる販売が急増している",
+          "source": "diet"
+        },
+        {
+          "quote": "ガソリン車からこのＥＶに転換する中にあって",
+          "source": "diet"
+        }
+      ]
+    },
+    "energy_policy": {
+      "stance": "conditional_support",
+      "confidence": 0.70,
+      "evidence": [
+        {
+          "quote": "エネルギーの安定供給ですとか価格動向も見据えながら、やっぱり次の一手をしっかり打っていただきたい。",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "econ_security_focus",
+    "label": "脱炭素関心薄・経済安保重視",
+    "confidence": 0.80,
+    "rationale": "経済安全保障、サプライチェーン、投資協定、国際競争力など経済・安保関連の発言が大部分を占める。気候変動・脱炭素への直接的な政策スタンスの言及が限定的。エネルギーについても安定供給と経済安全保障の視点が主"
+  },
+  "engagement": {
+    "level": "high",
+    "relevant_speech_count": 8
+  },
+  "flags": []
+}

@@ -1,0 +1,66 @@
+{
+  "member_id": "H-0444",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "economic_security": {
+      "stance": "strong_support",
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "quote": "経済安全保障上、データを抜かれないのか",
+          "source": "diet"
+        },
+        {
+          "quote": "安全保障上重要なデータ等のセキュリティーを確保する重要性が高まっている",
+          "source": "diet"
+        }
+      ]
+    },
+    "power_demand_ai": {
+      "stance": "conditional_support",
+      "confidence": 0.90,
+      "evidence": [
+        {
+          "quote": "データセンターが非常に今世界中で増えていますよね",
+          "source": "diet"
+        }
+      ]
+    },
+    "nuclear": {
+      "stance": "conditional_support",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "ＳＭＲ、小型原子炉ですね",
+          "source": "diet"
+        }
+      ]
+    },
+    "energy_policy": {
+      "stance": "conditional_support",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "エネルギーミックスは本当に考えていかなきゃいけない",
+          "source": "diet"
+        },
+        {
+          "quote": "電力の需要がこれからどうなっていくのか",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "econ_security_focus",
+    "label": "脱炭素関心薄・経済安保重視",
+    "confidence": 0.88,
+    "rationale": "経済安全保障とデータセキュリティを最優先課題として重視。エネルギーについては電力需要やAI・データセンター時代への対応として実務的に扱っており、脱炭素そのものへの関心は直接的ではない。技術的な現実主義者。"
+  },
+  "engagement": {
+    "level": "high",
+    "relevant_speech_count": 11
+  },
+  "flags": []
+}

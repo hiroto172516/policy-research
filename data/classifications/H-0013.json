@@ -3,33 +3,65 @@
   "classified_by": "claude_code",
   "axes_version": "0.2",
   "topics": {
-    "nuclear": {
+    "economic_security": {
       "stance": "strong_support",
-      "confidence": 0.8,
+      "confidence": 0.95,
       "evidence": [
         {
-          "quote": "核融合発電"
-        },
-        {
-          "quote": "高レベル放射能廃棄物が出ない"
+          "quote": "経済安全保障の観点からも、大幅な減税を基に進めた研究の成果として得られた技術情報が他国へ漏れないように対策を講じていくということは非常に大事だというふうに思いますが",
+          "source": "diet"
         }
       ]
     },
-    "renewables": {
+    "energy_policy": {
       "stance": "cautious",
-      "confidence": 0.65,
+      "confidence": 0.90,
       "evidence": [
         {
-          "quote": "浮体式の洋上風力だと三十六円の買取り"
+          "quote": "今やはり優先すべきは、コスト、電気代を上げない工夫をありとあらゆる方法でやっていくということが非常に大事だというふうに思っておりまして",
+          "source": "diet"
+        },
+        {
+          "quote": "私は、赤澤大臣には電気代を下げるという決意を是非していただきたいなと思うんですけれども",
+          "source": "diet"
         }
       ]
     },
     "ev": {
-      "stance": "cautious",
-      "confidence": 0.55,
+      "stance": "strong_support",
+      "confidence": 0.90,
       "evidence": [
         {
-          "quote": "ＥＶ、ＰＨＥＶの割合はたった二・九七％"
+          "quote": "自動車であればＥＶだとか、そしてまたバスとかトラックであれば燃料電池、ＦＣＶ、そういったものにどんどんと切替えを加速していくということが非常に大事だというふうに思います",
+          "source": "diet"
+        }
+      ]
+    },
+    "nuclear": {
+      "stance": "strong_support",
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "quote": "原子力発電所再稼働は一日でも早く進めていく、安全なやつは早く進めていく、再稼働をさせていくということで、ようやく柏崎刈羽も営業が開始されましたので、本当によかったというふうに思っておりますけれども",
+          "source": "diet"
+        },
+        {
+          "quote": "新型の原発、安全なやつですね、より安全なやつは導入していくということも非常に大事だというふうに思いますし",
+          "source": "diet"
+        },
+        {
+          "quote": "ＳＭＲを含めて次世代の原発もしっかりと取り組んでいっていただきたいというふうに思います",
+          "source": "diet"
+        }
+      ]
+    },
+    "power_demand_ai": {
+      "stance": "strong_support",
+      "confidence": 0.80,
+      "evidence": [
+        {
+          "quote": "そのためにやはり電力が必要になってくるわけでありますけれども、やはり、原子力発電所再稼働は一日でも早く進めていく",
+          "source": "diet"
         }
       ]
     }
@@ -37,12 +69,15 @@
   "archetype": {
     "id": "nuclear_advocate",
     "label": "原子力・安定供給重視",
-    "confidence": 0.6,
-    "rationale": "核融合を積極評価。再エネはFIT高価格に懐疑的、EV目標未達を指摘。"
+    "confidence": 0.90,
+    "rationale": "原子力発電所の再稼働・新型原発・SMRの推進を一貫して強く支持。EV・燃料電池・地熱発電などの多元的エネルギー戦略も提唱。経済安全保障にも深い関心。電気代削減と安定供給のバランスを重視。"
   },
   "engagement": {
     "level": "high",
-    "relevant_speech_count": 41
+    "relevant_speech_count": 7
   },
-  "flags": []
+  "flags": [
+    "sensitive:原子力",
+    "energy_security_focus"
+  ]
 }

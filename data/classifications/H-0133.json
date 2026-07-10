@@ -1,0 +1,127 @@
+{
+  "member_id": "H-0133",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "renewables": {
+      "stance": "strong_support",
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "quote": "再生可能エネルギーへの投資、また、安全性の確認できた次世代の革新的な技術への投資ということをやっていくべき",
+          "source": "diet"
+        },
+        {
+          "quote": "既に太陽光は自立電源になったわけでありますので、何か、世にはびこる再エネ悪玉論みたいなものは早く払拭して",
+          "source": "diet"
+        },
+        {
+          "quote": "今こそ再エネだ。アメリカですら再エネを今増やしています",
+          "source": "diet"
+        },
+        {
+          "quote": "再エネ電源の促進というのは、菅政権、岸田政権、石破政権を通じて、私はこれは国是になったものだと思っておるわけであります",
+          "source": "diet"
+        }
+      ]
+    },
+    "solar": {
+      "stance": "strong_support",
+      "confidence": 0.90,
+      "evidence": [
+        {
+          "quote": "既に太陽光は自立電源になったわけでありますので、何か、世にはびこる再エネ悪玉論みたいなものは早く払拭して",
+          "source": "diet"
+        }
+      ]
+    },
+    "nuclear": {
+      "stance": "conditional_support",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "再エネも原子力も両方やらなきゃいけないという時代だと私は思っています",
+          "source": "diet"
+        },
+        {
+          "quote": "これは本当に時機を得た合意であって、そして見せるタイミング的にも私はよかったと思います",
+          "source": "diet"
+        }
+      ]
+    },
+    "decarbonization": {
+      "stance": "strong_support",
+      "confidence": 0.90,
+      "evidence": [
+        {
+          "quote": "脱炭素や国産エネルギーの拡大を含めた構造転換、これらを一体的に進めるということは焦眉の急であると考えます",
+          "source": "diet"
+        },
+        {
+          "quote": "再生可能エネルギー電源の開発促進や、安全性を前提とした次世代電源への取組、さらには省エネ投資の拡大は、単なる環境政策ではなく、エネルギー安全保障政策そのもの",
+          "source": "diet"
+        }
+      ]
+    },
+    "economic_security": {
+      "stance": "strong_support",
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "quote": "特に、国益に資するようなデータセンター誘致に取り組んでいくべきだと私は考えます",
+          "source": "diet"
+        },
+        {
+          "quote": "エネルギー自給率は二〇％にも満たない我が国、食料自給率も四〇％ありません。デジタル自給率もほとんどないといった状況にならないように",
+          "source": "diet"
+        },
+        {
+          "quote": "国内のデータや資金が海外に流れれば、経済安全保障の懸念も募る",
+          "source": "diet"
+        }
+      ]
+    },
+    "power_demand_ai": {
+      "stance": "strong_support",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "経済安保の文脈と軌を一にしてデータセンター推進というのはやっていくべきだろうと思います",
+          "source": "diet"
+        },
+        {
+          "quote": "日の丸半導体を作った、日の丸データセンターというのを増やしていかなければならないんじゃないかなと私は思います",
+          "source": "diet"
+        }
+      ]
+    },
+    "energy_policy": {
+      "stance": "strong_support",
+      "confidence": 0.90,
+      "evidence": [
+        {
+          "quote": "日本は一次エネルギーの大宗を海外に依存しておりまして、エネルギー自給率は一〇％台",
+          "source": "diet"
+        },
+        {
+          "quote": "中長期的な、将来を見据えた構造転換を進めていくという必要が、今こそ、その御決断をいただくときなんじゃないか",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "renewable_champion",
+    "label": "再エネ積極支持",
+    "confidence": 0.85,
+    "rationale": "再生可能エネルギーと脱炭素化を強く支持。太陽光・洋上風力への具体的な政策提言多数。経済安全保障の観点からエネルギー自給率向上を重視し、原子力も『両立が必要』として条件付き支持。構造転換を繰り返し強調し、長期的なエネルギー政策への関心が高い。"
+  },
+  "engagement": {
+    "level": "high",
+    "relevant_speech_count": 20
+  },
+  "flags": [
+    "energy_security_focus",
+    "data_center_policy_advocate"
+  ]
+}

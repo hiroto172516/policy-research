@@ -1,0 +1,21 @@
+{
+  "member_id": "H-0104",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {},
+  "archetype": {
+    "id": "low_engagement",
+    "label": "発言少・様子見",
+    "confidence": 0.9,
+    "rationale": "12件の発言は予算委員会での代表質問・質疑が中心。内容は強い経済・地方創生・防衛力強化・外交・AI安全保障など広範囲。気候変動・脱炭素・エネルギー政策については言及なし。政策スコープ内の気候・エネルギートピックに対する関心・スタンスは判定できない。"
+  },
+  "engagement": {
+    "level": "none",
+    "relevant_speech_count": 0
+  },
+  "flags": [
+    "no_climate_energy_mentions",
+    "focus:economic_growth_defense_ai",
+    "broad_policy_range_but_no_energy_scope"
+  ]
+}

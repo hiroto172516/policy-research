@@ -1,0 +1,17 @@
+{
+  "member_id": "H-0337",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {},
+  "archetype": {
+    "id": "low_engagement",
+    "label": "発言少・様子見",
+    "confidence": 0.95,
+    "rationale": "6件の発言はすべて議院運営委員会の委員長として委員会設置や申出案件の報告に関するもので、気候・エネルギー政策に関する実質的なスタンスが不明。議事運営のみ。"
+  },
+  "engagement": {
+    "level": "none",
+    "relevant_speech_count": 0
+  },
+  "flags": ["委員長の議事運営のみでスタンス不明"]
+}

@@ -1,0 +1,20 @@
+{
+  "member_id": "H-0394",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {},
+  "archetype": {
+    "id": "low_engagement",
+    "label": "発言少・様子見",
+    "confidence": 0.95,
+    "rationale": "気候・エネルギー政策に関する発言がワークシート根拠データ（計17件）に一切見当たらない。国会発言の主要テーマは学術会議法案、サイバー防御、物流改革など。気候変動・脱炭素・再エネ・原子力・エネルギー政策に関する明確なスタンスを示す発言がないため、低関心・様子見と判断。"
+  },
+  "engagement": {
+    "level": "none",
+    "relevant_speech_count": 0
+  },
+  "flags": [
+    "no_climate_energy_mentions",
+    "維新の関連発言は政治体制・経済安保・国防等に集中"
+  ]
+}

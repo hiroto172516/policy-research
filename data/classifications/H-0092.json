@@ -1,0 +1,54 @@
+{
+  "member_id": "H-0092",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "nuclear": {
+      "stance": "conditional_support",
+      "confidence": 0.90,
+      "evidence": [
+        {
+          "quote": "安全性の確保された原子力は最大限活用すべき",
+          "source": "diet"
+        },
+        {
+          "quote": "原子力安全とは、ゼロリスクを求めることではなく、残存リスクを科学的に把握し、合理的に管理をする",
+          "source": "diet"
+        },
+        {
+          "quote": "効率性は、決して安全と対立する概念ではありません。限られた人材、限られた資源を、安全上、本当に重要な点に集中させるということは、むしろ安全性の向上につながると考えます",
+          "source": "diet"
+        }
+      ]
+    },
+    "energy_policy": {
+      "stance": "conditional_support",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "電力の安定供給と脱炭素、この二つを両輪で進めていくことが国力を左右する",
+          "source": "diet"
+        },
+        {
+          "quote": "発電の在り方というものを広く平場で話していくべきだと",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "nuclear_advocate",
+    "label": "原子力・安定供給重視",
+    "confidence": 0.85,
+    "rationale": "原子力の安全性確保と持続可能な活用を重視し、同時に脱炭素目標の達成も求める。規制委員会の効率性強化を提案し、原子力人材・サプライチェーンの維持を懸念。電力安定供給と脱炭素のバランスを重視する条件付き支持者。"
+  },
+  "engagement": {
+    "level": "high",
+    "relevant_speech_count": 14
+  },
+  "flags": [
+    "sensitive:原子力",
+    "原子力規制委員会の規制在り方に批判的。効率性と安全のバランスを問う。",
+    "浜岡原発の基準地震動問題について詳細に指摘"
+  ]
+}

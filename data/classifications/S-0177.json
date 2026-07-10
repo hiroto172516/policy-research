@@ -1,0 +1,68 @@
+{
+  "member_id": "S-0177",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "decarbonization": {
+      "stance": "conditional_support",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "quote": "脱炭素化やエネルギーの安定供給確保、産業競争力の維持といった課題は、環境省と経産省が一体となって",
+          "source": "diet"
+        }
+      ]
+    },
+    "nuclear": {
+      "stance": "strong_support",
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "quote": "国民民主党は、増え続けていく電力需要に対応するため、原子力発電について、新増設、リプレースも含めて推進していく立場であります",
+          "source": "diet"
+        },
+        {
+          "quote": "エネルギーの安定供給と脱炭素化を両立するためには原子力発電の最大限の活用が必要不可欠だというふうに考えております",
+          "source": "diet"
+        }
+      ]
+    },
+    "solar": {
+      "stance": "cautious",
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "quote": "再生可能エネルギーの推進は必要でありますが、天候などに大きく左右される変動電源でありますことから",
+          "source": "diet"
+        }
+      ]
+    },
+    "energy_policy": {
+      "stance": "strong_support",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "quote": "火力発電は、再エネの出力変動を補う調整電源であることも含め、電力の安定供給上も必要不可欠であります",
+          "source": "diet"
+        },
+        {
+          "quote": "最終エネルギー消費のうち電力消費は三割未満であります。七割は石油、石炭、天然ガスの直接燃焼によってエネルギーを確保していく",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "nuclear_advocate",
+    "label": "原子力・安定供給重視",
+    "confidence": 0.92,
+    "rationale": "原子力の新増設・リプレース推進を明確に主張。再エネは推進するが、火力・化石燃料の活用と安定供給確保を強調。経済成長と脱炭素の両立に重点。"
+  },
+  "engagement": {
+    "level": "high",
+    "relevant_speech_count": 44
+  },
+  "flags": [
+    "sensitive:原子力"
+  ]
+}

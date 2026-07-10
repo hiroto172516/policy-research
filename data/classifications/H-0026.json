@@ -1,0 +1,19 @@
+{
+  "member_id": "H-0026",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {},
+  "archetype": {
+    "id": "low_engagement",
+    "label": "発言少・様子見",
+    "confidence": 0.9,
+    "rationale": "エネルギー・気候政策に関する発言がほとんどない。予算委員会での議論に集中。どちらにも動きうるため監視対象に保持。"
+  },
+  "engagement": {
+    "level": "low",
+    "relevant_speech_count": 0
+  },
+  "flags": [
+    "reason:エネルギー政策に関連発言なし"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "member_id": "H-0431",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+  },
+  "archetype": {
+    "id": "low_engagement",
+    "label": "発言少・様子見",
+    "confidence": 0.95,
+    "rationale": "国会会議録13件のうち、気候・エネルギー・電力政策に関連する発言がほぼない。教育、農業、防災、デジタル化など他の政策分野に関心が集中している。気候・エネルギー政策スタンスは現時点では不明。"
+  },
+  "engagement": {
+    "level": "none",
+    "relevant_speech_count": 0
+  },
+  "flags": ["no_relevant_statements"]
+}

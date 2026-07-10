@@ -1,0 +1,83 @@
+{
+  "member_id": "S-0074",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "decarbonization": {
+      "stance": "cautious",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "quote": "脱炭素政策を進めてきて火力発電のところの投資を怠ってきた結果、様々な問題が今発生しているのではないかなというふうに思っています。",
+          "source": "diet"
+        }
+      ]
+    },
+    "renewables": {
+      "stance": "cautious",
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "quote": "風力もいずれごみになりますので、それの問題についてもよく考えて、本当にここで減税までが必要なのかということは厳しく再検討いただきたいなということをまず要望しておきたいと思います。",
+          "source": "diet"
+        }
+      ]
+    },
+    "solar": {
+      "stance": "cautious",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "quote": "参政党はずっと、メガソーラーについては問題だと、なぜなら、原料がもう国産じゃなくなっているといいますか、中国から大量にもう買わないといけなくなっているからだということなんですよね。",
+          "source": "diet"
+        }
+      ]
+    },
+    "economic_security": {
+      "stance": "strong_support",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "quote": "化石燃料というものを単に減少させるんだと、なるべく使わないんだというふうにするんではなくて、少なくともまだ当面、主力のエネルギー源だと、そして電気構成の一角としてしっかりと位置付けておく必要があるんだというふうに思います。",
+          "source": "diet"
+        }
+      ]
+    },
+    "ev": {
+      "stance": "cautious",
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "quote": "化石燃料をちょっと悪者にしてきたようなところがありまして、やっぱり二酸化炭素を出すと余分にお金取りますとか、そういった形でやってきたようには思います。",
+          "source": "diet"
+        }
+      ]
+    },
+    "energy_policy": {
+      "stance": "cautious",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "quote": "政府は、化石燃料というものを単に減少させるんだと、なるべく使わないんだというふうにするんではなくて、少なくともまだ当面、主力のエネルギー源だと、そして電気構成の一角としてしっかりと位置付けておく必要があるんだというふうに思います。",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "econ_security_focus",
+    "label": "脱炭素関心薄・経済安保重視",
+    "confidence": 0.85,
+    "rationale": "脱炭素政策への関心が薄く、むしろ費用対効果の疑問を強調。化石燃料・エネルギー自給の重視、エネルギー安全保障を最優先と主張。メガソーラー・風力への環境及び経済安保懸念。ホルムズ海峡封鎖やタンカー問題等、エネルギー供給リスクへの強い警戒。脱炭素よりもエネルギーの安定供給と経済合理性を優先。"
+  },
+  "engagement": {
+    "level": "high",
+    "relevant_speech_count": 29
+  },
+  "flags": [
+    "sensitive:energy_security",
+    "fossil_fuel_support",
+    "anti_megasolar_position",
+    "cost_benefit_skepticism"
+  ]
+}

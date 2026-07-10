@@ -1,0 +1,17 @@
+{
+  "member_id": "H-0072",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {},
+  "archetype": {
+    "id": "low_engagement",
+    "label": "発言少・様子見",
+    "confidence": 0.95,
+    "rationale": "根拠データ25件は国土交通（鉄道・除雪）・農業・政治改革に集中。気候・エネルギー政策に関する明確な立場表明なし。気候変動への現象的言及（豪雪）はあるが、対策や脱炭素・エネルギー政策への立場表明なし。"
+  },
+  "engagement": {
+    "level": "low",
+    "relevant_speech_count": 0
+  },
+  "flags": ["climate_energy_no_stance"]
+}

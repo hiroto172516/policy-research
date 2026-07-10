@@ -1,0 +1,31 @@
+{
+  "member_id": "S-0195",
+  "classified_by": "claude_code",
+  "axes_version": "0.2",
+  "topics": {
+    "solar": {
+      "stance": "cautious",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "quote": "林地などでのメガソーラーは、景観悪化に加えて山林崩壊や保水力低下を招いている側面があります",
+          "source": "diet"
+        }
+      ]
+    }
+  },
+  "archetype": {
+    "id": "solar_skeptic",
+    "label": "太陽光批判",
+    "confidence": 0.65,
+    "rationale": "脱炭素政策そのものは否定しない（鉄道ネットワーク脱炭素化に言及）。ただしメガソーラーに対して、景観・環境破壊（山林崩壊・保水力低下）への強い懸念を示す。発言の大半は農業・食料政策に集中し、気候・エネルギー政策専門の議論はほぼなし"
+  },
+  "engagement": {
+    "level": "low",
+    "relevant_speech_count": 2
+  },
+  "flags": [
+    "農業・食料政策が発言の中心。気候・エネルギー政策への直接的な立場表明が極めて限定的",
+    "太陽光については環境・生態系破壊の観点から慎重。ただし原子力・再エネ全般への明確な立場なし"
+  ]
+}
